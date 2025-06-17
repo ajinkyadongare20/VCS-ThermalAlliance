@@ -4,6 +4,7 @@
     --secondary: #5F656F;
     --light: #F5F5F5;
     --dark: #02245B;
+    --darksky: #0c749f;
     --main-font: 'Montserrat', sans-serif;
 }
 
@@ -663,7 +664,7 @@ h6,
 }
 
 
-/*** Team ***/
+/*** Management Team ***/
 .team-item .team-social {
     position: absolute;
     width: 100%;
@@ -773,6 +774,186 @@ h6,
 .testimonial-carousel .owl-item.center .testimonial-text {
     transform: scale(1);
 }
+
+/*** About ***/
+
+.about-img-fluid {
+    width: 100%;
+    height: 450px;
+}
+
+.projects .nav-item {
+    box-shadow: 0 0 30px rgba(0, 0, 0, .09);
+}
+
+.projects-item .projects-content {
+    box-shadow: 0 0 30px rgba(0, 0, 0, .1);
+}
+
+.projects .nav-item a.active {
+    background: var(--bs-primary);
+}
+
+.projects .nav-item a span {
+    color: var(--bs-dark);
+    padding: 10px;
+    font-size: 20px;
+}
+
+.projects .nav-item a.active span {
+    color: var(--bs-white);
+}
+
+.projects .nav-item a.active .projects-icon {
+    background: var(--bs-dark) !important;
+}
+
+.projects .nav-item a.active .projects-icon span {
+    color: var(--bs-primary);
+}
+
+/*** About Team Start ***/
+.team .team-item .team-img {
+    position: relative;
+    overflow: hidden;
+}
+
+.team .team-item .team-img img {
+    transition: 0.5s;
+}
+
+.about-team-item {
+    width: 90%;
+}
+
+.team .team-item:hover .team-img img {
+    transform: scale(1.1);
+}
+
+.team .team-item .team-img .team-icon {
+    position: absolute;
+    bottom: 20px;
+    right: -100%;
+    z-index: 9;
+    transition: 0.5s;
+}
+
+.team .team-item:hover .team-img .team-icon {
+    right: 25px;
+}
+
+.team .team-item .team-img::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background: rgba(246, 138, 10, .2);
+    transition: 0.5s;
+    z-index: 1;
+}
+
+.team .team-item:hover .team-img::after {
+    height: 100%;
+}
+
+.team .team-item .team-content {
+    transition: 0.5s;
+}
+
+.team .team-item:hover .team-content {
+    box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+}
+
+/*** About Team End ***/
+
+.service .nav .nav-link.active h5 i {
+    color: #FFFFFF !important;
+}
+
+/*** Services Success Stories Start ***/
+.success-stories .nav .nav-item {
+    width: 75%;
+    border: 1px solid var(--bs-primary);
+    background: var(--bs-light);
+}
+
+.success-stories .nav .nav-item a {
+    display: flex;
+    justify-content: center;
+}
+
+.success-stories .nav-item a.active {
+    background: var(--bs-primary);
+}
+
+.success-stories .nav-item a span {
+    color: var(--bs-dark);
+}
+
+.success-stories .nav-item a.active span {
+    color: var(--bs-white);
+}
+
+.success-carousel .owl-nav .owl-prev,
+.success-carousel .owl-nav .owl-next {
+    position: absolute;
+    padding: 10px 35px;
+    border: 1px solid var(--bs-primary);
+    color: var(--bs-dark);
+    background: var(--bs-light);
+    transition: 0.5s;
+}
+
+.success-carousel .owl-nav .owl-prev:hover,
+.success-carousel .owl-nav .owl-next:hover {
+    background: var(--bs-primary);
+    color: var(--bs-white);
+}
+
+.success-img-tab {
+    width: 100%;
+    height: 400px;
+}
+
+@media (max-width: 420px) {
+    .success-img-tab {
+        width: 100%;
+        height: 300px;
+    }
+}
+
+@media (min-width: 992px) {
+    .success-carousel .owl-nav .owl-prev {
+        top: 0;
+        left: -115px;
+    }
+
+    .success-carousel .owl-nav .owl-next {
+        bottom: 0;
+        left: -115px;
+    }
+}
+
+@media (max-width: 991px) {
+    .success-carousel .owl-nav .owl-prev {
+        bottom: -70px;
+        left: 0;
+    }
+
+    .success-carousel .owl-nav .owl-next {
+        bottom: -70px;
+        right: 0;
+    }
+
+    .success-stories .nav {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/*** Success Stories End ***/
 
 
 /*** Footer ***/

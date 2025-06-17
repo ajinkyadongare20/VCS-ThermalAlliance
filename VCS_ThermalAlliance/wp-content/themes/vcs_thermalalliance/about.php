@@ -15,576 +15,84 @@
 get_header();
 ?>
 
-    <!-- Carousel Start -->
-    <div class="container-fluid px-0 mb-5">
-        <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="w-100" src="<?php bloginfo('template_directory'); ?>/img/carousel-1.jpg" alt="Image">
-                    <div class="carousel-caption">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-10 text-start">
-                                    <p class="fs-5 fw-medium text-primary text-uppercase animated slideInRight">18 Years of Working Experience</p>
-                                    <h1 class="display-1 text-white mb-5 animated slideInRight">Beyond Engineering. Into Excellence</h1>
-                                    <a href="" class="btn btn-primary py-3 px-5 animated slideInRight">Explore Our Services</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img class="w-100" src="<?php bloginfo('template_directory'); ?>/img/carousel-2.jpg" alt="Image">
-                    <div class="carousel-caption">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-10 text-start">
-                                    <p class="fs-5 fw-medium text-primary text-uppercase animated slideInRight">18 Years of Working Experience</p>
-                                    <h1 class="display-1 text-white mb-5 animated slideInRight">The Best Reliable Industry Solution</h1>
-                                    <a href="" class="btn btn-primary py-3 px-5 animated slideInRight">Explore Our Services</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <h1 class="display-3 text-white animated slideInRight">About Us</h1>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb animated slideInRight mb-0">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a href="#">Pages</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">About Us</li>
+                </ol>
+            </nav>
         </div>
     </div>
-    <!-- Carousel End -->
+    <!-- Page Header End -->
 
 
-	<!-- About Start -->
-	<div class="container-xxl py-5">
-		<div class="container">
-			<div class="row g-5 align-items-center">
-				<!-- Image Section -->
-				<div class="col-lg-6">
-                    <div class="row gx-3 h-100">
-                        <div class="col-6 align-self-start wow fadeInUp" data-wow-delay="0.1s">
-							<img class="img-fluid rounded" src="<?php bloginfo('template_directory'); ?>/img/about-1.jpg" alt="VCS Team at Work">
-                        </div>
-                        <div class="col-6 align-self-end wow fadeInDown" data-wow-delay="0.1s">
-							<img class="img-fluid rounded" src="<?php bloginfo('template_directory'); ?>/img/about-2.jpg" alt="Project Execution">
-                        </div>
-                    </div>
-                </div>
-
-				<!-- Text Section -->
-				<div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-					<p class="fw-medium text-uppercase text-primary mb-2">About Us</p>
-					<h1 class="display-5 mb-3">Why VCS ThermalAlliance?</h1>
-					<p class="mb-4">
-						VCS ThermalAlliance is a multidisciplinary MEPF contracting company built on innovation, precision, and performance.
-						We specialize in delivering turnkey HVAC installations, cleanroom environments, fire protection systems, and utility management for critical infrastructures.
-						Our commitment to quality, compliance, and on-time execution makes us a trusted partner across healthcare, pharmaceuticals, commercial, and industrial sectors.
-					</p>
-
-					<!-- Highlighted Features -->
-					<div class="row mb-4">
-						<div class="col-sm-6 mb-3">
-							<div class="d-flex">
-								<div class="btn-lg-circle bg-primary rounded-circle me-3">
-									<i class="fa fa-cogs text-white"></i>
-								</div>
-								<div>
-									<h6 class="mb-0">Turnkey MEPF Projects</h6>
-									<small>From planning to execution under one roof.</small>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-6 mb-3">
-							<div class="d-flex">
-								<div class="btn-lg-circle bg-primary rounded-circle me-3">
-									<i class="fa fa-industry text-white"></i>
-								</div>
-								<div>
-									<h6 class="mb-0">Cleanroom Expertise</h6>
-									<small>Validated solutions for critical environments.</small>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-6 mb-3">
-							<div class="d-flex">
-								<div class="btn-lg-circle bg-primary rounded-circle me-3">
-									<i class="fa fa-shield-alt text-white"></i>
-								</div>
-								<div>
-									<h6 class="mb-0">Safety & Compliance</h6>
-									<small>Strict adherence to industry Make standards</small>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-6 mb-3">
-							<div class="d-flex">
-								<div class="btn-lg-circle bg-primary rounded-circle me-3">
-									<i class="fa fa-shield-alt text-white"></i>
-								</div>
-								<div>
-									<h6 class="mb-0">Efficient Execution</h6>
-									<small>Performance-driven, deadline-bound approach.</small>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- Call to Action -->
-					<a href="about.html" class="btn btn-primary py-3 px-5">Read More</a>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- About End -->
-
-
-	<!-- Services Section -->
-	<div class="container py-5">
-    	<h1 class="text-start text-lg-center display-5 fw-bold mb-3">Popular Services</h1>
-		<p class="text-start text-lg-center text-muted mb-5">
-			Thermal Alliance delivers expert MEPF services including HVAC, electrical, plumbing, fire safety, and cleanroom solutions. Our turnkey approach ensures quality, safety, and performance across industrial and commercial projects—tailored to meet diverse infrastructure needs across India.
-		</p>
-
-		<div class="row g-4">
-		<!-- Turnkey MEPF Projects -->
-			<div class="col-md-6 col-lg-4">
-				<div class="vcs-service-box text-start">
-					<div class="btn-lg-circle-services bg-primary rounded-circle mb-3 me-3">
-						<i class="fas fa-cogs text-white"></i>
-					</div>
-					<h3 class="vcs-service-title">Turnkey MEPF Projects</h3>
-					<p>Complete Mechanical, Electrical, Plumbing & Firefighting solutions from concept to commissioning under one roof.</p>
-				</div>
-			</div>
-
-			<!-- Fire Safety Systems -->
-			<div class="col-md-6 col-lg-4">
-				<div class="vcs-service-box text-start">
-					<div class="btn-lg-circle-services bg-primary rounded-circle mb-3 me-3">
-						<i class="fas fa-fire-extinguisher text-white"></i>
-					</div>
-					<h3 class="vcs-service-title">Fire Safety Systems</h3>
-					<p>Design and implementation of advanced fire protection systems compliant with local and international standards.</p>
-				</div>
-			</div>
-
-			<!-- HVAC Solutions -->
-			<div class="col-md-6 col-lg-4">
-				<div class="vcs-service-box text-start">
-					<div class="btn-lg-circle-services bg-primary rounded-circle mb-3 me-3">
-						<i class="fas fa-fan text-white"></i>
-					</div>
-					<h3 class="vcs-service-title">HVAC Solutions</h3>
-					<p>Energy-efficient heating, ventilation, and air-conditioning solutions tailored for industrial, commercial, and cleanroom environments.</p>
-				</div>
-			</div>
-
-			<!-- Electrical Contracting -->
-			<div class="col-md-6 col-lg-4">
-				<div class="vcs-service-box text-start">
-					<div class="btn-lg-circle-services bg-primary rounded-circle mb-3 me-3">
-						<i class="fas fa-bolt text-white"></i>
-					</div>
-					<h3 class="vcs-service-title">Electrical Contracting</h3>
-					<p>Complete electrical infrastructure solutions including LT/HT works, panel design, wiring, and AMC support.</p>
-				</div>
-			</div>
-
-			<!-- Plumbing & Drainage -->
-			<div class="col-md-6 col-lg-4">
-				<div class="vcs-service-box text-start">
-					<div class="btn-lg-circle-services bg-primary rounded-circle mb-3 me-3">
-						<i class="fas fa-water text-white"></i>
-					</div>
-					<h3 class="vcs-service-title">Plumbing & Drainage</h3>
-					<p>Efficient plumbing systems for water supply, sewage, and stormwater with sustainable design approaches.</p>
-				</div>
-			</div>
-
-			<!-- Cleanroom Projects -->
-			<div class="col-md-6 col-lg-4">
-				<div class="vcs-service-box text-start">
-					<div class="btn-lg-circle-services bg-primary rounded-circle mb-3 me-3">
-						<i class="fas fa-industry text-white"></i>
-					</div>
-					<h3 class="vcs-service-title">Cleanroom Projects</h3>
-					<p>Specialized turnkey cleanroom construction for pharmaceuticals, electronics, food industries, and more.</p>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- End Services -->
-
-
-	<!-- Start Industries Serve -->
-    <div class="container py-5">
-        <h1 class="text-start text-lg-center display-5 fw-bold mb-3">Industries We Serve:</h1>
-        <p class="text-start text-lg-center text-muted mb-5">
-            Thermal Alliance serves diverse industries including pharmaceuticals, food processing, automotive, manufacturing, data centers, and commercial infrastructure—offering tailored MEPF solutions to ensure operational efficiency, safety, and compliance across complex industrial environments throughout India.
-        </p>
-
-        <div class="row g-4 g-md-5">
-            <!-- Pharmaceutical Industry -->
-            <div class="col-md-4">
-                <div class="card-box-a">
-                    <img src="<?php bloginfo('template_directory'); ?>/img/about-1.jpg" alt="Pharmaceuticals">
-                    <div class="card-overlay-a-content">
-                        <div class="card-header-a">
-                            <h2 class="card-title-a"><a href="#">Pharmaceuticals</a></h2>
-                            <h5 class="text-white">Cleanroom & GMP Experts</h5>
-                        </div>
-                        <div class="card-body-a">
-                            <div class="price-box d-flex">
-                                <span class="price-a">GMP Solutions</span>
-                            </div>
-                            <a href="#" class="link-a">Learn more →</a>
-                        </div>
-                    </div>
-                    <div class="card-footer-a">
-                        <ul class="card-info">
-                            <li><h4 class="card-info-title">Expertise</h4><span>GMP</span></li>
-                            <li><h4 class="card-info-title">Projects</h4><span>100+</span></li>
-                            <li><h4 class="card-info-title">Clients</h4><span>Global</span></li>
-                            <li><h4 class="card-info-title">Safety</h4><span>Compliant</span></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Healthcare Industry -->
-            <div class="col-md-4">
-                <div class="card-box-a">
-                    <img src="<?php bloginfo('template_directory'); ?>/img/about-2.jpg" alt="Healthcare">
-                    <div class="card-overlay-a-content">
-                        <div class="card-header-a">
-                            <h2 class="card-title-a"><a href="#">Healthcare</a></h2>
-                            <h5 class="text-white">Hospitals & Medical Facilities</h5>
-                        </div>
-                        <div class="card-body-a">
-                            <div class="price-box d-flex">
-                                <span class="price-a">Medical Infrastructure</span>
-                            </div>
-                            <a href="#" class="link-a">Learn more →</a>
-                        </div>
-                    </div>
-                    <div class="card-footer-a">
-                        <ul class="card-info">
-                            <li><h4 class="card-info-title">Hospitals</h4><span>50+ Served</span></li>
-                            <li><h4 class="card-info-title">Systems</h4><span>HVAC</span></li>
-                            <li><h4 class="card-info-title">Projects</h4><span>Infra</span></li>
-                            <li><h4 class="card-info-title">Standards</h4><span>Healthcare</span></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Commercial Real Estate -->
-            <div class="col-md-4">
-                <div class="card-box-a">
-                    <img src="<?php bloginfo('template_directory'); ?>/img/about-1.jpg" alt="Commercial Real Estate">
-                    <div class="card-overlay-a-content">
-                        <div class="card-header-a">
-                            <h2 class="card-title-a"><a href="#">Commercial Real Estate</a></h2>
-                            <h5 class="text-white">Office & Retail Spaces</h5>
-                        </div>
-                        <div class="card-body-a">
-                            <div class="price-box d-flex">
-                                <span class="price-a">Real Estate Infra</span>
-                            </div>
-                            <a href="#" class="link-a">Learn more →</a>
-                        </div>
-                    </div>
-                    <div class="card-footer-a">
-                        <ul class="card-info">
-                            <li><h4 class="card-info-title">Solutions</h4><span>HVAC</span></li>
-                            <li><h4 class="card-info-title">Builders</h4><span>Pan-India</span></li>
-                            <li><h4 class="card-info-title">Efficiency</h4><span>Energy</span></li>
-                            <li><h4 class="card-info-title">Support</h4><span>End-to-End</span></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Food & Beverage -->
-            <div class="col-md-4">
-                <div class="card-box-a">
-                    <img src="<?php bloginfo('template_directory'); ?>/img/about-2.jpg" alt="Food & Beverage">
-                    <div class="card-overlay-a-content">
-                        <div class="card-header-a">
-                            <h2 class="card-title-a"><a href="#">Food & Beverage</a></h2>
-                            <h5 class="text-white">Cold Chain & Clean Zones</h5>
-                        </div>
-                        <div class="card-body-a">
-                            <div class="price-box d-flex">
-                                <span class="price-a">Food Processing</span>
-                            </div>
-                            <a href="#" class="link-a">Learn more →</a>
-                        </div>
-                    </div>
-                    <div class="card-footer-a">
-                        <ul class="card-info">
-                            <li><h4 class="card-info-title">Specialty</h4><span>Cold Storage</span></li>
-                            <li><h4 class="card-info-title">Hygiene</h4><span>Design</span></li>
-                            <li><h4 class="card-info-title">Clients</h4><span>FMCG</span></li>
-                            <li><h4 class="card-info-title">Infra</h4><span>Reliable</span></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Data Centers -->
-            <div class="col-md-4">
-                <div class="card-box-a">
-                    <img src="<?php bloginfo('template_directory'); ?>/img/about-2.jpg" alt="Data Centers">
-                    <div class="card-overlay-a-content">
-                        <div class="card-header-a">
-                            <h2 class="card-title-a"><a href="#">Data Centers</a></h2>
-                            <h5 class="text-white">High Precision Cooling Systems</h5>
-                        </div>
-                        <div class="card-body-a">
-                            <div class="price-box d-flex">
-                                <span class="price-a">Mission-Critical Infra</span>
-                            </div>
-                            <a href="#" class="link-a">Learn more →</a>
-                        </div>
-                    </div>
-                    <div class="card-footer-a">
-                        <ul class="card-info">
-                            <li><h4 class="card-info-title">Precision</h4><span>Cooling</span></li>
-                            <li><h4 class="card-info-title">Uptime</h4><span>24/7</span></li>
-                            <li><h4 class="card-info-title">Security</h4><span>Critical Infra</span></li>
-                            <li><h4 class="card-info-title">Support</h4><span>Tech Team</span></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Industrial Manufacturing -->
-            <div class="col-md-4">
-                <div class="card-box-a">
-                    <img src="<?php bloginfo('template_directory'); ?>/img/about-1.jpg" alt="Industrial Manufacturing">
-                    <div class="card-overlay-a-content">
-                        <div class="card-header-a">
-                            <h2 class="card-title-a"><a href="#">Industrial Manufacturing</a></h2>
-                            <h5 class="text-white">Heavy Duty MEP Solutions</h5>
-                        </div>
-                        <div class="card-body-a">
-                            <div class="price-box d-flex">
-                                <span class="price-a">Process Plants</span>
-                            </div>
-                            <a href="#" class="link-a">Learn more →</a>
-                        </div>
-                    </div>
-                    <div class="card-footer-a">
-                        <ul class="card-info">
-                            <li><h4 class="card-info-title">Plants</h4><span>HVAC, Fire</span></li>
-                            <li><h4 class="card-info-title">Scale</h4><span>Large</span></li>
-                            <li><h4 class="card-info-title">Projects</h4><span>Turnkey MEP</span></li>
-                            <li><h4 class="card-info-title">Clients</h4><span>Industry</span></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Industries Serve -->
-
-	  
-    <!-- Why Choose US-->
-    <div class="container-fluid bg-dark feature pt-5">
-        <div class="container pt-0 pt-lg-5">
+    <!-- About Start -->
+    <div class="container-fluid about py-5">
+        <div class="container py-5">
             <div class="row g-5">
-                <div class="col-lg-6 align-self-center mb-md-5 pb-md-5 wow fadeIn" data-wow-delay="0.2s">
-                    <h1 class="text-white mb-4">Why Choose Us<br>VCS ThermalAlliance</h1>
-                    <p class="text-light mb-4">
-                        VCS ThermalAlliance is not just a service provider—we are your strategic partner in delivering future-ready, reliable, and sustainable MEPF systems. Our expertise, certifications, and tech-driven execution ensure every project is delivered with excellence, safety, and sustainability.
-                    </p>
-                    <div class="d-flex align-items-center text-white mb-3">
-                        <div class="btn-sm-square bg-white text-primary rounded-circle me-3">
-                            <i class="fa fa-check"></i>
-                        </div>
-                        <span>Certified in ICP, NFPA, and GEM Standards</span>
-                    </div>
-                    <div class="d-flex align-items-center text-white mb-3">
-                        <div class="btn-sm-square bg-white text-primary rounded-circle me-3">
-                            <i class="fa fa-check"></i>
-                        </div>
-                        <span>Turnkey Solutions: Design to Commissioning</span>
-                    </div>
-                    <div class="d-flex align-items-center text-white mb-3">
-                        <div class="btn-sm-square bg-white text-primary rounded-circle me-3">
-                            <i class="fa fa-check"></i>
-                        </div>
-                        <span>In-House Tools for Accurate Engineering</span>
-                    </div>
-                    <div class="d-flex align-items-center text-white mb-3">
-                        <div class="btn-sm-square bg-white text-primary rounded-circle me-3">
-                            <i class="fa fa-check"></i>
-                        </div>
-                        <span>Green Building & Sustainability Focus</span>
-                    </div>
-                    <div class="row g-4 pt-3">
-                        <div class="col-sm-6">
-                            <div class="d-flex rounded p-3" style="background: rgba(256, 256, 256, 0.1);">
-                                <i class="fa fa-users fa-3x text-white"></i>
-                                <div class="ms-3">
-                                    <h2 class="text-primary mb-0" data-toggle="counter-up">200</h2>
-                                    <p class="text-white mb-0">Happy Clients</p>
-                                </div>
+                <!-- Left Column: Text Content -->
+                <div class="col-lg-7 wow fadeInLeft" data-wow-delay="0.2s">
+                    <div class="h-100">
+                        <h4 class="text-primary">About VCS ThermalAlliance</h4>
+                        <h1 class="display-6 mb-4">Delivering Excellence in MEPF Solutions</h1>
+
+                        <div class="row g-4 mb-4">
+                            <div class="col-md-6">
+                                <a href="#" class="d-flex">
+                                    <span class="fas fa-bolt fa-3x me-3"></span>
+                                    <h4 class="mb-0">HVAC & Power Systems</h4>
+                                </a>
+                            </div>
+                            <div class="col-md-6">
+                                <a href="#" class="d-flex">
+                                    <span class="fas fa-broadcast-tower fa-3x me-3"></span>
+                                    <h4 class="mb-0">Fire Safety & Cleanrooms</h4>
+                                </a>
                             </div>
                         </div>
-                        <div class="col-sm-6">
-                            <div class="d-flex rounded p-3" style="background: rgba(256, 256, 256, 0.1);">
-                                <i class="fa fa-check fa-3x text-white"></i>
-                                <div class="ms-3">
-                                    <h2 class="text-primary mb-0" data-toggle="counter-up">50</h2>
-                                    <p class="text-white mb-0">Project Completed</p>
-                                </div>
-                            </div>
+
+                        <p class="mb-4">
+                            VCS ThermalAlliance, we specialize in delivering comprehensive MEPF services tailored for industrial and commercial spaces. Our focus on quality, precision, and safety sets us apart in the industry.
+                        </p>
+
+                        <div class="text-dark mb-4">
+                            <p class="fs-5">
+                                <span class="fa fa-check text-primary me-2"></span>
+                                Expert HVAC installation and maintenance.
+                            </p>
+                            <p class="fs-5">
+                                <span class="fa fa-check text-primary me-2"></span>
+                                End-to-end MEPF project execution.
+                            </p>
+                            <p class="fs-5">
+                                <span class="fa fa-check text-primary me-2"></span>
+                                Safe, reliable, and energy-efficient solutions.
+                            </p>
                         </div>
-                        <div class="col-sm-6">
-                            <div class="d-flex rounded p-3" style="background: rgba(256, 256, 256, 0.1);">
-                                <i class="fa fa-user-tie fa-3x text-white"></i>
-                                <div class="ms-3">
-                                    <h2 class="text-primary mb-0" data-toggle="counter-up">12</h2>
-                                    <p class="text-white mb-0">Employees</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="d-flex rounded p-3" style="background: rgba(256, 256, 256, 0.1);">
-                                <i class="fa fa-map-marker-alt fa-3x text-white"></i>
-                                <div class="ms-3">
-                                    <h2 class="text-primary mb-0" data-toggle="counter-up">2</h2>
-                                    <p class="text-white mb-0">Location</p>
-                                </div>
-                            </div>
-                        </div>
+
+                        <a class="btn btn-primary py-3 px-4 px-md-5 ms-2" href="#">Contact VCS</a>
                     </div>
                 </div>
 
-                <div class="col-lg-6 pb-5">
-                   <div class="d-flex flex-column align-items-start justify-content-center px-4 pt-4 mb-4 wow fadeIn"
-                        data-wow-delay="0.3s" style="background-color: rgba(256, 256, 256, 0.1);">
-                        <div class="d-flex align-items-center">
-                            <div class="me-3 mb-3 d-flex align-items-center justify-content-center rounded-circle icon-circle">
-                                <i class="fa fa-certificate fa-2x text-white"></i>
-                            </div>
-                            <div class="px-3">
-                                <h4 class="text-white mb-3">Certified Expertise</h4>
-                            </div>
-                        </div>
-                        <p class="text-white mb-4">
-                            Our certified professionals in ICP, NFPA, and GEM deliver compliant, safe, and efficient MEPF solutions that meet the highest industry standards and expectations.
-                        </p>
-                    </div>
+                <!-- Right Column: Image Content -->
+                <div class="col-lg-5 wow fadeInRight" data-wow-delay="0.2s">
+                    <div class="position-relative h-100">
+                        <img src="<?php bloginfo('template_directory'); ?>/img/about-1.jpg" class="img-fluid w-100 h-100" style="object-fit: cover;" alt="">
 
-                    <div class="d-flex flex-column align-items-start justify-content-center px-4 pt-4 mb-4"
-                        data-wow-delay="0.4s" style="background-color: rgba(256, 256, 256, 0.1);">
-                        <div class="d-flex align-items-center">
-                            <div class="me-3 mb-3 d-flex align-items-center justify-content-center rounded-circle icon-circle">
-                                <i class="fa fa-project-diagram fa-2x text-white"></i>
-                            </div>
-                            <div class="px-3">
-                                <h4 class="text-white mb-3">End-to-End Execution</h4>
-                            </div>
-                        </div>
-                        <p class="text-white mb-4">
-                            From design to commissioning, we offer complete turnkey solutions—ensuring streamlined communication, reliable delivery, and single-window accountability for every MEPF project we undertake.
-                        </p>
-                    </div>
-
-                    <div class="d-flex flex-column align-items-start justify-content-center px-4 pt-4 mb-4"
-                        data-wow-delay="0.5s" style="background-color: rgba(256, 256, 256, 0.1);">
-                        <div class="d-flex align-items-center">
-                            <div class="me-3 mb-3 d-flex align-items-center justify-content-center rounded-circle icon-circle">
-                                <i class="fa fa-tools fa-2x text-white"></i>
-                            </div>
-                            <div class="px-3">
-                                <h4 class="text-white mb-3">Smart Engineering Tools</h4>
-                            </div>
-                        </div>
-                        <p class="text-white mb-4">
-                            We use proprietary software for heat load, cleanroom validation, and tracking—providing enhanced speed, accuracy, and real-time project traceability across every engineering stage.
-                        </p>
-                    </div>
-
-                    <div class="d-flex flex-column align-items-start justify-content-center px-4 pt-4 mb-4"
-                        data-wow-delay="0.6s" style="background-color: rgba(256, 256, 256, 0.1);">
-                        <div class="d-flex align-items-center">
-                            <div class="me-3 mb-3 d-flex align-items-center justify-content-center rounded-circle icon-circle">
-                                <i class="fa fa-leaf fa-2x text-white"></i>
-                            </div>
-                            <div class="px-3">
-                                <h4 class="text-white mb-3">Sustainability & Green Focus</h4>
-                            </div>
-                        </div>
-                        <p class="text-white mb-4">
-                            Our eco-centric approach integrates energy-saving technologies and green materials, helping clients achieve IGBC, GRIHA, and GEM certification with responsible and efficient engineering.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Why Choose US-->
-
-
-    <!-- Features Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="row g-5 align-items-center">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="position-relative me-lg-4">
-                        <img class="img-fluid w-100" src="<?php bloginfo('template_directory'); ?>/img/feature.jpg" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <p class="fw-medium text-uppercase text-primary mb-2">What Sets Us Apart</p>
-                    <h1 class="display-6 mb-4">Delivering Engineering Excellence, Every Time</h1>
-                    <p class="mb-4">At VCS ThermalAlliance, our solutions combine technical innovation with certified processes to ensure unmatched project reliability, safety, and sustainability.</p>
-                    
-                    <div class="row gy-4">
-                        <div class="col-md-12">
-                            <div class="p-4 rounded shadow-sm services-box h-100 feature-box hover-shadow transition">
-                                <div class="d-flex align-items-center mb-3">
-                                    <div class="icon bg-primary text-white rounded-circle d-flex align-items-center justify-content-center me-3 btn-circle-square">
-                                        <i class="fa fa-check fa-2x"></i>
-                                    </div>
-                                    <h5 class="mb-0">Certified Professionals</h5>
+                        <div class="bg-white">
+                            <div class="position-absolute pt-3 bg-white" style="width: 50%; left: 0; bottom: 0;">
+                                <div class="bg-primary p-4">
+                                    <h4 class="display-2 mb-0">25+</h4>
+                                    <p class="text-white fs-5 mb-0">Years of Expertise</p>
                                 </div>
-                                <p class="mb-0">Engineers certified in ICP, NFPA, and GEM—ensuring top-tier quality and compliance in every MEPF project.</p>
                             </div>
-                        </div>
-
-                        <div class="col-md-12">
-                            <div class="p-4 rounded shadow-sm services-box h-100 feature-box hover-shadow transition">
-                                <div class="d-flex align-items-center mb-3">
-                                    <div class="icon bg-primary text-white rounded-circle d-flex align-items-center justify-content-center me-3 btn-circle-square">
-                                        <i class="fa fa-check fa-2x"></i>
-                                    </div>
-                                    <h5 class="mb-0">Tech-Driven Delivery</h5>
-                                </div>
-                                <p class="mb-0">Use of smart tools for heat load, validations, and real-time tracking ensures streamlined project execution.</p>
-                            </div>
-                        </div>
-
-                        <div class="col-md-12">
-                            <div class="p-4 rounded shadow-sm services-box h-100 feature-box hover-shadow transition">
-                                <div class="d-flex align-items-center mb-3">
-                                    <div class="icon bg-primary text-white rounded-circle d-flex align-items-center justify-content-center me-3 btn-circle-square">
-                                        <i class="fa fa-check fa-2x"></i>
-                                    </div>
-                                    <h5 class="mb-0">Green Engineering Focus</h5>
-                                </div>
-                                <p class="mb-0">Environmentally responsible designs aligning with IGBC, GRIHA & GEM certifications to promote sustainable growth.</p>
+                            <div class="position-absolute p-3 bg-white pb-0 pe-0" style="width: 50%; bottom: 0; right: 0;">
+                                <img src="<?php bloginfo('template_directory'); ?>/img/about-1.jpg" class="img-fluid" alt="">
                             </div>
                         </div>
                     </div>
@@ -592,134 +100,124 @@ get_header();
             </div>
         </div>
     </div>
-    <!-- Features End -->
+    <!-- About End -->
 
 
-   <!-- Service Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="text-center mx-auto pb-4 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                <p class="fw-medium text-uppercase text-primary mb-2">Our Services</p>
-                <h1 class="display-5 mb-4">We Provide Best Industrial Services</h1>
-            </div>
-            <div class="row gy-5 gx-4">
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item">
-                        <img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/img/service-1.jpg" alt="">
-                        <div class="service-img">
-                            <img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/img/service-1.jpg" alt="">
-                        </div>
-                        <div class="service-detail">
-                            <div class="service-title">
-                                <hr class="w-25">
-                                <h3 class="mb-0">HVAC & Cleanroom Solutions</h3>
-                                <hr class="w-25">
-                            </div>
-                            <div class="service-text">
-                                <p class="text-white mb-0">Turnkey HVAC systems, cleanroom design, and validation—built for industrial precision, safety, and compliance.</p>
-                            </div>
-                        </div>
-                        <a class="btn btn-light" href="">Read More</a>
+	<!-- Projects Start -->
+    <div class="container-fluid projects bg-light py-5">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-5 wow fadeInLeft" data-wow-delay="0.2s">
+                    <div>
+                        <h4 class="text-primary">Our Projects</h4>
+                        <h1 class="display-6 mb-4">How VCS ThermalAlliance Delivers Excellence</h1>
+                        <p class="mb-5">
+                            Discover how VCS ThermalAlliance brings expertise and innovation to MEPF projects. From planning to execution, our solutions ensure performance, safety, and long-term efficiency for every industrial and commercial need.
+                        </p>
+                       <ul class="nav">
+                            <li class="nav-item bg-white mb-4 w-100">
+                                <a class="d-flex align-items-center h4 mb-0 p-3 active" data-bs-toggle="pill" href="#ProjectsTab-1">
+                                    <div class="projects-icon btn-md-square bg-primary text-white me-3">
+                                        <span class="fas fa-wind small"></span>
+                                    </div>
+                                    <span>Cleanroom HVAC Installations</span>
+                                </a>
+                            </li>
+                            <li class="nav-item bg-white mb-4 w-100">
+                                <a class="d-flex align-items-center h4 mb-0 p-3" data-bs-toggle="pill" href="#ProjectsTab-2">
+                                    <div class="projects-icon btn-md-square bg-primary text-white me-3">
+                                        <span class="fas fa-plug small"></span>
+                                    </div>
+                                    <span>Turnkey Electrical Systems</span>
+                                </a>
+                            </li>
+                            <li class="nav-item bg-white mb-4 w-100">
+                                <a class="d-flex align-items-center h4 mb-0 p-3" data-bs-toggle="pill" href="#ProjectsTab-3">
+                                    <div class="projects-icon btn-md-square bg-primary text-white me-3">
+                                        <span class="fas fa-fire-extinguisher small"></span>
+                                    </div>
+                                    <span>Fire Safety Implementations</span>
+                                </a>
+                            </li>
+                            <li class="nav-item bg-white mb-4 w-100">
+                                <a class="d-flex align-items-center h4 mb-0 p-3" data-bs-toggle="pill" href="#ProjectsTab-4">
+                                    <div class="projects-icon btn-md-square bg-primary text-white me-3">
+                                        <span class="fas fa-industry small"></span>
+                                    </div>
+                                    <span>HVAC Systems for Industries</span>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item">
-                        <img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/img/service-2.jpg" alt="">
-                        <div class="service-img">
-                            <img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/img/service-2.jpg" alt="">
-                        </div>
-                        <div class="service-detail">
-                            <div class="service-title">
-                                <hr class="w-25">
-                                <h3 class="mb-0">Electrical & Fire Safety</h3>
-                                <hr class="w-25">
-                            </div>
-                            <div class="service-text">
-                                <p class="text-white mb-0">Robust electrical layouts and advanced fire safety systems designed as per NFPA standards for high-risk zones.</p>
-                            </div>
-                        </div>
-                        <a class="btn btn-light" href="">Read More</a>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="service-item">
-                        <img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/img/service-3.jpg" alt="">
-                        <div class="service-img">
-                            <img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/img/service-3.jpg" alt="">
-                        </div>
-                        <div class="service-detail">
-                            <div class="service-title">
-                                <hr class="w-25">
-                                <h3 class="mb-0">Plumbing & Utility Piping</h3>
-                                <hr class="w-25">
-                            </div>
-                            <div class="service-text">
-                                <p class="text-white mb-0">Industrial plumbing, process piping, and utility water systems tailored to meet critical flow and safety requirements.</p>
+
+                <div class="col-lg-7 wow fadeInRight" data-wow-delay="0.2s">
+                    <div class="tab-content">
+                        <div id="ProjectsTab-1" class="tab-pane fade show p-0 active">
+                            <div class="projects-item">
+                                <img src="<?php bloginfo('template_directory'); ?>/img/service-2.jpg" class="img-fluid about-img-fluid" alt="">
+                                <div class="projects-content bg-white p-4">
+                                    <h4 class="mb-3">Cleanroom HVAC Installations</h4>
+                                    <p class="mb-4">
+                                        VCS ThermalAlliance delivers ultra-clean HVAC systems tailored for pharmaceutical and semiconductor cleanrooms. Our systems maintain strict temperature, humidity, and air quality control to ensure contamination-free environments compliant with international standards and industry protocols.
+                                    </p>
+                                    <a class="btn btn-primary py-2 px-4" href="#">Read More</a>
+                                </div>
                             </div>
                         </div>
-                        <a class="btn btn-light" href="">Read More</a>
+
+                        <div id="ProjectsTab-2" class="tab-pane fade show p-0">
+                            <div class="projects-item">
+                                <img src="<?php bloginfo('template_directory'); ?>/img/project-2.jpg" class="img-fluid about-img-fluid" alt="">
+                                <div class="projects-content bg-white p-4">
+                                    <h4 class="mb-3">Turnkey Electrical Systems</h4>
+                                    <p class="mb-4">
+                                        We offer end-to-end electrical solutions for commercial buildings and industrial plants. From designing the layout to final installation, our turnkey approach ensures safe, scalable, and efficient electrical distribution systems tailored to your project requirements.
+                                    </p>
+                                    <a class="btn btn-primary py-2 px-4" href="#">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="ProjectsTab-3" class="tab-pane fade show p-0">
+                            <div class="projects-item">
+                                <img src="<?php bloginfo('template_directory'); ?>/img/project-3.jpg" class="img-fluid about-img-fluid" alt="">
+                                <div class="projects-content bg-white p-4">
+                                    <h4 class="mb-3">Fire Safety Implementations</h4>
+                                    <p class="mb-4">
+                                        We engineer and install comprehensive fire protection systems including smoke detection, sprinklers, alarms, and suppression setups. Our fire safety designs comply with all safety codes to secure assets and ensure human safety in critical environments.
+                                    </p>
+                                    <a class="btn btn-primary py-2 px-4" href="#">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="ProjectsTab-4" class="tab-pane fade show p-0">
+                            <div class="projects-item">
+                                <img src="<?php bloginfo('template_directory'); ?>/img/project-4.jpg" class="img-fluid about-img-fluid" alt="">
+                                <div class="projects-content bg-white p-4">
+                                    <h4 class="mb-4">HVAC Systems for Industries</h4>
+                                    <p class="mb-4">
+                                        VCS ThermalAlliance specializes in large-scale HVAC systems that regulate air quality, ventilation, and temperature for manufacturing units. Our solutions are energy-efficient, sustainable, and designed to support continuous operation with minimal downtime.
+                                    </p>
+                                    <a class="btn btn-primary py-2 px-4" href="#">Read More</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Service End -->
+    <!-- Projects End -->
+    
 
-
-    <!-- Project Start -->
-    <!-- <div class="container-fluid bg-dark pt-5 my-5 px-0">
-        <div class="text-center mx-auto mt-5 wow fadeIn" data-wow-delay="0.1s" style="max-width: 600px;">
-            <p class="fw-medium text-uppercase text-primary mb-2">Our Projects</p>
-            <h1 class="display-5 text-white mb-5">See What We Have Completed Recently</h1>
-        </div>
-        <div class="owl-carousel project-carousel wow fadeIn" data-wow-delay="0.1s">
-            <a class="project-item" href="">
-                <img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/img/project-1.jpg" alt="">
-                <div class="project-title">
-                    <h5 class="text-primary mb-0">Auto Engineering</h5>
-                </div>
-            </a>
-            <a class="project-item" href="">
-                <img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/img/project-2.jpg" alt="">
-                <div class="project-title">
-                    <h5 class="text-primary mb-0">Civil Engineering</h5>
-                </div>
-            </a>
-            <a class="project-item" href="">
-                <img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/img/project-3.jpg" alt="">
-                <div class="project-title">
-                    <h5 class="text-primary mb-0">Gas Engineering</h5>
-                </div>
-            </a>
-            <a class="project-item" href="">
-                <img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/img/project-4.jpg" alt="">
-                <div class="project-title">
-                    <h5 class="text-primary mb-0">Power Engineering</h5>
-                </div>
-            </a>
-            <a class="project-item" href="">
-                <img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/img/project-5.jpg" alt="">
-                <div class="project-title">
-                    <h5 class="text-primary mb-0">Energy Engineering</h5>
-                </div>
-            </a>
-            <a class="project-item" href="">
-                <img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/img/project-6.jpg" alt="">
-                <div class="project-title">
-                    <h5 class="text-primary mb-0">Water Engineering</h5>
-                </div>
-            </a>
-        </div>
-    </div> -->
-    <!-- Project End -->
-
-
-    <!-- Team Start -->
+    <!-- Management Team Start -->
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                <p class="fw-medium text-uppercase text-primary mb-2">Our Team</p>
-                <h1 class="display-5 mb-5">Dedicated Team Members</h1>
+                <p class="fw-medium text-uppercase text-primary mb-2">Management Team</p>
+                <h1 class="display-6 mb-5">Dedicated Management Team</h1>
             </div>
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -782,7 +280,289 @@ get_header();
             </div>
         </div>
     </div>
+    <!-- Management Team End -->
+
+
+    <!-- Team Start -->
+    <div class="container-fluid team py-5">
+        <div class="container py-5">
+            <div class="d-flex flex-column mx-auto text-center mb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                <h4 class="text-primary">Our Team</h4>
+                <h1 class="display-6 mb-4">Dedicated Our Team</h1>
+                <p class="mb-0">
+                    VCS Thermal Alliance, our dedicated team brings expertise in HVAC, cleanroom design, fire safety, electrical, plumbing, and project execution—delivering high-quality, performance-driven industrial solutions with precision and professionalism.
+                </p>
+            </div>
+            <div class="row g-5">
+                <!-- 1 -->
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item about-team-item">
+                        <div class="team-img">
+                            <img src="<?php bloginfo('template_directory'); ?>/img/team-1.jpg" class="img-fluid w-100" alt="">
+                            <div class="team-icon">
+                                <a class="btn btn-square btn-primary mb-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-primary mb-2" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-primary mb-2" href="#"><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square btn-primary mb-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                        <div class="team-content bg-light text-center p-4">
+                            <h4>Radhika Jadhav</h4>
+                            <p class="mb-0">Accountant</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 2 -->
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="team-item about-team-item">
+                        <div class="team-img">
+                            <img src="<?php bloginfo('template_directory'); ?>/img/team-2.jpg" class="img-fluid w-100" alt="">
+                            <div class="team-icon">
+                                <a class="btn btn-square btn-primary mb-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-primary mb-2" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-primary mb-2" href="#"><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square btn-primary mb-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                        <div class="team-content bg-light text-center p-4">
+                            <h4>Tejus Kamble</h4>
+                            <p class="mb-0">Design and Planning</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 3 -->
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item about-team-item">
+                        <div class="team-img">
+                            <img src="<?php bloginfo('template_directory'); ?>/img/team-3.jpg" class="img-fluid w-100" alt="">
+                            <div class="team-icon">
+                                <a class="btn btn-square btn-primary mb-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-primary mb-2" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-primary mb-2" href="#"><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square btn-primary mb-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                        <div class="team-content bg-light text-center p-4">
+                            <h4>Aakash Shityalkar</h4>
+                            <p class="mb-0">Design and Planning</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 4 -->
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="team-item about-team-item">
+                        <div class="team-img">
+                            <img src="<?php bloginfo('template_directory'); ?>/img/team-3.jpg" class="img-fluid w-100" alt="">
+                            <div class="team-icon">
+                                <a class="btn btn-square btn-primary mb-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-primary mb-2" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-primary mb-2" href="#"><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square btn-primary mb-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                        <div class="team-content bg-light text-center p-4">
+                            <h4>Sudhir Borade</h4>
+                            <p class="mb-0">Projects</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 5 -->
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item about-team-item">
+                        <div class="team-img">
+                            <img src="<?php bloginfo('template_directory'); ?>/img/team-2.jpg" class="img-fluid w-100" alt="">
+                            <div class="team-icon">
+                                <a class="btn btn-square btn-primary mb-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-primary mb-2" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-primary mb-2" href="#"><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square btn-primary mb-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                        <div class="team-content bg-light text-center p-4">
+                            <h4>Roshan Dhumane</h4>
+                            <p class="mb-0">Projects</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 6 -->
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="team-item about-team-item">
+                        <div class="team-img">
+                            <img src="<?php bloginfo('template_directory'); ?>/img/team-1.jpg" class="img-fluid w-100" alt="">
+                            <div class="team-icon">
+                                <a class="btn btn-square btn-primary mb-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-primary mb-2" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-primary mb-2" href="#"><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square btn-primary mb-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                        <div class="team-content bg-light text-center p-4">
+                            <h4>Abhijit Ippar</h4>
+                            <p class="mb-0">Projects</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Team End -->
+
+
+    <!-- Mission, Vision & Core Values Start -->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="section-title text-center position-relative pb-3 mb-4 mx-auto" style="max-width: 700px;">
+                <h5 class="fw-bold text-primary text-uppercase">Who We Are</h5>
+                <h1 class="display-6 mb-0">Our Mission, Vision & Core Values</h1>
+            </div>
+            <div class="row g-4 py-3">
+                <!-- Mission -->
+                <div class="col-lg-4">
+                    <div class="bg-light h-100 p-4 shadow-sm border-top border-5 border-primary rounded">
+                        <h4 class="mb-3 text-primary">Our Mission</h4>
+                        <p class="text-muted mb-0">
+                            At VCS ThermalAlliance, our mission is to deliver reliable, high-performance MEPF solutions that support sustainability, energy efficiency, and long-term value. We’re not just service providers—we are solution engineers, offering end-to-end expertise in HVAC, firefighting, cleanroom, and electrical systems. Through detailed design, safety-first execution, and innovative thinking, we help industries transform their infrastructure into smart, resilient environments. We are driven by client satisfaction, technical precision, and environmental stewardship—ensuring every system we create contributes positively to performance, compliance, and operational excellence in a rapidly evolving industrial landscape.
+                        </p>
+                    </div>
+                </div>
+                <!-- Vision -->
+                <div class="col-lg-4">
+                    <div class="bg-light h-100 p-4 shadow-sm border-top border-5 border-success rounded">
+                        <h4 class="mb-3 text-success">Our Vision</h4>
+                        <p class="text-muted mb-0">
+                            Our vision is to be a globally recognized name in the MEPF sector—setting benchmarks in engineering excellence, digital innovation, and sustainable building practices. We aim to revolutionize how infrastructure breathes, performs, and lasts. With a future-forward mindset, we commit to advancing net-zero buildings, smart energy use, and ethical operations. We envision VCS ThermalAlliance becoming a trusted force in transforming traditional engineering into intelligent, adaptive, and eco-conscious systems—empowering clients with transparent processes, elevated performance, and future-ready environments that respond to technological, environmental, and human needs alike.
+                        </p>
+                    </div>
+                </div>
+                <!-- Core Values -->
+                <div class="col-lg-4">
+                    <div class="bg-light h-100 p-4 shadow-sm border-top border-5 border-primary rounded">
+                        <h4 class="mb-3 text-primary">Core Values</h4>
+                        <p class="text-muted mb-0">
+                            Our core values are the foundation of our identity and guide every aspect of how we operate, collaborate, and innovate:
+                        </p>
+                        <ul class="text-muted ps-3 pt-3 mb-0">
+                            <li><strong class="text-dark">Integrity:</strong> Honesty and ethical practices in every decision.</li>
+                            <li><strong class="text-dark">Innovation:</strong> Embracing change and emerging technologies.</li>
+                            <li><strong class="text-dark">Customer Centricity:</strong> Putting clients’ success at the center.</li>
+                            <li><strong class="text-dark">Sustainability:</strong> Designing with a greener future in mind.</li>
+                            <li><strong class="text-dark">Teamwork:</strong> Collaborative spirit across teams and partners.</li>
+                            <li><strong class="text-dark">Excellence:</strong> Relentless focus on quality and precision.</li>
+                            <li><strong class="text-dark">Adaptability:</strong> Responding swiftly to dynamic industry needs.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Mission, Vision & Core Values End -->
+
+
+    <!-- Service Start -->
+    <div class="container-xxl service py-5">
+        <div class="container">
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h5 class="fw-bold text-primary">Innovation & Technology</h5>
+                <h1 class="display-6 mb-5">Innovative MEPF Engineering Solutions</h1>
+            </div>
+           <div class="row g-4 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="col-lg-4">
+                    <div class="nav nav-pills d-flex justify-content-between w-100 h-100 me-4">
+                        <button class="nav-link w-100 d-flex align-items-center text-start border p-4 mb-4 active" data-bs-toggle="pill" data-bs-target="#tab-pane-1" type="button">
+                            <h5 class="m-0" style="font-size: 19px;"><i class="fa fa-bars text-primary me-3"></i>Smart Building Integration</h5>
+                        </button>
+                        <button class="nav-link w-100 d-flex align-items-center text-start border p-4 mb-4" data-bs-toggle="pill" data-bs-target="#tab-pane-2" type="button">
+                            <h5 class="m-0" style="font-size: 19px;"><i class="fa fa-bars text-primary me-3"></i>Digital Design & BIM</h5>
+                        </button>
+                        <button class="nav-link w-100 d-flex align-items-center text-start border p-4 mb-4" data-bs-toggle="pill" data-bs-target="#tab-pane-3" type="button">
+                            <h5 class="m-0" style="font-size: 19px;"><i class="fa fa-bars text-primary me-3"></i>Custom Software</h5>
+                        </button>
+                        <button class="nav-link w-100 d-flex align-items-center text-start border p-4 mb-0" data-bs-toggle="pill" data-bs-target="#tab-pane-4" type="button">
+                            <h5 class="m-0" style="font-size: 19px;"><i class="fa fa-bars text-primary me-3"></i>Energy & Sustainability</h5>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="tab-content w-100">
+                        <!-- Tab 1 -->
+                        <div class="tab-pane fade show active" id="tab-pane-1">
+                            <div class="row g-4">
+                                <div class="col-md-6" style="min-height: 350px;">
+                                    <div class="position-relative h-100">
+                                        <img class="position-absolute rounded w-100 h-100" src="<?php bloginfo('template_directory'); ?>/img/project-1.jpg" style="object-fit: cover;" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3 class="mb-4">Smart Building Integration</h3>
+                                    <p class="mb-4">Our IoT-enabled BMS platforms provide central control for HVAC, lighting, energy, and safety systems, enhancing operational efficiency and occupant comfort.</p>
+                                    <p><i class="fa fa-check text-primary me-3"></i>Remote Monitoring</p>
+                                    <p><i class="fa fa-check text-primary me-3"></i>Predictive Maintenance</p>
+                                    <p><i class="fa fa-check text-primary me-3"></i>Occupancy-Based Control</p>
+                                    <p><i class="fa fa-check text-primary me-3"></i>Energy Usage Analytics</p>
+                                    <a href="" class="btn btn-primary py-3 px-5 mt-3">Explore More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Tab 2 -->
+                        <div class="tab-pane fade" id="tab-pane-2">
+                            <div class="row g-4">
+                                <div class="col-md-6" style="min-height: 350px;">
+                                    <div class="position-relative h-100">
+                                        <img class="position-absolute rounded w-100 h-100" src="<?php bloginfo('template_directory'); ?>/img/project-2.jpg" style="object-fit: cover;" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3 class="mb-4">Digital Design & BIM Integration</h3>
+                                    <p class="mb-4">We use AutoCAD MEP, Revit, and Navisworks to enable 3D visualization, clash detection, and multi-disciplinary coordination via BIM technology.</p>
+                                    <p><i class="fa fa-check text-primary me-3"></i>3D Visualization</p>
+                                    <p><i class="fa fa-check text-primary me-3"></i>Clash Detection</p>
+                                    <p><i class="fa fa-check text-primary me-3"></i>Integrated Project Coordination</p>
+                                    <a href="" class="btn btn-primary py-3 px-5 mt-3">Explore More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Tab 3 -->
+                        <div class="tab-pane fade" id="tab-pane-3">
+                            <div class="row g-4">
+                                <div class="col-md-6" style="min-height: 350px;">
+                                    <div class="position-relative h-100">
+                                        <img class="position-absolute rounded w-100 h-100" src="<?php bloginfo('template_directory'); ?>/img/project-3.jpg" style="object-fit: cover;" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3 class="mb-4">Custom Software Solutions</h3>
+                                    <p class="mb-4">Our proprietary software tools optimize precision and offer real-time visibility throughout project lifecycles.</p>
+                                    <p><i class="fa fa-check text-primary me-3"></i>Heat Load Calculators</p>
+                                    <p><i class="fa fa-check text-primary me-3"></i>Validation Trackers</p>
+                                    <p><i class="fa fa-check text-primary me-3"></i>Compliance Dashboards</p>
+                                    <a href="" class="btn btn-primary py-3 px-5 mt-3">Explore More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Tab 4 -->
+                        <div class="tab-pane fade" id="tab-pane-4">
+                            <div class="row g-4">
+                                <div class="col-md-6" style="min-height: 350px;">
+                                    <div class="position-relative h-100">
+                                        <img class="position-absolute rounded w-100 h-100" src="<?php bloginfo('template_directory'); ?>/img/project-4.jpg" style="object-fit: cover;" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3 class="mb-4">Energy Optimization & Sustainability</h3>
+                                    <p class="mb-4">Using AI, green technologies, and energy recovery systems, we optimize performance while complying with global sustainability standards.</p>
+                                    <p><i class="fa fa-check text-primary me-3"></i>AI-Driven Energy Modeling</p>
+                                    <p><i class="fa fa-check text-primary me-3"></i>Load Simulation & Optimization</p>
+                                    <p><i class="fa fa-check text-primary me-3"></i>Compliance with IGBC, GRIHA, GEM</p>
+                                    <a href="" class="btn btn-primary py-3 px-5 mt-3">Explore More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
 
 
     <!-- Testimonial Start -->

@@ -225,7 +225,7 @@ get_header();
 
 	<!-- Start Industries Serve -->
     <div class="container py-5">
-        <h1 class="text-start text-lg-center display-5 fw-bold mb-3">Industries We Serve:</h1>
+        <h1 class="text-start text-lg-center display-5 fw-bold mb-3">Industries We Serve</h1>
         <p class="text-start text-lg-center text-muted mb-5">
             Thermal Alliance serves diverse industries including pharmaceuticals, food processing, automotive, manufacturing, data centers, and commercial infrastructure—offering tailored MEPF solutions to ensure operational efficiency, safety, and compliance across complex industrial environments throughout India.
         </p>
@@ -719,7 +719,7 @@ get_header();
         <div class="container">
             <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                 <p class="fw-medium text-uppercase text-primary mb-2">Our Team</p>
-                <h1 class="display-5 mb-5">Dedicated Team Members</h1>
+                <h1 class="display-5 mb-5">Dedicated Management Team</h1>
             </div>
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
