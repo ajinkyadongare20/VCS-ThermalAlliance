@@ -990,3 +990,118 @@ h6,
     color: #B0B9AE;
     border-top: 1px solid rgba(255, 255, 255, .1);
 }
+
+/*** FAQs Start ***/
+.faq-section .accordion .accordion-item {
+    margin-bottom: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .08);
+    border: none;
+}
+
+.faq-section .accordion .accordion-item .accordion-header .accordion-button {
+    color: var(--bs-white);
+    background: #FF5E14;
+    font-size: 18px;
+}
+
+.faq-section .accordion .accordion-item .accordion-header .accordion-button.collapsed {
+    color: var(--bs-dark);
+    background: var(--bs-light);
+}
+/*** FAQs End ***/
+
+
+/* VCS Projects Section */
+.vcs-projects {
+    position: relative;
+}
+
+.vcs-projects .vcs-pills {
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.vcs-projects .vcs-pills .nav-item {
+    margin-bottom: 0;
+}
+
+.vcs-projects .vcs-pills .nav-link {
+    background: white;
+    color: var(--bs-dark);
+    border: 1px solid var(--bs-primary);
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+}
+
+.vcs-projects .vcs-pills .nav-link.active {
+    background: var(--bs-primary);
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.vcs-projects .vcs-pills .nav-link:hover:not(.active) {
+    background: rgba(var(--bs-primary-rgb), 0.1);
+    transform: translateY(-2px);
+}
+
+.vcs-icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.vcs-projects .vcs-pills .nav-link.active .vcs-icon {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* Responsive adjustments */
+@media (max-width: 1199px) {
+    .vcs-projects .vcs-pills .nav-link {
+        padding: 12px 20px;
+    }
+}
+
+@media (max-width: 991px) {
+    .vcs-projects .vcs-pills {
+        justify-content: flex-start;
+    }
+    
+    .vcs-projects .vcs-pills .nav-link {
+        padding: 10px 15px;
+        font-size: 0.9rem;
+    }
+    
+    .vcs-icon {
+        width: 35px;
+        height: 35px;
+        margin-right: 8px !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .vcs-projects .vcs-pills {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 8px;
+    }
+    
+    .vcs-projects .vcs-pills .nav-link {
+        white-space: normal;
+        text-align: left;
+    }
+}
+
+/* Tab content animations */
+#vcsProjectsContent .tab-pane {
+    animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
