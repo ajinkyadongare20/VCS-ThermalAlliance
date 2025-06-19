@@ -84,8 +84,8 @@
 
 
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-0 pe-5">
-        <a href="index.html" class="navbar-brand ps-2 ps-lg-5 me-0">
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-0 pe-4">
+        <a href="" class="navbar-brand ps-2 ps-lg-5 me-0">
             <img src="<?php bloginfo('template_directory'); ?>/img/VCS-ThermalAlliance Logo.jpg" alt="VCS-ThermalAlliance Logo" style="height: 80px; width: 160px;">
         </a>
 
@@ -93,26 +93,19 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="" class="nav-item nav-link active">Home</a>
-                <a href="" class="nav-item nav-link">About US</a>
-                <a href="" class="nav-item nav-link">Services</a>
-				<a href="" class="nav-item nav-link">Industries </a>
-				<a href="" class="nav-item nav-link">Resources </a>
-				<a href="" class="nav-item nav-link">Careers </a>
 
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Projects</a>
-                    <div class="dropdown-menu bg-light m-0">
-                        <a href="" class="dropdown-item">Features</a>
-						<a href="" class="dropdown-item">Blogs</a>
-                        <a href="" class="dropdown-item">Our Team</a>
-                        <a href="" class="dropdown-item">Testimonial</a>
-                        <a href="" class="dropdown-item">404 Page</a>
-                    </div>
-                </div>
-                <a href="contact.html" class="nav-item nav-link">Contact</a>
-            </div>
+                    <?php
+                        wp_nav_menu(array(
+                            'theme_location'    => 'menu-1',
+                            'container'         => false,
+                            'container_class'   => '',
+                            'menu_class'        => 'navbar-nav ms-auto',
+                            'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
+                            'depth'             => 3,
+                            'walker'            => new wp_bootstrap_navwalker()
+                        ));
+                    ?>
+
             <a href="" class="btn btn-primary px-3 d-none d-lg-block">Get A Quote</a>
         </div>
     </nav>

@@ -151,3 +151,33 @@
 
 })(jQuery);
 
+
+// Careers Page Functionality
+document.addEventListener('DOMContentLoaded', function () {
+    // Initialize application modal if it exists on the page
+    if (document.querySelector('.apply-btn')) {
+        const applyButtons = document.querySelectorAll('.apply-btn');
+        const applicationModal = new bootstrap.Modal(document.getElementById('applicationModal'));
+        const positionSelect = document.getElementById('positionApplied');
+
+        applyButtons.forEach(button => {
+            button.addEventListener('click', function () {
+                const position = this.getAttribute('data-position');
+                if (positionSelect) positionSelect.value = position;
+                if (applicationModal) applicationModal.show();
+            });
+        });
+    }
+
+    // Form validation for application form
+    if (document.getElementById('applicationForm')) {
+        document.getElementById('applicationForm').addEventListener('submit', function (e) {
+            if (!this.checkValidity()) {
+                e.preventDefault();
+                e.stopPropagation();
+            }
+            this.classList.add('was-validated');
+        });
+    }
+});
+

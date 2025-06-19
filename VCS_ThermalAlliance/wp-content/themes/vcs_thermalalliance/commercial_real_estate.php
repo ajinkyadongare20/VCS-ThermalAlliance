@@ -1,7 +1,7 @@
 <?php
 /**
  * The main template file
- * Template Name: Blog
+ * Template Name: Commercial Real Estate
  * This is the most generic template file in a WordPress theme
  * and one of the two required files for a theme (the other being style.css).
  * It is used to display a page when nothing more specific matches a query.
@@ -16,7 +16,7 @@ get_header();
 ?>
 
     <!-- Page Header Start -->
-    <div class="container-fluid page-header py-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
             <h1 class="display-3 text-white animated slideInRight">Blog & News</h1>
             <nav aria-label="breadcrumb">
@@ -31,110 +31,90 @@ get_header();
     <!-- Page Header End -->
 
 
-    <!-- Blog Start -->
-    <div class="container-fluid blog py-5">
-        <div class="container py-5">
-            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
-                <h1 class="display-5 text-capitalize text-primary mb-3 py-3">Blog & News</h1>
-                <p class="mb-0">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut amet nemo expedita asperiores commodi
-                    accusantium at cum harum, excepturi, quia tempora cupiditate! Adipisci facilis modi quisquam quia distinctio,
-                </p>
+
+    <!-- Introduction Start -->
+    <div class="container-fluid bg-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="text-primary mb-3">Our Blog & News</h2>
+                    <p class="lead text-muted">
+                        In healthcare, performance is critical—and compliance is non-negotiable. At VCS ThermalAlliance, we design and deliver precision-engineered HVAC, cleanroom, electrical, and fire safety systems tailored for hospitals, ICUs, diagnostic labs, operating theatres, and sterile zones. Our solutions combine medical-grade engineering with smart automation to ensure optimal indoor air quality, infection control, and patient safety.<br><br>                        
+                    </p>
+                </div>
             </div>
+        </div>
+    </div>
+    <!-- Introduction End -->
 
-            <div class="row g-4">
-                <!-- Blog Post 1 -->
-                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="blog-item">
-                        <div class="blog-img">
-                            <img src="<?php bloginfo('template_directory'); ?>/img/project-2.jpg" class="img-fluid rounded-top w-100" alt="Image">
-                        </div>
-                        <div class="blog-content rounded-bottom p-4">
-                            <div class="blog-date">30 Dec 2025</div>
-                            <div class="blog-comment my-3 d-flex justify-content-between">
-                                <div class="small">
-                                    <span class="fa fa-user text-primary"></span>
-                                    <span class="ms-2">Martin.C</span>
-                                </div>
-                                <div class="small">
-                                    <span class="fa fa-comment-alt text-primary"></span>
-                                    <span class="ms-2">6 Comments</span>
-                                </div>
+
+        <!-- Blog Start -->
+        <div class="container-fluid blog py-5">
+            <div class="container py-5">
+                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
+                    <h1 class="display-5 text-capitalize text-primary mb-3 py-3">Blog & News</h1>
+                    <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut amet nemo expedita asperiores commodi accusantium at cum harum, excepturi, quia tempora cupiditate! Adipisci facilis modi quisquam quia distinctio,
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img src="<?php bloginfo('template_directory'); ?>/img/project-2.jpg" class="img-fluid rounded-top w-100" alt="Image">
                             </div>
-                            <a href="#" class="h4 d-block mb-3">Rental Cars how to check driving fines?</a>
-                            <p class="mb-3">
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius libero soluta impedit eligendi? Quibusdam, laudantium.
-                            </p>
-                            <a href="#" class="btn btn-primary">
-                                Read More <i class="fa fa-arrow-right"></i>
-                            </a>
+                            <div class="blog-content rounded-bottom p-4">
+                                <div class="blog-date">30 Dec 2025</div>
+                                <div class="blog-comment my-3">
+                                    <div class="small"><span class="fa fa-user text-primary"></span><span class="ms-2">Martin.C</span></div>
+                                    <div class="small"><span class="fa fa-comment-alt text-primary"></span><span class="ms-2">6 Comments</span></div>
+                                </div>
+                                <a href="#" class="h4 d-block mb-3">Rental Cars how to check driving fines?</a>
+                                <p class="mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius libero soluta impedit eligendi? Quibusdam, laudantium.</p>
+                                <a href="#" class="btn btn-primary">Read More  <i class="fa fa-arrow-right"></i></a>
+                            </div>
                         </div>
                     </div>
-                </div>
-
-                <!-- Blog Post 2 -->
-                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="blog-item">
-                        <div class="blog-img">
-                            <img src="<?php bloginfo('template_directory'); ?>/img/project-3.jpg" class="img-fluid rounded-top w-100" alt="Image">
-                        </div>
-                        <div class="blog-content rounded-bottom p-4">
-                            <div class="blog-date">25 Dec 2025</div>
-                            <div class="blog-comment my-3 d-flex justify-content-between">
-                                <div class="small">
-                                    <span class="fa fa-user text-primary"></span>
-                                    <span class="ms-2">Martin.C</span>
-                                </div>
-                                <div class="small">
-                                    <span class="fa fa-comment-alt text-primary"></span>
-                                    <span class="ms-2">6 Comments</span>
-                                </div>
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img src="<?php bloginfo('template_directory'); ?>/img/project-3.jpg" class="img-fluid rounded-top w-100" alt="Image">
                             </div>
-                            <a href="#" class="h4 d-block mb-3">Rental cost of sport and other cars</a>
-                            <p class="mb-3">
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius libero soluta impedit eligendi? Quibusdam, laudantium.
-                            </p>
-                            <a href="#" class="btn btn-primary">
-                                Read More <i class="fa fa-arrow-right"></i>
-                            </a>
+                            <div class="blog-content rounded-bottom p-4">
+                                <div class="blog-date">25 Dec 2025</div>
+                                <div class="blog-comment my-3">
+                                    <div class="small"><span class="fa fa-user text-primary"></span><span class="ms-2">Martin.C</span></div>
+                                    <div class="small"><span class="fa fa-comment-alt text-primary"></span><span class="ms-2">6 Comments</span></div>
+                                </div>
+                                <a href="#" class="h4 d-block mb-3">Rental cost of sport and other cars</a>
+                                <p class="mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius libero soluta impedit eligendi? Quibusdam, laudantium.</p>
+                                <a href="#" class="btn btn-primary">Read More  <i class="fa fa-arrow-right"></i></a>
+                            </div>
                         </div>
                     </div>
-                </div>
-
-                <!-- Blog Post 3 -->
-                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="blog-item">
-                        <div class="blog-img">
-                            <img src="<?php bloginfo('template_directory'); ?>/img/project-4.jpg" class="img-fluid rounded-top w-100" alt="Image">
-                        </div>
-                        <div class="blog-content rounded-bottom p-4">
-                            <div class="blog-date">27 Dec 2025</div>
-                            <div class="blog-comment my-3 d-flex justify-content-between">
-                                <div class="small">
-                                    <span class="fa fa-user text-primary"></span>
-                                    <span class="ms-2">Martin.C</span>
-                                </div>
-                                <div class="small">
-                                    <span class="fa fa-comment-alt text-primary"></span>
-                                    <span class="ms-2">6 Comments</span>
-                                </div>
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img src="<?php bloginfo('template_directory'); ?>/img/project-4.jpg" class="img-fluid rounded-top w-100" alt="Image">
                             </div>
-                            <a href="#" class="h4 d-block mb-3">Document required for car rental</a>
-                            <p class="mb-3">
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius libero soluta impedit eligendi? Quibusdam, laudantium.
-                            </p>
-                            <a href="#" class="btn btn-primary">
-                                Read More <i class="fa fa-arrow-right"></i>
-                            </a>
+                            <div class="blog-content rounded-bottom p-4">
+                                <div class="blog-date">27 Dec 2025</div>
+                                <div class="blog-comment my-3">
+                                    <div class="small"><span class="fa fa-user text-primary"></span><span class="ms-2">Martin.C</span></div>
+                                    <div class="small"><span class="fa fa-comment-alt text-primary"></span><span class="ms-2">6 Comments</span></div>
+                                </div>
+                                <a href="#" class="h4 d-block mb-3">Document required for car rental</a>
+                                <p class="mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius libero soluta impedit eligendi? Quibusdam, laudantium.</p>
+                                <a href="#" class="btn btn-primary">Read More  <i class="fa fa-arrow-right"></i></a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Blog End -->
+        <!-- Blog End -->
 
-   
+
+
     <!-- FAQ Start -->
     <div class="container-fluid faq-section bg-light py-5">
         <div class="container py-5">

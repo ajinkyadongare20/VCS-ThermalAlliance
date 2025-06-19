@@ -1,7 +1,7 @@
 <?php
 /**
  * The main template file
- * Template Name: Healthcare
+ * Template Name: Download
  * This is the most generic template file in a WordPress theme
  * and one of the two required files for a theme (the other being style.css).
  * It is used to display a page when nothing more specific matches a query.
@@ -18,283 +18,392 @@ get_header();
     <!-- Page Header Start -->
     <div class="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
-            <h1 class="display-3 text-white animated slideInRight">Healthcare HVAC & MEPF Solutions </h1>
+            <h1 class="display-3 text-white animated slideInRight">Download</h1>
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb animated slideInRight mb-0">
-                    <li class="breadcrumb-item"><a href="#">Projects</a></li>
+                    <li class="breadcrumb-item"><a href="#">Download</a></li>
                     <li class="breadcrumb-item"><a href="#">Pages</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">HVAC, Fire & Cleanroom Solutions for Hospitals and OTs</li>
+                    <li class="breadcrumb-item active" aria-current="page">Download Brochures, Profiles & Technical Resources</li>
                 </ol>
             </nav>
         </div>
     </div>
     <!-- Page Header End -->
+     
+    
+     <!-- Hero Banner -->
+    <div class="hero-banner d-flex align-items-center justify-content-center text-white mb-5">
+        <div class="text-center">
+            <a href="#" class="btn btn-light btn-lg px-4 py-2">
+                <i class="fas fa-download me-2"></i> Download Full Profile
+            </a>
+        </div>
+    </div>
 
-
-    <!-- Introduction Start -->
-    <div class="container-fluid bg-white py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="text-primary mb-3">Healthcare MEPF Solutions</h2>
-                    <p class="lead text-muted">
-                        In healthcare, performance is critical—and compliance is non-negotiable. At VCS ThermalAlliance, we design and deliver precision-engineered HVAC, cleanroom, electrical, and fire safety systems tailored for hospitals, ICUs, diagnostic labs, operating theatres, and sterile zones. Our solutions combine medical-grade engineering with smart automation to ensure optimal indoor air quality, infection control, and patient safety.<br><br>
+    <div class="container py-5 mb-5">
+        <div class="row">
+            <!-- Filters Sidebar -->
+            <div class="col-lg-3 mb-4">
+                <div class="filter-section">
+                    <div class="mb-4">
+                        <h5 class="fw-bold mb-3">Filters</h5>
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control border-primary" placeholder="Search documents...">
+                            <button class="btn btn-primary" type="button">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion" id="filterAccordion">
+                        <div class="accordion-item mb-2 border-0">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed bg-white btn btn-primary shadow-download" type="button" data-bs-toggle="collapse" data-bs-target="#filterIndustry">
+                                    <i class="fas fa-industry me-2 text-white"></i> Industry
+                                </button>
+                            </h2>
+                            <div id="filterIndustry" class="accordion-collapse collapse" data-bs-parent="#filterAccordion">
+                                <div class="accordion-body pt-3">
+                                    <div class="form-check mb-2">
+                                        <input class="form-check-input" type="checkbox" id="healthcare">
+                                        <label class="form-check-label" for="healthcare">Healthcare</label>
+                                    </div>
+                                    <div class="form-check mb-2">
+                                        <input class="form-check-input" type="checkbox" id="pharma">
+                                        <label class="form-check-label" for="pharma">Pharmaceutical</label>
+                                    </div>
+                                    <div class="form-check mb-2">
+                                        <input class="form-check-input" type="checkbox" id="commercial">
+                                        <label class="form-check-label" for="commercial">Commercial</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="industrial">
+                                        <label class="form-check-label" for="industrial">Industrial</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         
-                        From NABH-compliant OT ventilation systems to ISO-certified cleanrooms and emergency power infrastructure, we implement turnkey solutions that meet stringent healthcare regulations. Our expertise spans HEPA filtration systems, laminar airflow designs, medical gas pipelines, and fire-rated compartmentation - all integrated through intelligent building management systems for seamless operation and monitoring.
-                    </p>
+                        <div class="accordion-item mb-2 border-0">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed bg-white btn btn-primary shadow-download" type="button" data-bs-toggle="collapse" data-bs-target="#filterService">
+                                    <i class="fas fa-cogs me-2 text-white"></i> Service
+                                </button>
+                            </h2>
+                            <div id="filterService" class="accordion-collapse collapse" data-bs-parent="#filterAccordion">
+                                <div class="accordion-body pt-3">
+                                    <div class="form-check mb-2">
+                                        <input class="form-check-input" type="checkbox" id="hvac">
+                                        <label class="form-check-label" for="hvac">HVAC</label>
+                                    </div>
+                                    <div class="form-check mb-2">
+                                        <input class="form-check-input" type="checkbox" id="firefighting">
+                                        <label class="form-check-label" for="firefighting">Firefighting</label>
+                                    </div>
+                                    <div class="form-check mb-2">
+                                        <input class="form-check-input" type="checkbox" id="cleanroom">
+                                        <label class="form-check-label" for="cleanroom">Cleanroom</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="electrical">
+                                        <label class="form-check-label" for="electrical">Electrical</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item border-0">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed bg-white btn btn-primary shadow-download" type="button" data-bs-toggle="collapse" data-bs-target="#filterType">
+                                    <i class="fas fa-file-alt me-2 text-white"></i> Document Type
+                                </button>
+                            </h2>
+                            <div id="filterType" class="accordion-collapse collapse" data-bs-parent="#filterAccordion">
+                                <div class="accordion-body pt-3">
+                                    <div class="form-check mb-2">
+                                        <input class="form-check-input" type="checkbox" id="pdf">
+                                        <label class="form-check-label" for="pdf">PDF</label>
+                                    </div>
+                                    <div class="form-check mb-2">
+                                        <input class="form-check-input" type="checkbox" id="ppt">
+                                        <label class="form-check-label" for="ppt">PPT</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="video">
+                                        <label class="form-check-label" for="video">Video</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
-    <!-- Introduction End -->
-
-
-    <!-- VCS Projects Start -->
-    <div class="container-fluid vcs-projects bg-light py-5">
-        <div class="container py-5">
-            <!-- Title Section -->
-            <div class="row mb-5">
-                <div class="col-12 text-center wow fadeInUp" data-wow-delay="0.2s">
-                    <h4 class="text-primary">Fire Safety Turnkey Projects & Solutions</h4>
-                    <h1 class="display-6 mb-4">Protecting Lives. Powering Compliance.</h1>
-                    <p class="mb-5">
-                        At VCS ThermalAlliance, we offer end-to-end fire protection solutions across commercial, industrial,
-                        pharmaceutical, and institutional sectors. From fire load calculations and system layouts to installation,
-                        testing, and AMC support — our services are aligned with international safety codes and local authority guidelines.
-                        We specialize in modern, intelligent fire safety systems designed to minimize risk and ensure operational continuity.
-                    </p>
+            
+            <!-- Main Content -->
+            <div class="col-lg-9">
+                <!-- Corporate Profile -->
+                <div class="mb-5">
+                    <h3 class="fw-bold mb-4">Corporate Profile</h3>
+                    <div class="download-card p-4 bg-white">
+                        <div class="row align-items-center">
+                            <div class="col-md-2 text-center">
+                                <i class="fas fa-file-pdf text-primary fs-1"></i>
+                            </div>
+                            <div class="col-md-8">
+                                <h5 class="fw-bold">VCS ThermalAlliance Company Profile</h5>
+                                <p class="text-muted mb-2">Comprehensive overview of our services, capabilities, and industry expertise</p>
+                                <small class="text-muted">Last updated: June 2023 | File size: 4.2 MB</small>
+                            </div>
+                            <div class="col-md-2 text-center text-md-end">
+                                <a href="#" class="btn btn-primary px-3">
+                                    <i class="fas fa-download me-1"></i> Download
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
+                
+                <div class="section-divider"></div>
+                
+                <!-- Sector Brochures -->
+                <div class="mb-5">
+                    <h3 class="fw-bold mb-4">Sector Brochures</h3>
+                    <div class="row g-4">
+                        <div class="col-md-6 col-lg-4">
+                            <div class="download-card p-4 h-100 bg-white">
+                                <div class="d-flex align-items-center mb-3">
+                                    <i class="fas fa-hospital me-3 text-primary" style="font-size: 1.5rem;"></i>
+                                    <h5 class="fw-bold mb-0">Healthcare MEPF Solutions</h5>
+                                </div>
+                                <p class="text-muted small mb-3">Specialized solutions for hospitals and medical facilities</p>
+                                <a href="#" class="btn btn-primary w-100">
+                                    <i class="fas fa-download me-1"></i> Download PDF
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-6 col-lg-4">
+                            <div class="download-card p-4 h-100 bg-white">
+                                <div class="d-flex align-items-center mb-3">
+                                    <i class="fas fa-pills me-3 text-primary" style="font-size: 1.5rem;"></i>
+                                    <h5 class="fw-bold mb-0">Pharma Cleanroom Engineering</h5>
+                                </div>
+                                <p class="text-muted small mb-3">GMP-compliant cleanroom design and implementation</p>
+                                <a href="#" class="btn btn-primary w-100">
+                                    <i class="fas fa-download me-1"></i> Download PDF
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-6 col-lg-4">
+                            <div class="download-card p-4 h-100 bg-white">
+                                <div class="d-flex align-items-center mb-3">
+                                    <i class="fas fa-building me-3 text-primary" style="font-size: 1.5rem;"></i>
+                                    <h5 class="fw-bold mb-0">Commercial Real Estate</h5>
+                                </div>
+                                <p class="text-muted small mb-3">MEPF packages for offices and retail Lorem, ipsum. spaces</p>
+                                <a href="#" class="btn btn-primary w-100">
+                                    <i class="fas fa-download me-1"></i> Download PDF
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-6 col-lg-4">
+                            <div class="download-card p-4 h-100 bg-white">
+                                <div class="d-flex align-items-center mb-3">
+                                    <i class="fas fa-industry me-3 text-primary" style="font-size: 1.5rem;"></i>
+                                    <h5 class="fw-bold mb-0">Industrial Plant Systems</h5>
+                                </div>
+                                <p class="text-muted small mb-3">Utility systems for manufacturing facilities</p>
+                                <a href="#" class="btn btn-primary w-100">
+                                    <i class="fas fa-download me-1"></i> Download PDF
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-6 col-lg-4">
+                            <div class="download-card p-4 h-100 bg-white">
+                                <div class="d-flex align-items-center mb-3">
+                                    <i class="fas fa-utensils me-3 text-primary" style="font-size: 1.5rem;"></i>
+                                    <h5 class="fw-bold mb-0">Hospitality Engineering</h5>
+                                </div>
+                                <p class="text-muted small mb-3">Solutions for hotels and resorts</p>
+                                <a href="#" class="btn btn-primary w-100">
+                                    <i class="fas fa-download me-1"></i> Download PDF
+                                </a>
+                            </div>
+                        </div>
 
-            <!-- Horizontal Navigation Tabs -->
-            <div class="row mb-5">
-                <div class="col-12">
-                    <ul class="nav vcs-pills justify-content-center" id="vcsProjectsTab" role="tablist">
-                        <li class="nav-item me-2 mb-2" role="presentation">
-                            <button class="nav-link active d-flex align-items-center py-3 px-4" id="vcs-tab-1" data-bs-toggle="pill" data-bs-target="#VCSTab-1" type="button" role="tab">
-                                <div class="vcs-icon btn-md-square bg-primary text-white me-3">
-                                    <span class="fas fa-wind small"></span>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="download-card p-4 h-100 bg-white">
+                                <div class="d-flex align-items-center mb-3">
+                                    <i class="fas fa-utensils me-3 text-primary" style="font-size: 1.5rem;"></i>
+                                    <h5 class="fw-bold mb-0">Services Engineering</h5>
                                 </div>
-                                <span>Cleanroom HVAC Installations</span>
+                                <p class="text-muted small mb-3">Solutions for hotels and resorts</p>
+                                <a href="#" class="btn btn-primary w-100">
+                                    <i class="fas fa-download me-1"></i> Download PDF
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="section-divider"></div>
+                
+                <!-- Services Catalogues -->
+                <div class="mb-5">
+                    <h3 class="fw-bold mb-4">Services Catalogues</h3>
+                    
+                    <ul class="nav nav-pills mb-4" id="servicesTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="hvac-tab" data-bs-toggle="pill" data-bs-target="#hvac-pane" type="button" role="tab">
+                                HVAC
                             </button>
                         </li>
-                        <li class="nav-item me-2 mb-2" role="presentation">
-                            <button class="nav-link d-flex align-items-center py-3 px-4" id="vcs-tab-2" data-bs-toggle="pill" data-bs-target="#VCSTab-2" type="button" role="tab">
-                                <div class="vcs-icon btn-md-square bg-primary text-white me-3">
-                                    <span class="fas fa-plug small"></span>
-                                </div>
-                                <span>Turnkey Electrical Systems</span>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="firefighting-tab" data-bs-toggle="pill" data-bs-target="#firefighting-pane" type="button" role="tab">
+                                Firefighting
                             </button>
                         </li>
-                        <li class="nav-item me-2 mb-2" role="presentation">
-                            <button class="nav-link d-flex align-items-center py-3 px-4" id="vcs-tab-3" data-bs-toggle="pill" data-bs-target="#VCSTab-3" type="button" role="tab">
-                                <div class="vcs-icon btn-md-square bg-primary text-white me-3">
-                                    <span class="fas fa-fire-extinguisher small"></span>
-                                </div>
-                                <span>Fire Safety Implementations</span>
-                            </button>
-                        </li>
-                        <li class="nav-item me-2 mb-2" role="presentation">
-                            <button class="nav-link d-flex align-items-center py-3 px-4" id="vcs-tab-4" data-bs-toggle="pill" data-bs-target="#VCSTab-4" type="button" role="tab">
-                                <div class="vcs-icon btn-md-square bg-primary text-white me-3">
-                                    <span class="fas fa-industry small"></span>
-                                </div>
-                                <span>HVAC Systems for Industries</span>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="cleanroom-tab" data-bs-toggle="pill" data-bs-target="#cleanroom-pane" type="button" role="tab">
+                                Cleanroom
                             </button>
                         </li>
                     </ul>
+                    
+                    <div class="tab-content" id="servicesTabContent">
+                        <div class="tab-pane fade show active" id="hvac-pane" role="tabpanel">
+                            <div class="row g-4">
+                                <div class="col-md-6">
+                                    <div class="download-card p-4 h-100 bg-white">
+                                        <h5 class="fw-bold mb-3">HVAC Turnkey Solutions</h5>
+                                        <p class="text-muted small mb-3">Complete design, installation and maintenance</p>
+                                        <a href="#" class="btn btn-primary">
+                                            <i class="fas fa-download me-1"></i> Download PDF
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="download-card p-4 h-100 bg-white">
+                                        <h5 class="fw-bold mb-3">VRF Systems Catalogue</h5>
+                                        <p class="text-muted small mb-3">Energy-efficient variable refrigerant flow solutions</p>
+                                        <a href="#" class="btn btn-primary">
+                                            <i class="fas fa-download me-1"></i> Download PDF
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="firefighting-pane" role="tabpanel">
+                            <div class="row g-4">
+                                <div class="col-md-6">
+                                    <div class="download-card p-4 h-100 bg-white">
+                                        <h5 class="fw-bold mb-3">Firefighting Systems</h5>
+                                        <p class="text-muted small mb-3">Comprehensive fire protection solutions</p>
+                                        <a href="#" class="btn btn-primary">
+                                            <i class="fas fa-download me-1"></i> Download PDF
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="cleanroom-pane" role="tabpanel">
+                            <div class="row g-4">
+                                <div class="col-md-6">
+                                    <div class="download-card p-4 h-100 bg-white">
+                                        <h5 class="fw-bold mb-3">Cleanroom Design & Build</h5>
+                                        <p class="text-muted small mb-3">ISO-classified clean environment solutions</p>
+                                        <a href="#" class="btn btn-primary">
+                                            <i class="fas fa-download me-1"></i> Download PDF
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="download-card p-4 h-100 bg-white">
+                                        <h5 class="fw-bold mb-3">Pharma Cleanroom Standards</h5>
+                                        <p class="text-muted small mb-3">GMP compliance guidelines</p>
+                                        <a href="#" class="btn btn-primary">
+                                            <i class="fas fa-download me-1"></i> Download PDF
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-
-            <!-- Tab Content -->
-            <div class="row">
-                <div class="col-12">
-                    <div class="tab-content" id="vcsProjectsContent">
-                        <!-- Tab 1 Content -->
-                        <div class="tab-pane fade show active" id="VCSTab-1" role="tabpanel" aria-labelledby="vcs-tab-1">
-                            <div class="row g-5">
-                                <div class="col-lg-4">
-                                    <div class="row g-5">
-                                        <div class="col-12 wow zoomIn" data-wow-delay="0.2s">
-                                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
-                                                <i class="fa fa-cubes text-white"></i>
-                                            </div>
-                                            <h4>Best In Industry</h4>
-                                            <p class="mb-0">Magna sea eos sit dolor, ipsum amet lorem diam dolor eos et diam dolor</p>
-                                        </div>
-                                        <div class="col-12 wow zoomIn" data-wow-delay="0.6s">
-                                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
-                                                <i class="fa fa-award text-white"></i>
-                                            </div>
-                                            <h4>Award Winning</h4>
-                                            <p class="mb-0">Magna sea eos sit dolor, ipsum amet lorem diam dolor eos et diam dolor</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 wow zoomIn" data-wow-delay="0.9s" style="min-height: 350px;">
-                                    <div class="position-relative h-100">
-                                        <img class="position-absolute w-100 h-100 rounded" data-wow-delay="0.1s" src="<?php bloginfo('template_directory'); ?>/img/project-3.jpg" style="object-fit: cover;">
-                                    </div>
-                                </div>
-                                <div class="col-lg-4">
-                                    <div class="row g-5">
-                                        <div class="col-12 wow zoomIn" data-wow-delay="0.4s">
-                                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
-                                                <i class="fa fa-users-cog text-white"></i>
-                                            </div>
-                                            <h4>Professional Staff</h4>
-                                            <p class="mb-0">Magna sea eos sit dolor, ipsum amet lorem diam dolor eos et diam dolor</p>
-                                        </div>
-                                        <div class="col-12 wow zoomIn" data-wow-delay="0.8s">
-                                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
-                                                <i class="fa fa-phone-alt text-white"></i>
-                                            </div>
-                                            <h4>24/7 Support</h4>
-                                            <p class="mb-0">Magna sea eos sit dolor, ipsum amet lorem diam dolor eos et diam dolor</p>
-                                        </div>
-                                    </div>
-                                </div>
+                
+                <div class="section-divider"></div>
+                
+                <!-- Technical Resources -->
+                <div class="mb-5">
+                    <h3 class="fw-bold mb-4">Technical Resources</h3>
+                    
+                    <div class="download-card p-4 bg-white mb-3">
+                        <div class="row align-items-center">
+                            <div class="col-md-1 text-center">
+                                <i class="fas fa-file-alt text-primary"></i>
+                            </div>
+                            <div class="col-md-8">
+                                <h5 class="fw-bold mb-1">NABH HVAC Guidelines for OTs</h5>
+                                <small class="text-muted">Healthcare facility standards | 1.2 MB</small>
+                            </div>
+                            <div class="col-md-3 text-end">
+                                <a href="#" class="btn btn-primary">
+                                    <i class="fas fa-download me-1"></i> Download
+                                </a>
                             </div>
                         </div>
-
-                        <!-- Tab 2 Content -->
-                        <div class="tab-pane fade" id="VCSTab-2" role="tabpanel" aria-labelledby="vcs-tab-2">
-                            <div class="row g-5">
-                                <div class="col-lg-4">
-                                    <div class="row g-5">
-                                        <div class="col-12 wow zoomIn" data-wow-delay="0.2s">
-                                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
-                                                <i class="fa fa-cubes text-white"></i>
-                                            </div>
-                                            <h4>Best In Industry</h4>
-                                            <p class="mb-0">Magna sea eos sit dolor, ipsum amet lorem diam dolor eos et diam dolor</p>
-                                        </div>
-                                        <div class="col-12 wow zoomIn" data-wow-delay="0.6s">
-                                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
-                                                <i class="fa fa-award text-white"></i>
-                                            </div>
-                                            <h4>Award Winning</h4>
-                                            <p class="mb-0">Magna sea eos sit dolor, ipsum amet lorem diam dolor eos et diam dolor</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 wow zoomIn" data-wow-delay="0.9s" style="min-height: 350px;">
-                                    <div class="position-relative h-100">
-                                        <img class="position-absolute w-100 h-100 rounded" data-wow-delay="0.1s" src="<?php bloginfo('template_directory'); ?>/img/project-2.jpg" style="object-fit: cover;">
-                                    </div>
-                                </div>
-                                <div class="col-lg-4">
-                                    <div class="row g-5">
-                                        <div class="col-12 wow zoomIn" data-wow-delay="0.4s">
-                                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
-                                                <i class="fa fa-users-cog text-white"></i>
-                                            </div>
-                                            <h4>Professional Staff</h4>
-                                            <p class="mb-0">Magna sea eos sit dolor, ipsum amet lorem diam dolor eos et diam dolor</p>
-                                        </div>
-                                        <div class="col-12 wow zoomIn" data-wow-delay="0.8s">
-                                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
-                                                <i class="fa fa-phone-alt text-white"></i>
-                                            </div>
-                                            <h4>24/7 Support</h4>
-                                            <p class="mb-0">Magna sea eos sit dolor, ipsum amet lorem diam dolor eos et diam dolor</p>
-                                        </div>
-                                    </div>
-                                </div>
+                    </div>
+                    
+                    <div class="download-card p-4 bg-white mb-3">
+                        <div class="row align-items-center">
+                            <div class="col-md-1 text-center">
+                                <i class="fas fa-file-alt text-primary"></i>
+                            </div>
+                            <div class="col-md-8">
+                                <h5 class="fw-bold mb-1">ISO 14644 Cleanroom Standards</h5>
+                                <small class="text-muted">Particle classification | 2.4 MB</small>
+                            </div>
+                            <div class="col-md-3 text-end">
+                                <a href="#" class="btn btn-primary">
+                                    <i class="fas fa-download me-1"></i> Download
+                                </a>
                             </div>
                         </div>
-
-                        <!-- Tab 3 Content -->
-                        <div class="tab-pane fade show" id="VCSTab-3" role="tabpanel" aria-labelledby="vcs-tab-3">
-                            <div class="row g-5">
-                                <div class="col-lg-4">
-                                    <div class="row g-5">
-                                        <div class="col-12 wow zoomIn" data-wow-delay="0.2s">
-                                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
-                                                <i class="fa fa-cubes text-white"></i>
-                                            </div>
-                                            <h4>Best In Industry</h4>
-                                            <p class="mb-0">Magna sea eos sit dolor, ipsum amet lorem diam dolor eos et diam dolor</p>
-                                        </div>
-                                        <div class="col-12 wow zoomIn" data-wow-delay="0.6s">
-                                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
-                                                <i class="fa fa-award text-white"></i>
-                                            </div>
-                                            <h4>Award Winning</h4>
-                                            <p class="mb-0">Magna sea eos sit dolor, ipsum amet lorem diam dolor eos et diam dolor</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 wow zoomIn" data-wow-delay="0.9s" style="min-height: 350px;">
-                                    <div class="position-relative h-100">
-                                        <img class="position-absolute w-100 h-100 rounded" data-wow-delay="0.1s" src="<?php bloginfo('template_directory'); ?>/img/project-3.jpg" style="object-fit: cover;">
-                                    </div>
-                                </div>
-                                <div class="col-lg-4">
-                                    <div class="row g-5">
-                                        <div class="col-12 wow zoomIn" data-wow-delay="0.4s">
-                                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
-                                                <i class="fa fa-users-cog text-white"></i>
-                                            </div>
-                                            <h4>Professional Staff</h4>
-                                            <p class="mb-0">Magna sea eos sit dolor, ipsum amet lorem diam dolor eos et diam dolor</p>
-                                        </div>
-                                        <div class="col-12 wow zoomIn" data-wow-delay="0.8s">
-                                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
-                                                <i class="fa fa-phone-alt text-white"></i>
-                                            </div>
-                                            <h4>24/7 Support</h4>
-                                            <p class="mb-0">Magna sea eos sit dolor, ipsum amet lorem diam dolor eos et diam dolor</p>
-                                        </div>
-                                    </div>
-                                </div>
+                    </div>
+                    
+                    <div class="download-card p-4 bg-white mb-3">
+                        <div class="row align-items-center">
+                            <div class="col-md-1 text-center">
+                                <i class="fas fa-file-alt text-primary"></i>
+                            </div>
+                            <div class="col-md-8">
+                                <h5 class="fw-bold mb-1">NBC 2016 Fire Safety Excerpt</h5>
+                                <small class="text-muted">Building code requirements | 3.1 MB</small>
+                            </div>
+                            <div class="col-md-3 text-end">
+                                <a href="#" class="btn btn-primary">
+                                    <i class="fas fa-download me-1"></i> Download
+                                </a>
                             </div>
                         </div>
-
-                        <!-- Tab 4 Content -->
-                        <div class="tab-pane fade" id="VCSTab-4" role="tabpanel" aria-labelledby="vcs-tab-4">
-                            <div class="row g-5">
-                                <div class="col-lg-4">
-                                    <div class="row g-5">
-                                        <div class="col-12 wow zoomIn" data-wow-delay="0.2s">
-                                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
-                                                <i class="fa fa-cubes text-white"></i>
-                                            </div>
-                                            <h4>Best In Industry</h4>
-                                            <p class="mb-0">Magna sea eos sit dolor, ipsum amet lorem diam dolor eos et diam dolor</p>
-                                        </div>
-                                        <div class="col-12 wow zoomIn" data-wow-delay="0.6s">
-                                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
-                                                <i class="fa fa-award text-white"></i>
-                                            </div>
-                                            <h4>Award Winning</h4>
-                                            <p class="mb-0">Magna sea eos sit dolor, ipsum amet lorem diam dolor eos et diam dolor</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 wow zoomIn" data-wow-delay="0.9s" style="min-height: 350px;">
-                                    <div class="position-relative h-100">
-                                        <img class="position-absolute w-100 h-100 rounded" data-wow-delay="0.1s" src="<?php bloginfo('template_directory'); ?>/img/project-4.jpg" style="object-fit: cover;">
-                                    </div>
-                                </div>
-                                <div class="col-lg-4">
-                                    <div class="row g-5">
-                                        <div class="col-12 wow zoomIn" data-wow-delay="0.4s">
-                                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
-                                                <i class="fa fa-users-cog text-white"></i>
-                                            </div>
-                                            <h4>Professional Staff</h4>
-                                            <p class="mb-0">Magna sea eos sit dolor, ipsum amet lorem diam dolor eos et diam dolor</p>
-                                        </div>
-                                        <div class="col-12 wow zoomIn" data-wow-delay="0.8s">
-                                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
-                                                <i class="fa fa-phone-alt text-white"></i>
-                                            </div>
-                                            <h4>24/7 Support</h4>
-                                            <p class="mb-0">Magna sea eos sit dolor, ipsum amet lorem diam dolor eos et diam dolor</p>
-                                        </div>
-                                    </div>
-                                </div>
+                    </div>
+                    
+                    <div class="download-card p-4 bg-white">
+                        <div class="row align-items-center">
+                            <div class="col-md-1 text-center">
+                                <i class="fas fa-file-alt text-primary"></i>
+                            </div>
+                            <div class="col-md-8">
+                                <h5 class="fw-bold mb-1">BMS Integration Overview</h5>
+                                <small class="text-muted">Building management systems | 1.8 MB</small>
+                            </div>
+                            <div class="col-md-3 text-end">
+                                <a href="#" class="btn btn-primary">
+                                    <i class="fas fa-download me-1"></i> Download
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -302,262 +411,6 @@ get_header();
             </div>
         </div>
     </div>
-    <!-- VCS Projects End -->
-
-
-    <!-- Why Choose US Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="row g-5">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <h6 class="text-primary text-uppercase mb-2">Why Choose Us!</h6>
-                    <h1 class="display-6 mb-4">Reliable & Smart HVAC Engineering Solutions</h1>
-                    <p class="mb-5">
-                        At VCS ThermalAlliance, we deliver comprehensive, future-ready MEPF systems backed by digital tools, certified expertise, and sustainable design practices—ensuring smarter infrastructure across commercial, industrial, and pharma sectors.
-                    </p>
-                    <div class="row gy-5 gx-4">
-                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
-                            <div class="d-flex align-items-center mb-3">
-                                <div class="flex-shrink-0 btn-square bg-primary me-3">
-                                    <i class="fa fa-check text-white"></i>
-                                </div>
-                                <h5 class="mb-0">Certified Team</h5>
-                            </div>
-                            <span>Accredited by ICP, ISHRAE, and ASHRAE, our team brings deep technical knowledge.</span>
-                        </div>
-                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.2s">
-                            <div class="d-flex align-items-center mb-3">
-                                <div class="flex-shrink-0 btn-square bg-primary me-3">
-                                    <i class="fa fa-check text-white"></i>
-                                </div>
-                                <h5 class="mb-0">Digital Tools</h5>
-                            </div>
-                            <span>Proprietary calculators for heat load, duct sizing, and live project dashboards.</span>
-                        </div>
-                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
-                            <div class="d-flex align-items-center mb-3">
-                                <div class="flex-shrink-0 btn-square bg-primary me-3">
-                                    <i class="fa fa-check text-white"></i>
-                                </div>
-                                <h5 class="mb-0">Smart BMS</h5>
-                            </div>
-                            <span>Cloud-based Building Management Systems with remote control and real-time analytics.</span>
-                        </div>
-                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.4s">
-                            <div class="d-flex align-items-center mb-3">
-                                <div class="flex-shrink-0 btn-square bg-primary me-3">
-                                    <i class="fa fa-check text-white"></i>
-                                </div>
-                                <h5 class="mb-0">Sustainable Design</h5>
-                            </div>
-                            <span>Eco-friendly systems featuring green refrigerants, VFDs, EC fans, and energy recovery units.</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="position-relative overflow-hidden pe-5 pt-5 h-100" style="min-height: 400px;">
-                        <img class="position-absolute w-100 h-100" src="<?php bloginfo('template_directory'); ?>/img/feature.jpg" alt="" style="object-fit: cover;">
-                        <img class="position-absolute top-0 end-0 bg-white ps-3 pb-3" src="<?php bloginfo('template_directory'); ?>/img/about-1.jpg" alt="" style="width: 200px; height: 200px">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Why Choose US End -->
-
-
-    <!-- Success Projects Start -->
-    <div class="container-fluid success-stories py-5">
-        <div class="container py-5">
-            <!-- Heading -->
-            <div class="d-flex flex-column mx-auto text-center mb-5 wow fadeInUp" data-wow-delay="0.2s">
-                <h4 class="text-primary">Our Projects</h4>
-                <h1 class="display-6 mb-4 px-5">Excellence Through Engineering</h1>
-                <p class="mb-0">
-                    Explore how VCS ThermalAlliance has empowered leading organizations with smart MEPF solutions. Our work reflects precision, performance, and sustainability across healthcare, commercial, industrial, and residential projects.
-                </p>
-            </div>
-
-            <!-- Tabs + Content -->
-            <div class="row g-5 align-items-center">
-                <!-- Tabs -->
-                <div class="col-lg-3 wow fadeInLeft" data-wow-delay="0.2s">
-                    <ul class="nav">
-                        <li class="nav-item me-lg-0 mb-4">
-                            <a class="py-3 px-3 active" data-bs-toggle="pill" href="#SuccessTab-1">
-                                <span>Healthcare</span>
-                            </a>
-                        </li>
-                        <li class="nav-item me-lg-0 mb-4">
-                            <a class="py-3 px-3" data-bs-toggle="pill" href="#SuccessTab-2">
-                                <span>Commercial</span>
-                            </a>
-                        </li>
-                        <li class="nav-item me-lg-0 mb-4">
-                            <a class="py-3 px-3" data-bs-toggle="pill" href="#SuccessTab-3">
-                                <span>Industrial</span>
-                            </a>
-                        </li>
-                        <li class="nav-item me-lg-0 mb-4">
-                            <a class="py-3 px-3" data-bs-toggle="pill" href="#SuccessTab-4">
-                                <span>Residential</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-
-                <!-- Tab Content -->
-                <div class="col-lg-9 wow fadeInRight" data-wow-delay="0.3s">
-                    <div class="tab-content">
-                        <!-- Tab 1 -->
-                        <div id="SuccessTab-1" class="tab-pane fade show p-0 active">
-                            <div class="success-carousel owl-carousel">
-                                <!-- Item 1 -->
-                                <div class="success-item">
-                                    <img src="<?php bloginfo('template_directory'); ?>/img/feature.jpg"
-                                        class="img-fluid success-img-tab" alt="">
-                                    <div class="border border-top-0 p-4">
-                                        <h4 class="mb-3">Apollo Hospitals</h4>
-                                        <p class="mb-4">Implemented a complete HVAC system with HEPA filtration for critical care units, ensuring sterile environments and precise temperature control for patient comfort and medical equipment performance. The system meets all healthcare compliance standards.</p>
-                                        <a class="btn btn-primary py-2 px-4" href="#">Read More</a>
-                                    </div>
-                                </div>
-                                <!-- Item 2 -->
-                                <div class="success-item">
-                                    <img src="<?php bloginfo('template_directory'); ?>/img/feature.jpg"
-                                        class="img-fluid success-img-tab" alt="">
-                                    <div class="border border-top-0 p-4">
-                                        <h4 class="mb-3">Fortis Healthcare</h4>
-                                        <p class="mb-4">Designed and installed a specialized HVAC system for operation theaters with laminar airflow, maintaining ISO Class 5 cleanliness standards. The solution includes humidity control and air change rates as per medical requirements.</p>
-                                        <a class="btn btn-primary py-2 px-4" href="#">Read More</a>
-                                    </div>
-                                </div>
-                                <!-- Item 3 -->
-                                <div class="success-item">
-                                    <img src="<?php bloginfo('template_directory'); ?>/img/feature.jpg"
-                                        class="img-fluid success-img-tab" alt="">
-                                    <div class="border border-top-0 p-4">
-                                        <h4 class="mb-3">AIIMS Research Center</h4>
-                                        <p class="mb-4">Developed a custom HVAC solution for biomedical research laboratories, featuring precise environmental control for sensitive experiments while maintaining energy efficiency and silent operation in patient areas.</p>
-                                        <a class="btn btn-primary py-2 px-4" href="#">Read More</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Tab 2 -->
-                        <div id="SuccessTab-2" class="tab-pane fade show p-0">
-                            <div class="success-carousel owl-carousel">
-                                <!-- Item 1 -->
-                                <div class="success-item">
-                                    <img src="<?php bloginfo('template_directory'); ?>/img/feature.jpg"
-                                        class="img-fluid success-img-tab" alt="">
-                                    <div class="border border-top-0 p-4">
-                                        <h4 class="mb-3">Infinity IT Park</h4>
-                                        <p class="mb-4">Implemented a VRF-based HVAC system across 15 floors of the IT park, providing zoned temperature control with 30% energy savings. The project included smart controls for after-hours operation and maintenance optimization.</p>
-                                        <a class="btn btn-primary py-2 px-4" href="#">Read More</a>
-                                    </div>
-                                </div>
-                                <!-- Item 2 -->
-                                <div class="success-item">
-                                    <img src="<?php bloginfo('template_directory'); ?>/img/feature.jpg"
-                                        class="img-fluid success-img-tab" alt="">
-                                    <div class="border border-top-0 p-4">
-                                        <h4 class="mb-3">Phoenix Marketcity</h4>
-                                        <p class="mb-4">Designed and executed a complete MEPF solution for this large retail complex, including centralized air conditioning, ventilation systems, and energy recovery units to handle high foot traffic while maintaining air quality.</p>
-                                        <a class="btn btn-primary py-2 px-4" href="#">Read More</a>
-                                    </div>
-                                </div>
-                                <!-- Item 3 -->
-                                <div class="success-item">
-                                    <img src="<?php bloginfo('template_directory'); ?>/img/feature.jpg"
-                                        class="img-fluid success-img-tab" alt="">
-                                    <div class="border border-top-0 p-4">
-                                        <h4 class="mb-3">Taj Hotels</h4>
-                                        <p class="mb-4">Retrofitted the HVAC systems across guest rooms and public areas with silent operation units featuring individual climate control. The solution improved guest comfort while reducing energy consumption by 25%.</p>
-                                        <a class="btn btn-primary py-2 px-4" href="#">Read More</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Tab 3 -->
-                        <div id="SuccessTab-3" class="tab-pane fade show p-0">
-                            <div class="success-carousel owl-carousel">
-                                <!-- Item 1 -->
-                                <div class="success-item">
-                                    <img src="<?php bloginfo('template_directory'); ?>/img/feature.jpg"
-                                        class="img-fluid success-img-tab" alt="">
-                                    <div class="border border-top-0 p-4">
-                                        <h4 class="mb-3">Mahindra Vehicle Manufacturing</h4>
-                                        <p class="mb-4">Installed a heavy-duty ventilation and cooling system for the paint shop and assembly areas, designed to handle industrial contaminants while maintaining precise temperature control for manufacturing processes.</p>
-                                        <a class="btn btn-primary py-2 px-4" href="#">Read More</a>
-                                    </div>
-                                </div>
-                                <!-- Item 2 -->
-                                <div class="success-item">
-                                    <img src="<?php bloginfo('template_directory'); ?>/img/feature.jpg"
-                                        class="img-fluid success-img-tab" alt="">
-                                    <div class="border border-top-0 p-4">
-                                        <h4 class="mb-3">JSW Steel Plant</h4>
-                                        <p class="mb-4">Developed a specialized cooling system for control rooms and critical equipment areas that withstands high ambient temperatures while protecting sensitive electronics from dust and heat-related failures.</p>
-                                        <a class="btn btn-primary py-2 px-4" href="#">Read More</a>
-                                    </div>
-                                </div>
-                                <!-- Item 3 -->
-                                <div class="success-item">
-                                    <img src="<?php bloginfo('template_directory'); ?>/img/feature.jpg"
-                                        class="img-fluid success-img-tab" alt="">
-                                    <div class="border border-top-0 p-4">
-                                        <h4 class="mb-3">PepsiCo Beverage Facility</h4>
-                                        <p class="mb-4">Implemented a hygienic HVAC solution for the production floor meeting food-grade standards, with special attention to condensation control and air filtration to maintain product quality and safety.</p>
-                                        <a class="btn btn-primary py-2 px-4" href="#">Read More</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Tab 4 -->
-                        <div id="SuccessTab-4" class="tab-pane fade show p-0">
-                            <div class="success-carousel owl-carousel">
-                                <!-- Item 1 -->
-                                <div class="success-item">
-                                    <img src="<?php bloginfo('template_directory'); ?>/img/feature.jpg"
-                                        class="img-fluid success-img-tab" alt="">
-                                    <div class="border border-top-0 p-4">
-                                        <h4 class="mb-3">Lodha Luxury Towers</h4>
-                                        <p class="mb-4">Designed and installed a centralized HVAC system for this high-rise residential complex featuring individual apartment controls, energy recovery ventilation, and silent operation for premium living comfort.</p>
-                                        <a class="btn btn-primary py-2 px-4" href="#">Read More</a>
-                                    </div>
-                                </div>
-                                <!-- Item 2 -->
-                                <div class="success-item">
-                                    <img src="<?php bloginfo('template_directory'); ?>/img/feature.jpg"
-                                        class="img-fluid success-img-tab" alt="">
-                                    <div class="border border-top-0 p-4">
-                                        <h4 class="mb-3">Godrej Greens Township</h4>
-                                        <p class="mb-4">Implemented a sustainable HVAC solution for this eco-friendly residential development, incorporating geothermal cooling elements and smart zoning to reduce energy consumption while maintaining comfort.</p>
-                                        <a class="btn btn-primary py-2 px-4" href="#">Read More</a>
-                                    </div>
-                                </div>
-                                <!-- Item 3 -->
-                                <div class="success-item">
-                                    <img src="<?php bloginfo('template_directory'); ?>/img/feature.jpg"
-                                        class="img-fluid success-img-tab" alt="">
-                                    <div class="border border-top-0 p-4">
-                                        <h4 class="mb-3">Prestige Villas</h4>
-                                        <p class="mb-4">Custom-designed HVAC systems for luxury villas featuring smart home integration, allowing residents to control climate settings remotely while optimizing energy usage based on occupancy patterns.</p>
-                                        <a class="btn btn-primary py-2 px-4" href="#">Read More</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Success Projects End -->
 
 
     <!-- FAQ Start -->

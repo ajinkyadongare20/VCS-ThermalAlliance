@@ -208,6 +208,7 @@ h6,
 
     .navbar .navbar-nav {
         border-top: 1px solid #EEEEEE;
+        padding-left: 20px;
     }
 }
 
@@ -227,6 +228,49 @@ h6,
         visibility: visible;
         transition: .5s;
         opacity: 1;
+    }
+}
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 10px 1rem;
+    clear: both;
+    font-weight: 500;
+    color: #14183e;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0;
+    font-size: 0.95rem;
+}
+
+/* This code for mobile menu sub dropdown */
+@media (min-width: 320px) {
+    .navbar .nav-item .dropdown-menu {
+        display: block;
+        border: none;
+        margin-top: 0;
+        top: 150%;
+        opacity: 0;
+        visibility: hidden;
+        transition: .5s;
+    }
+
+    .navbar .nav-item:hover .dropdown-menu {
+        top: 100%;
+        visibility: visible;
+        transition: .5s;
+        opacity: 1;
+    }
+
+    ul.dropdown-menu {
+        display: none !important;
+    }
+
+    .menu-item.dropdown:hover ul.dropdown-menu {
+        display: block !important;
+        box-shadow: 0 0 12px rgb(196 185 185);
     }
 }
 
@@ -956,6 +1000,14 @@ h6,
 /*** Success Stories End ***/
 
 
+/*** Career Page ***/
+.career-img-fluid {
+    max-width: 100%;
+    height: 280px;
+    object-fit: cover;
+}
+
+
 /*** Footer ***/
 .footer {
     color: #B0B9AE;
@@ -1008,7 +1060,71 @@ h6,
     color: var(--bs-dark);
     background: var(--bs-light);
 }
+
 /*** FAQs End ***/
+
+
+/*** Blog Start ***/
+.blog .blog-item {
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.blog .blog-item:hover {
+    box-shadow: 0 0 45px rgba(0, 0, 0, .2);
+}
+
+.blog .blog-item .blog-img {
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+}
+
+.blog .blog-item .blog-img::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0.3);
+    transition: 0.5s;
+}
+
+.blog .blog-item:hover .blog-img::after {
+    height: 100%;
+}
+
+.blog .blog-item .blog-img img {
+    transition: 0.5s;
+}
+
+.blog .blog-item:hover .blog-img img {
+    transform: scale(1.2);
+}
+
+.blog .blog-item .blog-content {
+    position: relative;
+    background: var(--bs-light);
+}
+
+.blog .blog-item .blog-content .blog-date {
+    position: absolute;
+    top: 0;
+    left: 25px;
+    transform: translateY(-50%);
+    padding: 12px 25px;
+    /* border-radius: 10px; */
+    color: var(--bs-white);
+    background: var(--bs-primary);
+}
+
+.blog .blog-item .blog-content .blog-comment {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*** Blog End ***/
 
 
 /* VCS Projects Section */
@@ -1070,12 +1186,12 @@ h6,
     .vcs-projects .vcs-pills {
         justify-content: flex-start;
     }
-    
+
     .vcs-projects .vcs-pills .nav-link {
         padding: 10px 15px;
         font-size: 0.9rem;
     }
-    
+
     .vcs-icon {
         width: 35px;
         height: 35px;
@@ -1089,7 +1205,7 @@ h6,
         align-items: stretch;
         gap: 8px;
     }
-    
+
     .vcs-projects .vcs-pills .nav-link {
         white-space: normal;
         text-align: left;
@@ -1102,6 +1218,68 @@ h6,
 }
 
 @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(10px); }
-    to { opacity: 1; transform: translateY(0); }
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+
+
+.download-card {
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgb(196 185 185);
+    background-color: #fff;
+}
+
+.download-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    border-color: var(--accent-blue);
+}
+
+.filter-section {
+    background-color: var(--light-gray);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.section-divider {
+    border-top: 2px solid var(--primary-blue);
+    opacity: 0.2;
+    margin: 40px 0;
+}
+
+.btn-primary-custom {
+    background-color: var(--primary-blue);
+    border-color: var(--primary-blue);
+}
+
+.nav-pills .nav-link {
+    color: rgb(0, 0, 0);
+    border: 1px solid var(--bs-primary);
+    background: var(--bs-light);
+    margin: 5px;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #ffffff;
+}
+
+.accordion-item.mb-2.border-0 {
+    /* border: 1px solid var(--bs-primary); */
+    background: var(--bs-light);
+}
+
+.shadow-download {
+    border: none;
+    background-color: #fff;
+    box-shadow: none !important;
 }
