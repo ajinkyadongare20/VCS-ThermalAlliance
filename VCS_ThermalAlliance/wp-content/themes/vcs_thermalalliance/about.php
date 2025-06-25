@@ -82,7 +82,7 @@ get_header();
                 <!-- Right Column: Image Content -->
                 <div class="col-lg-5 wow fadeInRight" data-wow-delay="0.2s">
                     <div class="position-relative h-100">
-                        <img src="<?php bloginfo('template_directory'); ?>/img/about-1.jpg" class="img-fluid w-100 h-100" style="object-fit: cover;" alt="">
+                        <img src="<?php bloginfo('template_directory'); ?>/img/about/about_main1.jpg" class="img-fluid w-100 h-100" style="object-fit: cover;" alt="">
 
                         <div class="bg-white">
                             <div class="position-absolute pt-3 bg-white" style="width: 50%; left: 0; bottom: 0;">
@@ -92,7 +92,7 @@ get_header();
                                 </div>
                             </div>
                             <div class="position-absolute p-3 bg-white pb-0 pe-0" style="width: 50%; bottom: 0; right: 0;">
-                                <img src="<?php bloginfo('template_directory'); ?>/img/about-1.jpg" class="img-fluid" alt="">
+                                <img src="<?php bloginfo('template_directory'); ?>/img/about/about_main2.jpg" class="img-fluid" alt="">
                             </div>
                         </div>
                     </div>
@@ -155,7 +155,7 @@ get_header();
                     <div class="tab-content">
                         <div id="ProjectsTab-1" class="tab-pane fade show p-0 active">
                             <div class="projects-item">
-                                <img src="<?php bloginfo('template_directory'); ?>/img/service-2.jpg" class="img-fluid about-img-fluid" alt="">
+                                <img src="<?php bloginfo('template_directory'); ?>/img/about/Cleanroom HVAC Installations.jpg" class="img-fluid about-img-fluid" alt="">
                                 <div class="projects-content bg-white p-4">
                                     <h4 class="mb-3">Cleanroom HVAC Installations</h4>
                                     <p class="mb-4">
@@ -168,7 +168,7 @@ get_header();
 
                         <div id="ProjectsTab-2" class="tab-pane fade show p-0">
                             <div class="projects-item">
-                                <img src="<?php bloginfo('template_directory'); ?>/img/project-2.jpg" class="img-fluid about-img-fluid" alt="">
+                                <img src="<?php bloginfo('template_directory'); ?>/img/about/Turnkey Electrical Systems.jpg" class="img-fluid about-img-fluid" alt="">
                                 <div class="projects-content bg-white p-4">
                                     <h4 class="mb-3">Turnkey Electrical Systems</h4>
                                     <p class="mb-4">
@@ -181,7 +181,7 @@ get_header();
 
                         <div id="ProjectsTab-3" class="tab-pane fade show p-0">
                             <div class="projects-item">
-                                <img src="<?php bloginfo('template_directory'); ?>/img/project-3.jpg" class="img-fluid about-img-fluid" alt="">
+                                <img src="<?php bloginfo('template_directory'); ?>/img/about/Fire Safety Implementations.jpg" class="img-fluid about-img-fluid" alt="">
                                 <div class="projects-content bg-white p-4">
                                     <h4 class="mb-3">Fire Safety Implementations</h4>
                                     <p class="mb-4">
@@ -194,7 +194,7 @@ get_header();
 
                         <div id="ProjectsTab-4" class="tab-pane fade show p-0">
                             <div class="projects-item">
-                                <img src="<?php bloginfo('template_directory'); ?>/img/project-4.jpg" class="img-fluid about-img-fluid" alt="">
+                                <img src="<?php bloginfo('template_directory'); ?>/img/about/HVAC Systems for Industries.jpg" class="img-fluid about-img-fluid" alt="">
                                 <div class="projects-content bg-white p-4">
                                     <h4 class="mb-4">HVAC Systems for Industries</h4>
                                     <p class="mb-4">

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthcare Facility Solutions</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #0d6efd;
+            --secondary-color: #6c757d;
+            --light-bg: #f8f9fa;
+        }
+        
+        .solutions-section {
+            background-color: var(--light-bg);
+            padding: 80px 0;
+        }
+        
+        .solution-card {
+            border: none;
+            border-radius: 10px;
+            overflow: hidden;
+            transition: transform 0.3s, box-shadow 0.3s;
+            height: 100%;
+            background-color: white;
+        }
+        
+        .solution-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        
+        .solution-icon {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            margin-bottom: 15px;
+        }
+        
+        .solution-img {
+            height: 200px;
+            object-fit: cover;
+        }
+        
+        .badge-compliance {
+            background-color: #198754;
+        }
+        
+        @media (max-width: 768px) {
+            .solution-img {
+                height: 150px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Solutions Section -->
+    <section class="solutions-section">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h6 class="text-uppercase text-primary mb-3">Our Expertise</h6>
+                <h2 class="display-5 fw-bold mb-4">Healthcare Facility Solutions</h2>
+                <p class="lead text-muted mx-auto" style="max-width: 700px;">
+                    Comprehensive engineering solutions for modern healthcare facilities with strict compliance requirements
+                </p>
+            </div>
+            
+            <div class="row g-4">
+                <!-- HVAC Solution -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="solution-card shadow-sm">
+                        <img src="https://images.unsplash.com/photo-1581093196270-9a90ce6a1e6f" class="solution-img w-100" alt="HVAC System">
+                        <div class="p-4">
+                            <div class="solution-icon">
+                                <i class="fas fa-wind"></i>
+                            </div>
+                            <h4 class="mb-3">NABH-Compliant HVAC Systems</h4>
+                            <ul class="list-unstyled">
+                                <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>HEPA Filtration Systems</li>
+                                <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Precision Air Balancing</li>
+                                <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Pressure Differential Control</li>
+                            </ul>
+                            <span class="badge badge-compliance text-white mb-2">NABH Compliant</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- AHU Systems -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="solution-card shadow-sm">
+                        <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118" class="solution-img w-100" alt="AHU System">
+                        <div class="p-4">
+                            <div class="solution-icon">
+                                <i class="fas fa-hospital"></i>
+                            </div>
+                            <h4 class="mb-3">Specialized AHU Systems</h4>
+                            <ul class="list-unstyled">
+                                <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>OT & ICU Specific Solutions</li>
+                                <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>IVF Unit Air Handling</li>
+                                <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Differential Pressure Control</li>
+                            </ul>
+                            <span class="badge badge-compliance text-white mb-2">Critical Area Certified</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Fire Safety -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="solution-card shadow-sm">
+                        <img src="https://images.unsplash.com/photo-1605722243979-fe0be8158232" class="solution-img w-100" alt="Fire Safety System">
+                        <div class="p-4">
+                            <div class="solution-icon">
+                                <i class="fas fa-fire-extinguisher"></i>
+                            </div>
+                            <h4 class="mb-3">Fire Safety Systems</h4>
+                            <ul class="list-unstyled">
+                                <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Detection & Alarm Systems</li>
+                                <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Suppression Solutions</li>
+                                <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>NFPA/NBC Compliance</li>
+                            </ul>
+                            <span class="badge bg-danger text-white mb-2">NFPA Compliant</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Sterile Environments -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="solution-card shadow-sm">
+                        <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef" class="solution-img w-100" alt="Sterile Environment">
+                        <div class="p-4">
+                            <div class="solution-icon">
+                                <i class="fas fa-biohazard"></i>
+                            </div>
+                            <h4 class="mb-3">Sterile Environment Solutions</h4>
+                            <ul class="list-unstyled">
+                                <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Anti-Microbial Finishes</li>
+                                <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Cleanroom Panel Systems</li>
+                                <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Specialized Lighting</li>
+                            </ul>
+                            <span class="badge bg-info text-white mb-2">Infection Control</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Electrical Systems -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="solution-card shadow-sm">
+                        <img src="https://images.unsplash.com/photo-1508514177221-188b1cf16e9d" class="solution-img w-100" alt="Electrical System">
+                        <div class="p-4">
+                            <div class="solution-icon">
+                                <i class="fas fa-bolt"></i>
+                            </div>
+                            <h4 class="mb-3">Electrical Systems</h4>
+                            <ul class="list-unstyled">
+                                <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Emergency Backup Power</li>
+                                <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Nurse Call Systems</li>
+                                <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Building Management</li>
+                            </ul>
+                            <span class="badge bg-warning text-dark mb-2">Critical Power</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Plumbing & Medical Gas -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="solution-card shadow-sm">
+                        <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf" class="solution-img w-100" alt="Medical Gas System">
+                        <div class="p-4">
+                            <div class="solution-icon">
+                                <i class="fas fa-faucet"></i>
+                            </div>
+                            <h4 class="mb-3">Plumbing & Medical Gas</h4>
+                            <ul class="list-unstyled">
+                                <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Medical Gas Pipeline</li>
+                                <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Specialized Drainage</li>
+                                <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Oxygen/Vacuum Systems</li>
+                            </ul>
+                            <span class="badge bg-primary text-white mb-2">Medical Grade</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -36,16 +36,9 @@ get_header();
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="text-primary mb-3">HVAC Turnkey Projects & Solutionss</h2>
+                    <h2 class="text-primary mb-3">HVAC Turnkey Projects & Solutions</h2>
                     <p class="lead text-muted">
-                        VCS ThermalAlliance, we provide advanced HVAC turnkey solutions for commercial, industrial,
-                        pharmaceutical, and institutional projects. From smart system design to final commissioning, our
-                        processes are built for energy efficiency, air quality, and regulatory compliance. Our expert team
-                        ensures tailored environmental control, sustainable operations, and reliable performance to meet the
-                        highest standards across sectors. With a focus on smart automation, remote monitoring, and
-                        predictive maintenance.<br><br> we help clients minimize downtime and maximize lifecycle value. Whether it's
-                        cleanroom validation, thermal comfort optimization, or green building compliance, our comprehensive
-                        solutions are engineered for long-term success and superior indoor environments.
+                         VCS ThermalAlliance, we specialize in delivering end-to-end HVAC turnkey solutions designed for commercial, industrial, pharmaceutical, and institutional environments. Our services cover every stage—from precise system design to final commissioning—ensuring optimal energy efficiency, superior indoor air quality, and strict regulatory compliance. With a commitment to innovation and excellence, our expert team integrates advanced technologies to create sustainable, high-performance climate control systems that meet the most demanding operational and environmental standards.
                     </p>
                 </div>
             </div>
@@ -191,7 +184,7 @@ get_header();
     <!-- Projects End -->
 
 
-    <!-- Features Start -->
+    <!-- Why Choose US Start -->
     <div class="container-xxl py-5">
         <div class="container">
             <div class="row g-5">
@@ -249,7 +242,7 @@ get_header();
             </div>
         </div>
     </div>
-    <!-- Features End -->
+    <!-- Why Choose US End -->
 
 
     <!-- Success Stories Start -->

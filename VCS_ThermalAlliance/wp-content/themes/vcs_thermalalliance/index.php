@@ -20,7 +20,7 @@ get_header();
         <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="w-100" src="<?php bloginfo('template_directory'); ?>/img/carousel-1.jpg" alt="Image">
+                    <img class="w-100" src="<?php bloginfo('template_directory'); ?>/img/carousel-3.jpg" alt="Image">
                     <div class="carousel-caption">
                         <div class="container">
                             <div class="row justify-content-center">
@@ -34,7 +34,7 @@ get_header();
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="w-100" src="<?php bloginfo('template_directory'); ?>/img/carousel-2.jpg" alt="Image">
+                    <img class="w-100" src="<?php bloginfo('template_directory'); ?>/img/carousel-4.jpg" alt="Image">
                     <div class="carousel-caption">
                         <div class="container">
                             <div class="row justify-content-center">
@@ -71,10 +71,10 @@ get_header();
 				<div class="col-lg-6">
                     <div class="row gx-3 h-100">
                         <div class="col-6 align-self-start wow fadeInUp" data-wow-delay="0.1s">
-							<img class="img-fluid rounded" src="<?php bloginfo('template_directory'); ?>/img/about-1.jpg" alt="VCS Team at Work">
+							<img class="img-fluid rounded" src="<?php bloginfo('template_directory'); ?>/img/about-img-1.jpg" alt="VCS Team at Work">
                         </div>
                         <div class="col-6 align-self-end wow fadeInDown" data-wow-delay="0.1s">
-							<img class="img-fluid rounded" src="<?php bloginfo('template_directory'); ?>/img/about-2.jpg" alt="Project Execution">
+							<img class="img-fluid rounded" src="<?php bloginfo('template_directory'); ?>/img/about-img-2.jpg" alt="Project Execution">
                         </div>
                     </div>
                 </div>
@@ -234,7 +234,7 @@ get_header();
             <!-- Pharmaceutical Industry -->
             <div class="col-md-4">
                 <div class="card-box-a">
-                    <img src="<?php bloginfo('template_directory'); ?>/img/about-1.jpg" alt="Pharmaceuticals">
+                    <img src="<?php bloginfo('template_directory'); ?>/img/industries-pharmaceuticals.jpg" alt="Pharmaceuticals">
                     <div class="card-overlay-a-content">
                         <div class="card-header-a">
                             <h2 class="card-title-a"><a href="#">Pharmaceuticals</a></h2>
@@ -261,7 +261,7 @@ get_header();
             <!-- Healthcare Industry -->
             <div class="col-md-4">
                 <div class="card-box-a">
-                    <img src="<?php bloginfo('template_directory'); ?>/img/about-2.jpg" alt="Healthcare">
+                    <img src="<?php bloginfo('template_directory'); ?>/img/industries-healthcare.jpg" alt="Healthcare">
                     <div class="card-overlay-a-content">
                         <div class="card-header-a">
                             <h2 class="card-title-a"><a href="#">Healthcare</a></h2>
@@ -288,7 +288,7 @@ get_header();
             <!-- Commercial Real Estate -->
             <div class="col-md-4">
                 <div class="card-box-a">
-                    <img src="<?php bloginfo('template_directory'); ?>/img/about-1.jpg" alt="Commercial Real Estate">
+                    <img src="<?php bloginfo('template_directory'); ?>/img/industries-real_eastate.jpg" alt="Commercial Real Estate">
                     <div class="card-overlay-a-content">
                         <div class="card-header-a">
                             <h2 class="card-title-a"><a href="#">Commercial Real Estate</a></h2>
@@ -315,7 +315,7 @@ get_header();
             <!-- Food & Beverage -->
             <div class="col-md-4">
                 <div class="card-box-a">
-                    <img src="<?php bloginfo('template_directory'); ?>/img/about-2.jpg" alt="Food & Beverage">
+                    <img src="<?php bloginfo('template_directory'); ?>/img/industries-food_beverage.jpg" alt="Food & Beverage">
                     <div class="card-overlay-a-content">
                         <div class="card-header-a">
                             <h2 class="card-title-a"><a href="#">Food & Beverage</a></h2>
@@ -342,7 +342,7 @@ get_header();
             <!-- Data Centers -->
             <div class="col-md-4">
                 <div class="card-box-a">
-                    <img src="<?php bloginfo('template_directory'); ?>/img/about-2.jpg" alt="Data Centers">
+                    <img src="<?php bloginfo('template_directory'); ?>/img/industries-data_centers.jpg" alt="Data Centers">
                     <div class="card-overlay-a-content">
                         <div class="card-header-a">
                             <h2 class="card-title-a"><a href="#">Data Centers</a></h2>
@@ -369,7 +369,7 @@ get_header();
             <!-- Industrial Manufacturing -->
             <div class="col-md-4">
                 <div class="card-box-a">
-                    <img src="<?php bloginfo('template_directory'); ?>/img/about-1.jpg" alt="Industrial Manufacturing">
+                    <img src="<?php bloginfo('template_directory'); ?>/img/industries-industrial_manufacturing.jpg" alt="Industrial Manufacturing">
                     <div class="card-overlay-a-content">
                         <div class="card-header-a">
                             <h2 class="card-title-a"><a href="#">Industrial Manufacturing</a></h2>
@@ -543,7 +543,7 @@ get_header();
             <div class="row g-5 align-items-center">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="position-relative me-lg-4">
-                        <img class="img-fluid w-100" src="<?php bloginfo('template_directory'); ?>/img/feature.jpg" alt="">
+                        <img class="img-fluid w-100" src="<?php bloginfo('template_directory'); ?>/img/professionals_engineering.jpg" alt="">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
@@ -605,9 +605,9 @@ get_header();
             <div class="row gy-5 gx-4">
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item">
-                        <img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/img/service-1.jpg" alt="">
+                        <img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/img/HVAC & Cleanroom Solutions.jpg" alt="HVAC & Cleanroom Solutions">
                         <div class="service-img">
-                            <img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/img/service-1.jpg" alt="">
+                            <img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/img/HVAC & Cleanroom Solutions.jpg" alt="HVAC & Cleanroom Solutions">
                         </div>
                         <div class="service-detail">
                             <div class="service-title">
@@ -624,9 +624,9 @@ get_header();
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="service-item">
-                        <img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/img/service-2.jpg" alt="">
+                        <img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/img/Electrical & Fire Safety.jpg" alt="Electrical & Fire Safety">
                         <div class="service-img">
-                            <img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/img/service-2.jpg" alt="">
+                            <img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/img/Electrical & Fire Safety.jpg" alt="Electrical & Fire Safety">
                         </div>
                         <div class="service-detail">
                             <div class="service-title">
@@ -643,9 +643,9 @@ get_header();
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="service-item">
-                        <img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/img/service-3.jpg" alt="">
+                        <img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/img/Plumbing & Utility Piping.jpg" alt="Plumbing & Utility Piping">
                         <div class="service-img">
-                            <img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/img/service-3.jpg" alt="">
+                            <img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/img/Plumbing & Utility Piping.jpg" alt="Plumbing & Utility Piping">
                         </div>
                         <div class="service-detail">
                             <div class="service-title">

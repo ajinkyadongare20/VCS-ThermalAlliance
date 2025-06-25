@@ -31,7 +31,6 @@ get_header();
     <!-- Page Header End -->
 
 
-
     <!-- Introduction Start -->
     <!-- <div class="container-fluid bg-white py-5">
         <div class="container">
@@ -313,7 +312,7 @@ get_header();
     </div>
     <!-- Quote End -->
 
-    
+
 <?php
 // get_sidebar();
 get_footer();

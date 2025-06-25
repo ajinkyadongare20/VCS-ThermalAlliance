@@ -1007,6 +1007,46 @@ h6,
     object-fit: cover;
 }
 
+.company-culture-img {
+    width: 100%;
+    height: 100%;
+}
+
+/*** Life at VCS Section ***/
+.life-at-vcs .rounded-circle {
+    transition: all 0.3s ease;
+}
+
+.life-at-vcs .shadow {
+    transition: all 0.3s ease;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.life-at-vcs .shadow:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+}
+
+.life-at-vcs .shadow:hover .rounded-circle {
+    background-color: #2c5b8e !important;
+    transform: rotateY(180deg);
+}
+
+.life-at-vcs p {
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*** Life at VCM ***/
+.vcm-life img {
+    transition: .5s;
+}
+
+.vcm-life a:hover img {
+    transform: scale(1.1);
+}
 
 /*** Footer ***/
 .footer {
@@ -1282,4 +1322,10 @@ h6,
     border: none;
     background-color: #fff;
     box-shadow: none !important;
+}
+
+
+/*** Food Menu ***/
+.nav-pills .nav-item .active {
+    border-bottom: 2px solid var(--primary);
 }
