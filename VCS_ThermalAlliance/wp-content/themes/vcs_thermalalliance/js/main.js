@@ -181,3 +181,9 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 });
 
+document.addEventListener('wpcf7mailsent', function (event) {
+  // Replace this with your custom toast code
+  alert('✅ Message sent!');
+}, false);
+
+

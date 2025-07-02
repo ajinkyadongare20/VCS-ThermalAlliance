@@ -222,7 +222,7 @@ get_header();
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item">
-                        <img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/img/7.jpg" alt="">
+                        <img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/img/index/1.jpg" alt="">
                         <div class="d-flex">
                             <div class="flex-shrink-0 btn-square bg-primary" style="width: 90px; height: 90px;">
                                 <i class="fa fa-2x fa-share text-white"></i>
@@ -241,7 +241,7 @@ get_header();
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="team-item">
-                        <img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/img/5.jpg" alt="">
+                        <img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/img/index/2.jpg" alt="">
                         <div class="d-flex">
                             <div class="flex-shrink-0 btn-square bg-primary" style="width: 90px; height: 90px;">
                                 <i class="fa fa-2x fa-share text-white"></i>
@@ -260,7 +260,7 @@ get_header();
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="team-item">
-                        <img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/img/6.jpg" alt="">
+                        <img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/img/index/3.jpg" alt="">
                         <div class="d-flex">
                             <div class="flex-shrink-0 btn-square bg-primary" style="width: 90px; height: 90px;">
                                 <i class="fa fa-2x fa-share text-white"></i>
@@ -284,7 +284,7 @@ get_header();
 
 
     <!-- Team Start -->
-    <div class="container-fluid team py-5">
+    <!-- <div class="container-fluid team py-5">
         <div class="container py-5">
             <div class="d-flex flex-column mx-auto text-center mb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                 <h4 class="text-primary">Our Team</h4>
@@ -294,7 +294,6 @@ get_header();
                 </p>
             </div>
             <div class="row g-5">
-                <!-- 1 -->
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item about-team-item">
                         <div class="team-img">
@@ -312,7 +311,6 @@ get_header();
                         </div>
                     </div>
                 </div>
-                <!-- 2 -->
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
                     <div class="team-item about-team-item">
                         <div class="team-img">
@@ -330,7 +328,6 @@ get_header();
                         </div>
                     </div>
                 </div>
-                <!-- 3 -->
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="team-item about-team-item">
                         <div class="team-img">
@@ -348,7 +345,6 @@ get_header();
                         </div>
                     </div>
                 </div>
-                <!-- 4 -->
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
                     <div class="team-item about-team-item">
                         <div class="team-img">
@@ -366,7 +362,6 @@ get_header();
                         </div>
                     </div>
                 </div>
-                <!-- 5 -->
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="team-item about-team-item">
                         <div class="team-img">
@@ -384,7 +379,6 @@ get_header();
                         </div>
                     </div>
                 </div>
-                <!-- 6 -->
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
                     <div class="team-item about-team-item">
                         <div class="team-img">
@@ -404,7 +398,7 @@ get_header();
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Team End -->
 
 
@@ -489,7 +483,7 @@ get_header();
                             <div class="row g-4">
                                 <div class="col-md-6" style="min-height: 350px;">
                                     <div class="position-relative h-100">
-                                        <img class="position-absolute rounded w-100 h-100" src="<?php bloginfo('template_directory'); ?>/img/project-1.jpg" style="object-fit: cover;" alt="">
+                                        <img class="position-absolute rounded w-100 h-100" src="<?php bloginfo('template_directory'); ?>/img/about/Smart Building Integration.jpg" style="object-fit: cover;" alt="">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
@@ -508,7 +502,7 @@ get_header();
                             <div class="row g-4">
                                 <div class="col-md-6" style="min-height: 350px;">
                                     <div class="position-relative h-100">
-                                        <img class="position-absolute rounded w-100 h-100" src="<?php bloginfo('template_directory'); ?>/img/project-2.jpg" style="object-fit: cover;" alt="">
+                                        <img class="position-absolute rounded w-100 h-100" src="<?php bloginfo('template_directory'); ?>/img/about/Digital Design & BIM Integration.jpg" style="object-fit: cover;" alt="">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
@@ -526,7 +520,7 @@ get_header();
                             <div class="row g-4">
                                 <div class="col-md-6" style="min-height: 350px;">
                                     <div class="position-relative h-100">
-                                        <img class="position-absolute rounded w-100 h-100" src="<?php bloginfo('template_directory'); ?>/img/project-3.jpg" style="object-fit: cover;" alt="">
+                                        <img class="position-absolute rounded w-100 h-100" src="<?php bloginfo('template_directory'); ?>/img/about/Custom Software Solutions.jpg" style="object-fit: cover;" alt="">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
@@ -544,7 +538,7 @@ get_header();
                             <div class="row g-4">
                                 <div class="col-md-6" style="min-height: 350px;">
                                     <div class="position-relative h-100">
-                                        <img class="position-absolute rounded w-100 h-100" src="<?php bloginfo('template_directory'); ?>/img/project-4.jpg" style="object-fit: cover;" alt="">
+                                        <img class="position-absolute rounded w-100 h-100" src="<?php bloginfo('template_directory'); ?>/img/about/Energy Optimization & Sustainability.jpg" style="object-fit: cover;" alt="">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
@@ -616,6 +610,79 @@ get_header();
         </div>
     </div>
     <!-- Testimonial End -->
+
+
+    <!-- Quote Start -->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-7">
+                    <div class="section-title position-relative pb-3 mb-5">
+                        <h5 class="fw-bold text-primary text-uppercase">Request A Quote</h5>
+                        <h1 class="mb-0">Let’s Start Your Project—Request a Personalized Quote</h1>
+                    </div>
+                    <div class="row gx-3">
+                        <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
+                            <h5 class="mb-4"><i class="fa fa-reply text-primary me-3"></i>Response within 24 business hours</h5>
+                        </div>
+                        <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s">
+                            <h5 class="mb-4"><i class="fa fa-headset text-primary me-3"></i>Dedicated Technical Support</h5>
+                        </div>
+                    </div>
+                    <p class="mb-4">
+                        Looking to get started with HVAC, Cleanroom, MEPF, or Fire Safety projects? Our team at VCS ThermalAlliance is here to assist with tailored quotes, project consultations, and end-to-end solution planning.
+                        Fill out the form and our experts will connect with you promptly.
+                    </p>
+                    <div class="d-flex align-items-center mt-2 wow zoomIn" data-wow-delay="0.6s">
+                        <div class="bg-primary d-flex align-items-center justify-content-center rounded" style="width: 60px; height: 60px;">
+                            <i class="fa fa-phone-alt text-white"></i>
+                        </div>
+                        <div class="ps-4">
+                            <h5 class="mb-2">Need immediate assistance?</h5>
+                            <h4 class="text-primary mb-0">+91 7709237117</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="bg-primary rounded h-100 d-flex align-items-center p-5 wow zoomIn" data-wow-delay="0.9s">
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-12">
+                                    <input type="text" class="form-control bg-light border-0" placeholder="Your Name *" style="height: 55px;" required>
+                                </div>
+                                <div class="col-12">
+                                    <input type="text" class="form-control bg-light border-0" placeholder="Company Name" style="height: 55px;">
+                                </div>
+                                <div class="col-12">
+                                    <input type="email" class="form-control bg-light border-0" placeholder="Email Address *" style="height: 55px;" required>
+                                </div>
+                                <div class="col-12">
+                                    <input type="tel" class="form-control bg-light border-0" placeholder="Phone Number" style="height: 55px;">
+                                </div>
+                                <div class="col-12">
+                                    <select class="form-select bg-light border-0" style="height: 55px;" required>
+                                        <option selected disabled>Type of Inquiry *</option>
+                                        <option value="new-project">New Project</option>
+                                        <option value="tech-support">Technical Support</option>
+                                        <option value="career">Career</option>
+                                        <option value="vendor">Vendor</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                </div>
+                                <div class="col-12">
+                                    <textarea class="form-control bg-light border-0" rows="3" placeholder="Your Message"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-dark w-100 py-3" type="submit">Submit Your Inquiry</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Quote End -->
 
 
 <?php

@@ -18,12 +18,12 @@ get_header();
     <!-- Page Header Start -->
     <div class="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
-            <h1 class="display-3 text-white animated slideInRight">HVAC Solutions</h1>
+            <h1 class="display-3 text-white animated slideInRight">Cleanroom Solutions</h1>
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb animated slideInRight mb-0">
                     <li class="breadcrumb-item"><a href="#">Services</a></li>
                     <li class="breadcrumb-item"><a href="#">Pages</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">HVAC Turnkey Projects & Solutions</li>
+                    <li class="breadcrumb-item active" aria-current="page">Cleanroom Design & Build Services</li>
                 </ol>
             </nav>
         </div>
@@ -36,16 +36,9 @@ get_header();
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="text-primary mb-3">HVAC Turnkey Projects & Solutionss</h2>
+                    <h2 class="text-primary mb-3">Cleanroom Design & Build Services</h2>
                     <p class="lead text-muted">
-                        VCS ThermalAlliance, we provide advanced HVAC turnkey solutions for commercial, industrial,
-                        pharmaceutical, and institutional projects. From smart system design to final commissioning, our
-                        processes are built for energy efficiency, air quality, and regulatory compliance. Our expert team
-                        ensures tailored environmental control, sustainable operations, and reliable performance to meet the
-                        highest standards across sectors. With a focus on smart automation, remote monitoring, and
-                        predictive maintenance.<br><br> we help clients minimize downtime and maximize lifecycle value. Whether it's
-                        cleanroom validation, thermal comfort optimization, or green building compliance, our comprehensive
-                        solutions are engineered for long-term success and superior indoor environments.
+                        At VCS ThermalAlliance, we specialize in designing and executing turnkey modular cleanroom solutions for pharmaceutical, biotech, healthcare, electronics, and food industries. Our cleanrooms are engineered to meet international standards like ISO 14644 and cGMP, with precision HVAC systems, HEPA filtration, pressure gradients, and real-time monitoring via BMS. From panel-based modular interiors to air handling systems and protocol validations, we ensure contamination control and regulatory compliance across all classifications—from ISO Class 5 to Class 8. Whether you're building new facilities or retrofitting existing ones, our in-house team provides layout planning, URS documentation, validation protocols, and post-handover maintenance, ensuring a fully integrated and future-ready controlled environment.
                     </p>
                 </div>
             </div>
@@ -60,14 +53,10 @@ get_header();
             <div class="row g-5">
                 <div class="col-lg-5 wow fadeInLeft" data-wow-delay="0.2s">
                     <div>
-                        <h4 class="text-primary">HVAC Turnkey Projects & Solutions</h4>
-                        <h1 class="display-6 mb-4">Engineered Comfort. Delivered with Precision.</h1>
+                        <h4 class="text-primary">Cleanroom Project Expertise</h4>
+                        <h1 class="display-6 mb-4">Controlled Environments. Guaranteed Compliance.</h1>
                         <p class="mb-5">
-                            Discover how VCS ThermalAlliance brings expertise and innovation to MEPF projects. From planning
-                            to execution, our solutions ensure performance, safety, and long-term efficiency for every
-                            industrial and commercial need.
-                            We integrate smart technologies and sustainable methods tailored for healthcare, pharma, IT, and
-                            cleanroom environments.
+                            VCS ThermalAlliance specializes in end-to-end modular cleanroom services—from architectural layout and ISO classification to HVAC integration and validation protocols. Our projects meet the demands of pharmaceutical, biotech, healthcare, and electronic sectors by achieving particle control, pressure zoning, and hygienic design as per international standards. With BMS integration and sustainable material use, we ensure reliability and compliance at every phase.
                         </p>
                         <ul class="nav">
                             <li class="nav-item bg-white mb-4 w-100">
@@ -83,18 +72,18 @@ get_header();
                                 <a class="d-flex align-items-center h4 mb-0 p-3" data-bs-toggle="pill"
                                     href="#ProjectsTab-2">
                                     <div class="projects-icon btn-md-square bg-primary text-white me-3">
-                                        <span class="fas fa-plug small"></span>
+                                        <span class="fas fa-th-large small"></span>
                                     </div>
-                                    <span>Turnkey Electrical Systems</span>
+                                    <span>Modular Cleanroom Construction</span>
                                 </a>
                             </li>
                             <li class="nav-item bg-white mb-4 w-100">
                                 <a class="d-flex align-items-center h4 mb-0 p-3" data-bs-toggle="pill"
                                     href="#ProjectsTab-3">
                                     <div class="projects-icon btn-md-square bg-primary text-white me-3">
-                                        <span class="fas fa-fire-extinguisher small"></span>
+                                        <span class="fas fa-file-alt small"></span>
                                     </div>
-                                    <span>Fire Safety Implementations</span>
+                                    <span>Validation & Compliance Support</span>
                                 </a>
                             </li>
                             <li class="nav-item bg-white mb-4 w-100">
@@ -103,7 +92,7 @@ get_header();
                                     <div class="projects-icon btn-md-square bg-primary text-white me-3">
                                         <span class="fas fa-industry small"></span>
                                     </div>
-                                    <span>HVAC Systems for Industries</span>
+                                    <span>Industry-Specific Solutions</span>
                                 </a>
                             </li>
                         </ul>
@@ -113,19 +102,12 @@ get_header();
                     <div class="tab-content">
                         <div id="ProjectsTab-1" class="tab-pane fade show p-0 active">
                             <div class="projects-item">
-                                <img src="<?php bloginfo('template_directory'); ?>/img/service-2.jpg"
-                                    class="img-fluid about-img-fluid" alt="">
+                                <img src="<?php bloginfo('template_directory'); ?>/img/cleanroom_solutions/Cleanroom HVAC Installations.jpg"
+                                    class="img-fluid about-img-fluid" alt="Cleanroom HVAC">
                                 <div class="projects-content bg-white p-4">
                                     <h4 class="mb-3">Cleanroom HVAC Installations</h4>
                                     <p class="mb-4">
-                                        VCS ThermalAlliance delivers ultra-clean HVAC systems tailored for pharmaceutical
-                                        and semiconductor cleanrooms. Our systems maintain strict temperature, humidity, and
-                                        air quality control to ensure contamination-free environments compliant with
-                                        international standards and industry protocols.
-                                        We also offer chilled water systems, VRF units, fresh air ventilation, ductable
-                                        splits, HEPA filtration, and BMS-integrated smart controls for hospitals,
-                                        laboratories, ICUs, and other sterile environments requiring precision-engineered
-                                        air quality.
+                                        VCS ThermalAlliance offers highly efficient HVAC installations tailored specifically for modular cleanroom environments. Our systems are designed to deliver ISO 14644-classified air quality with precise temperature, humidity, and pressure controls. We integrate HEPA filters, terminal boxes, ducted AHUs, and VFD-enabled fans to ensure optimal airflow with minimal contamination risk. From laminar airflow setups to air balancing and AHU zoning, our HVAC systems are engineered for pharmaceutical, biotech, electronics, and healthcare cleanrooms. These systems support Class 100 to Class 100,000 operations and are fully integrated with BMS for real-time performance monitoring and control. We ensure compliance with cGMP, WHO-GMP, and national fire and safety codes. Whether for new builds or retrofit projects, our HVAC installations ensure long-term performance, energy savings, and regulatory confidence.
                                     </p>
                                     <a class="btn btn-primary py-2 px-4" href="#">Read More</a>
                                 </div>
@@ -133,19 +115,12 @@ get_header();
                         </div>
                         <div id="ProjectsTab-2" class="tab-pane fade show p-0">
                             <div class="projects-item">
-                                <img src="<?php bloginfo('template_directory'); ?>/img/project-2.jpg"
-                                    class="img-fluid about-img-fluid" alt="">
+                                <img src="<?php bloginfo('template_directory'); ?>/img/cleanroom_solutions/Modular Cleanroom Construction.jpg"
+                                    class="img-fluid about-img-fluid" alt="Cleanroom Construction">
                                 <div class="projects-content bg-white p-4">
-                                    <h4 class="mb-3">Turnkey Electrical Systems</h4>
+                                    <h4 class="mb-3">Modular Cleanroom Construction</h4>
                                     <p class="mb-4">
-                                        We offer end-to-end electrical solutions for commercial buildings and industrial
-                                        plants. From designing the layout to final installation, our turnkey approach
-                                        ensures safe, scalable, and efficient electrical distribution systems tailored to
-                                        your project requirements.
-                                        Our capabilities include HVAC design with HAP & Revit, OEM coordination, ducting
-                                        fabrication, insulation, commissioning, system retrofits, energy audits, AMC
-                                        services, remote support, and comprehensive training to maintain system longevity
-                                        and compliance.
+                                        Our turnkey modular cleanroom construction services include the design, supply, and installation of PUF, EPS, and Rockwool partition panels, along with cleanroom-grade ceilings, walls, view panels, and doors. We ensure seamless integration of cleanroom architecture with HVAC systems, electrical utilities, lighting, and flooring. From ISO Class 8 down to ISO Class 5, we create clean spaces that meet stringent regulatory standards. Our in-house team uses pre-engineered modular solutions to allow for faster deployment and easy expansion or retrofitting. With a focus on hygiene, particle containment, and ergonomic utility layout, our construction practices are validated and audit-ready. Ideal for pharma, food, medical devices, and microelectronics industries, our cleanrooms offer a balance of functionality, flexibility, and operational compliance across varied applications.
                                     </p>
                                     <a class="btn btn-primary py-2 px-4" href="#">Read More</a>
                                 </div>
@@ -153,15 +128,12 @@ get_header();
                         </div>
                         <div id="ProjectsTab-3" class="tab-pane fade show p-0">
                             <div class="projects-item">
-                                <img src="<?php bloginfo('template_directory'); ?>/img/project-3.jpg"
-                                    class="img-fluid about-img-fluid" alt="">
+                                <img src="<?php bloginfo('template_directory'); ?>/img/cleanroom_solutions/Validation & Compliance Support.jpg"
+                                    class="img-fluid about-img-fluid" alt="Cleanroom Validation">
                                 <div class="projects-content bg-white p-4">
-                                    <h4 class="mb-3">Fire Safety Implementations</h4>
+                                    <h4 class="mb-3">Validation & Compliance Support</h4>
                                     <p class="mb-4">
-                                        We engineer and install comprehensive fire protection systems including smoke
-                                        detection, sprinklers, alarms, and suppression setups. Our fire safety designs
-                                        comply with all safety codes to secure assets and ensure human safety in critical
-                                        environments.
+                                        VCS ThermalAlliance ensures your cleanroom project doesn’t just get built—it gets certified. We offer complete validation and documentation support including URS generation, DQ, IQ, OQ, and PQ protocols aligned with ISO 14644 and WHO-GMP guidelines. Our validation scope covers cleanroom envelope testing, HVAC performance checks, HEPA integrity tests, airflow pattern visualizations (smoke test), and pressure differential mapping. Additionally, our systems integrate seamlessly with BMS platforms for real-time monitoring, alerts, and audit trails. With thorough documentation and pre-audit checklists, we prepare your cleanroom for national and international inspections. Whether it’s for new facility qualification or periodic revalidation, our experts guide you through every technical and regulatory milestone to ensure successful commissioning and long-term certification.
                                     </p>
                                     <a class="btn btn-primary py-2 px-4" href="#">Read More</a>
                                 </div>
@@ -169,15 +141,12 @@ get_header();
                         </div>
                         <div id="ProjectsTab-4" class="tab-pane fade show p-0">
                             <div class="projects-item">
-                                <img src="<?php bloginfo('template_directory'); ?>/img/project-4.jpg"
-                                    class="img-fluid about-img-fluid" alt="">
+                                <img src="<?php bloginfo('template_directory'); ?>/img/cleanroom_solutions/Industry-Specific Solutions.jpg"
+                                    class="img-fluid about-img-fluid" alt="Industry Cleanroom Solutions">
                                 <div class="projects-content bg-white p-4">
-                                    <h4 class="mb-4">HVAC Systems for Industries</h4>
+                                    <h4 class="mb-4">Industry-Specific Solutions</h4>
                                     <p class="mb-4">
-                                        VCS ThermalAlliance specializes in large-scale HVAC systems that regulate air
-                                        quality, ventilation, and temperature for manufacturing units. Our solutions are
-                                        energy-efficient, sustainable, and designed to support continuous operation with
-                                        minimal downtime.
+                                        VCS designs and delivers cleanroom solutions customized for varied industry requirements—be it sterile pharma production, biotech research, food-grade processing, medical device assembly, or precision electronics manufacturing. Each project begins with a detailed fire load and contamination risk assessment followed by layout optimization, HVAC zoning, and clean utility integration. We address specific industry standards such as FDA, ISO 14644, WHO-GMP, or EU-GMP while designing for energy efficiency, maintainability, and audit-readiness. Our expertise includes high-hygiene environments, pass box integration, biosafety cabinets, cleanroom-compatible MEPF coordination, and differential pressure logic. With an emphasis on sustainability, we also integrate energy recovery units, low-emission materials, and LED sterile lighting to meet performance, compliance, and environmental goals across sectors.
                                     </p>
                                     <a class="btn btn-primary py-2 px-4" href="#">Read More</a>
                                 </div>
@@ -191,15 +160,15 @@ get_header();
     <!-- Projects End -->
 
 
-    <!-- Features Start -->
+    <!-- Why Choose US Start -->
     <div class="container-xxl py-5">
         <div class="container">
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                     <h6 class="text-primary text-uppercase mb-2">Why Choose Us!</h6>
-                    <h1 class="display-6 mb-4">Reliable & Smart HVAC Engineering Solutions</h1>
+                    <h1 class="display-6 mb-4">Trusted Experts in Cleanroom Engineering</h1>
                     <p class="mb-5">
-                        At VCS ThermalAlliance, we deliver comprehensive, future-ready MEPF systems backed by digital tools, certified expertise, and sustainable design practices—ensuring smarter infrastructure across commercial, industrial, and pharma sectors.
+                        At VCS ThermalAlliance, we combine in-house expertise, regulatory knowledge, and precision execution to deliver world-class modular cleanroom solutions. From concept to commissioning, we ensure every cleanroom meets ISO standards and industry-specific guidelines across pharma, biotech, electronics, and food processing sectors. With end-to-end control over HVAC, BMS, panels, lighting, and accessories, we help clients achieve audit-ready facilities with speed, quality, and hygiene built into every phase.
                     </p>
                     <div class="row gy-5 gx-4">
                         <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
@@ -207,49 +176,49 @@ get_header();
                                 <div class="flex-shrink-0 btn-square bg-primary me-3">
                                     <i class="fa fa-check text-white"></i>
                                 </div>
-                                <h5 class="mb-0">Certified Team</h5>
+                                <h5 class="mb-0">Compliance Expertise</h5>
                             </div>
-                            <span>Accredited by ICP, ISHRAE, and ASHRAE, our team brings deep technical knowledge.</span>
+                            <span>We ensure ISO, cGMP, WHO-GMP, and FDA-compliant cleanroom designs for critical environments.</span>
                         </div>
                         <div class="col-sm-6 wow fadeIn" data-wow-delay="0.2s">
                             <div class="d-flex align-items-center mb-3">
                                 <div class="flex-shrink-0 btn-square bg-primary me-3">
                                     <i class="fa fa-check text-white"></i>
                                 </div>
-                                <h5 class="mb-0">Digital Tools</h5>
+                                <h5 class="mb-0">Integrated HVAC & BMS</h5>
                             </div>
-                            <span>Proprietary calculators for heat load, duct sizing, and live project dashboards.</span>
+                            <span>Our cleanroom systems include HEPA-filtered HVAC and smart BMS for environment control and monitoring.</span>
                         </div>
                         <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
                             <div class="d-flex align-items-center mb-3">
                                 <div class="flex-shrink-0 btn-square bg-primary me-3">
                                     <i class="fa fa-check text-white"></i>
                                 </div>
-                                <h5 class="mb-0">Smart BMS</h5>
+                                <h5 class="mb-0">Modular Panel Systems</h5>
                             </div>
-                            <span>Cloud-based Building Management Systems with remote control and real-time analytics.</span>
+                            <span>PUF, EPS, and Rockwool partition panels with cleanroom-grade finish and insulation properties.</span>
                         </div>
                         <div class="col-sm-6 wow fadeIn" data-wow-delay="0.4s">
                             <div class="d-flex align-items-center mb-3">
                                 <div class="flex-shrink-0 btn-square bg-primary me-3">
                                     <i class="fa fa-check text-white"></i>
                                 </div>
-                                <h5 class="mb-0">Sustainable Design</h5>
+                                <h5 class="mb-0">One-Stop Delivery</h5>
                             </div>
-                            <span>Eco-friendly systems featuring green refrigerants, VFDs, EC fans, and energy recovery units.</span>
+                            <span>We handle layout, URS, validation (DQ/IQ/OQ/PQ), retrofits, and handover with AMC support.</span>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="position-relative overflow-hidden pe-5 pt-5 h-100" style="min-height: 400px;">
-                        <img class="position-absolute w-100 h-100" src="<?php bloginfo('template_directory'); ?>/img/feature.jpg" alt="" style="object-fit: cover;">
-                        <img class="position-absolute top-0 end-0 bg-white ps-3 pb-3" src="<?php bloginfo('template_directory'); ?>/img/about-1.jpg" alt="" style="width: 200px; height: 200px">
+                        <img class="position-absolute w-100 h-100" src="<?php bloginfo('template_directory'); ?>/img/cleanroom_solutions/Trusted Experts in Cleanroom Engineering.jpg" alt="" style="object-fit: cover;">
+                        <img class="position-absolute top-0 end-0 bg-white ps-3 pb-3" src="<?php bloginfo('template_directory'); ?>/img/cleanroom_solutions/Trusted Experts in Cleanroom Engineering1.jpg" alt="" style="width: 200px; height: 200px">
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Features End -->
+    <!-- Why Choose End -->
 
 
     <!-- Success Stories Start -->
@@ -258,9 +227,9 @@ get_header();
             <!-- Heading -->
             <div class="d-flex flex-column mx-auto text-center mb-5 wow fadeInUp" data-wow-delay="0.2s">
                 <h4 class="text-primary">Success Stories</h4>
-                <h1 class="display-6 mb-4 px-5">Excellence Through Engineering</h1>
+                <h1 class="display-6 mb-4 px-5">Excellence Through Cleanroom Execution</h1>
                 <p class="mb-0">
-                    Explore how VCS ThermalAlliance has empowered leading organizations with smart MEPF solutions. Our work reflects precision, performance, and sustainability across industrial, pharmaceutical, research, and commercial projects.
+                    Explore how VCS ThermalAlliance has delivered cleanroom solutions across sectors with precision, compliance, and reliability. Our portfolio reflects our expertise in modular construction, HVAC design, and regulatory adherence in critical environments.
                 </p>
             </div>
 
@@ -271,17 +240,17 @@ get_header();
                     <ul class="nav">
                         <li class="nav-item me-lg-0 mb-4">
                             <a class="py-3 px-3 active" data-bs-toggle="pill" href="#SuccessTab-1">
-                                <span>Success Story 1</span>
+                                <span>Pharma & Biotech</span>
                             </a>
                         </li>
                         <li class="nav-item me-lg-0 mb-4">
                             <a class="py-3 px-3" data-bs-toggle="pill" href="#SuccessTab-2">
-                                <span>Success Story 2</span>
+                                <span>Food & Beverage</span>
                             </a>
                         </li>
                         <li class="nav-item me-lg-0 mb-4 mb-lg-0">
                             <a class="py-3 px-3" data-bs-toggle="pill" href="#SuccessTab-3">
-                                <span>Success Story 3</span>
+                                <span>Research & Electronics</span>
                             </a>
                         </li>
                     </ul>
@@ -293,56 +262,27 @@ get_header();
                         <!-- Tab 1 -->
                         <div id="SuccessTab-1" class="tab-pane fade show p-0 active">
                             <div class="success-carousel owl-carousel">
-                                <!-- Item 1 -->
                                 <div class="success-item">
-                                    <img src="<?php bloginfo('template_directory'); ?>/img/feature.jpg"
-                                        class="img-fluid success-img-tab" alt="">
+                                    <img src="<?php bloginfo('template_directory'); ?>/img/cleanroom_solutions/Trusted Experts in Cleanroom Engineering1.jpg" class="img-fluid success-img-tab" alt="">
                                     <div class="border border-top-0 p-4">
-                                        <h4 class="mb-3">Forbes & Company</h4>
-                                        <p class="mb-4">We installed a robust 275 TR air conditioning system and a 180 HP
-                                            VRF unit to support the high-demand tooling division, ensuring optimal
-                                            temperature control, energy efficiency, and improved working conditions. The
-                                            project met industry compliance and enhanced the facility's overall
-                                            productivity.</p>
+                                        <h4 class="mb-3">Wockhardt Biotech Park</h4>
+                                        <p class="mb-4">We engineered a compliant cleanroom for Wockhardt’s injectable water plant with advanced HVAC, AHU units, and ducting system. The design adhered to ISO and WHO-GMP norms for biopharmaceutical production zones. Validation protocols ensured accuracy in particulate count, airflow, and temperature control.</p>
                                         <a class="btn btn-primary py-2 px-4" href="#">Read More</a>
                                     </div>
                                 </div>
-                                <!-- Item 2 -->
                                 <div class="success-item">
-                                    <img src="<?php bloginfo('template_directory'); ?>/img/feature.jpg"
-                                        class="img-fluid success-img-tab" alt="">
+                                    <img src="<?php bloginfo('template_directory'); ?>/img/cleanroom_solutions/Trusted Experts in Cleanroom Engineering1.jpg" class="img-fluid success-img-tab" alt="">
                                     <div class="border border-top-0 p-4">
-                                        <h4 class="mb-3">Bridgestone India</h4>
-                                        <p class="mb-4">Our team implemented a 200 TR chilled water cooling system
-                                            specifically tailored for process cooling applications. This helped stabilize
-                                            machinery performance and improved energy efficiency within the plant, meeting
-                                            all industrial HVAC performance criteria.</p>
+                                        <h4 class="mb-3">AstraZeneca Pharma</h4>
+                                        <p class="mb-4">Delivered ISO 7 cleanroom infrastructure including HEPA filtration, HVAC balancing, and particle monitoring. Integration of URS-compliant modular panels and BMS ensured stability and precision in pharmaceutical manufacturing. Full IQ/OQ/PQ validation supported audit-readiness and process compliance.</p>
                                         <a class="btn btn-primary py-2 px-4" href="#">Read More</a>
                                     </div>
                                 </div>
-                                <!-- Item 3 -->
                                 <div class="success-item">
-                                    <img src="<?php bloginfo('template_directory'); ?>/img/feature.jpg"
-                                        class="img-fluid success-img-tab" alt="">
-                                    <div class="border border-top-0 p-4">
-                                        <h4 class="mb-3">Real Dairy</h4>
-                                        <p class="mb-4">We developed an ISO 8 cleanroom HVAC system with laminar airflow and
-                                            humidity control, designed for dairy processing. The solution ensured hygienic
-                                            operations, energy conservation, and full compliance with food-grade standards.
-                                        </p>
-                                        <a class="btn btn-primary py-2 px-4" href="#">Read More</a>
-                                    </div>
-                                </div>
-                                <!-- Item 4 -->
-                                <div class="success-item">
-                                    <img src="<?php bloginfo('template_directory'); ?>/img/feature.jpg"
-                                        class="img-fluid success-img-tab" alt="">
+                                    <img src="<?php bloginfo('template_directory'); ?>/img/cleanroom_solutions/Trusted Experts in Cleanroom Engineering1.jpg" class="img-fluid success-img-tab" alt="">
                                     <div class="border border-top-0 p-4">
                                         <h4 class="mb-3">National Institute of Virology</h4>
-                                        <p class="mb-4">For the Pashan Lab, we executed retrofitting and commissioning of
-                                            high-CFM AHUs. This upgrade enhanced air quality, controlled airflow precision,
-                                            and supported sensitive research operations under critical containment
-                                            conditions.</p>
+                                        <p class="mb-4">Executed retrofitting and HVAC upgrade at the Pashan Lab for clean utility containment zones. AHUs and filters were calibrated for bio-containment, and pressure zoning aligned with critical biosafety standards for virology labs handling sensitive research and vaccine protocols.</p>
                                         <a class="btn btn-primary py-2 px-4" href="#">Read More</a>
                                     </div>
                                 </div>
@@ -352,40 +292,19 @@ get_header();
                         <!-- Tab 2 -->
                         <div id="SuccessTab-2" class="tab-pane fade show p-0">
                             <div class="success-carousel owl-carousel">
-                                <!-- Item 1 -->
                                 <div class="success-item">
-                                    <img src="<?php bloginfo('template_directory'); ?>/img/feature.jpg"
-                                        class="img-fluid success-img-tab" alt="">
+                                    <img src="<?php bloginfo('template_directory'); ?>/img/cleanroom_solutions/Trusted Experts in Cleanroom Engineering1.jpg" class="img-fluid success-img-tab" alt="">
                                     <div class="border border-top-0 p-4">
-                                        <h4 class="mb-3">Thermax Limited</h4>
-                                        <p class="mb-4">Executed a full-scale HVAC installation for a clean energy
-                                            manufacturing facility. Our scope included air handling systems, ductwork, and
-                                            automated controls, all designed for energy efficiency and minimal maintenance
-                                            overhead.</p>
+                                        <h4 class="mb-3">Real Dairy, Baramati</h4>
+                                        <p class="mb-4">Designed and implemented a cleanroom solution for dairy production conforming to ISO 8 standards. Our solution featured laminar airflow, humidity control, cleanroom-grade materials, and HEPA filtration to enable hygienic processing and contamination-free packaging. Regulatory compliance was achieved across all validation stages.</p>
                                         <a class="btn btn-primary py-2 px-4" href="#">Read More</a>
                                     </div>
                                 </div>
-                                <!-- Item 2 -->
                                 <div class="success-item">
-                                    <img src="<?php bloginfo('template_directory'); ?>/img/feature.jpg"
-                                        class="img-fluid success-img-tab" alt="">
+                                    <img src="<?php bloginfo('template_directory'); ?>/img/cleanroom_solutions/Trusted Experts in Cleanroom Engineering1.jpg" class="img-fluid success-img-tab" alt="">
                                     <div class="border border-top-0 p-4">
-                                        <h4 class="mb-3">Indian Oil Corporation</h4>
-                                        <p class="mb-4">We delivered a custom-designed chilled water plant for their testing
-                                            laboratory. The system was calibrated to ensure consistent temperatures, reduce
-                                            downtime, and improve reliability of oil sample analysis and diagnostics.</p>
-                                        <a class="btn btn-primary py-2 px-4" href="#">Read More</a>
-                                    </div>
-                                </div>
-                                <!-- Item 3 -->
-                                <div class="success-item">
-                                    <img src="<?php bloginfo('template_directory'); ?>/img/feature.jpg"
-                                        class="img-fluid success-img-tab" alt="">
-                                    <div class="border border-top-0 p-4">
-                                        <h4 class="mb-3">AstraZeneca Pharma</h4>
-                                        <p class="mb-4">Installed ISO 7 compliant HVAC systems in production zones of the
-                                            pharma plant. The project involved HEPA filtration, cleanroom integration, and
-                                            precision control for temperature and particle count.</p>
+                                        <h4 class="mb-3">Amul Processing Unit</h4>
+                                        <p class="mb-4">Provided a modular cleanroom for Amul’s new line of milk derivatives. The HVAC system ensured temperature and microbial control, while pressure zoning kept critical areas isolated. Full utility integration including clean utilities, air showers, and biosafety compliance added to plant productivity.</p>
                                         <a class="btn btn-primary py-2 px-4" href="#">Read More</a>
                                     </div>
                                 </div>
@@ -395,44 +314,25 @@ get_header();
                         <!-- Tab 3 -->
                         <div id="SuccessTab-3" class="tab-pane fade show p-0">
                             <div class="success-carousel owl-carousel">
-                                <!-- Item 1 -->
                                 <div class="success-item">
-                                    <img src="<?php bloginfo('template_directory'); ?>/img/feature.jpg"
-                                        class="img-fluid success-img-tab" alt="">
+                                    <img src="<?php bloginfo('template_directory'); ?>/img/cleanroom_solutions/Trusted Experts in Cleanroom Engineering1.jpg" class="img-fluid success-img-tab" alt="">
                                     <div class="border border-top-0 p-4">
                                         <h4 class="mb-3">Bharat Electronics</h4>
-                                        <p class="mb-4">Delivered a modern HVAC and ducting system for their R&D center.
-                                            Designed for precision air control and minimal noise, the installation supported
-                                            critical electronic testing operations around the clock.</p>
+                                        <p class="mb-4">Built a cleanroom for their R&D center to support electronics testing with precise environmental control. Integrated pressure differential monitoring, particulate control, and silent HVAC operation. Our solution supported around-the-clock precision R&D with remote BMS access and reduced downtime.</p>
                                         <a class="btn btn-primary py-2 px-4" href="#">Read More</a>
                                     </div>
                                 </div>
-                                <!-- Item 2 -->
                                 <div class="success-item">
-                                    <img src="<?php bloginfo('template_directory'); ?>/img/feature.jpg"
-                                        class="img-fluid success-img-tab" alt="">
+                                    <img src="<?php bloginfo('template_directory'); ?>/img/cleanroom_solutions/Trusted Experts in Cleanroom Engineering1.jpg" class="img-fluid success-img-tab" alt="">
                                     <div class="border border-top-0 p-4">
-                                        <h4 class="mb-3">Tata Power</h4>
-                                        <p class="mb-4">Completely revamped their mechanical room with an upgraded HVAC
-                                            solution at the thermal power station. Our work boosted energy efficiency and
-                                            significantly reduced operational noise levels.</p>
-                                        <a class="btn btn-primary py-2 px-4" href="#">Read More</a>
-                                    </div>
-                                </div>
-                                <!-- Item 3 -->
-                                <div class="success-item">
-                                    <img src="<?php bloginfo('template_directory'); ?>/img/feature.jpg"
-                                        class="img-fluid success-img-tab" alt="">
-                                    <div class="border border-top-0 p-4">
-                                        <h4 class="mb-3">Wockhardt Biotech Park</h4>
-                                        <p class="mb-4">Integrated HVAC and BMS for their manufacturing line, achieving
-                                            stringent climate control and real-time monitoring. This ensured regulatory
-                                            compliance and streamlined biopharma operations.</p>
+                                        <h4 class="mb-3">Advanced Micro Devices</h4>
+                                        <p class="mb-4">Executed an ISO 6 cleanroom with complete HVAC zoning, anti-static flooring, and advanced filtration systems. Integrated LAF benches, differential pressure controls, and BMS for real-time monitoring. Delivered a zero-defect environment crucial for chip prototyping and microelectronics handling.</p>
                                         <a class="btn btn-primary py-2 px-4" href="#">Read More</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -440,32 +340,35 @@ get_header();
     </div>
     <!-- Success Stories End -->
 
-
-     <!-- Quote Start -->
+    
+    <!-- Quote Start -->
     <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-7">
                     <div class="section-title position-relative pb-3 mb-5">
                         <h5 class="fw-bold text-primary text-uppercase">Request A Quote</h5>
-                        <h1 class="mb-0">Need A Free Quote? Please Feel Free to Contact Us</h1>
+                        <h1 class="mb-0">Let’s Start Your Project—Request a Personalized Quote</h1>
                     </div>
                     <div class="row gx-3">
                         <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
-                            <h5 class="mb-4"><i class="fa fa-reply text-primary me-3"></i>Reply within 24 hours</h5>
+                            <h5 class="mb-4"><i class="fa fa-reply text-primary me-3"></i>Response within 24 business hours</h5>
                         </div>
                         <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s">
-                            <h5 class="mb-4"><i class="fa fa-phone-alt text-primary me-3"></i>24 hrs telephone support</h5>
+                            <h5 class="mb-4"><i class="fa fa-headset text-primary me-3"></i>Dedicated Technical Support</h5>
                         </div>
                     </div>
-                    <p class="mb-4">Eirmod sed tempor lorem ut dolores. Aliquyam sit sadipscing kasd ipsum. Dolor ea et dolore et at sea ea at dolor, justo ipsum duo rebum sea invidunt voluptua. Eos vero eos vero ea et dolore eirmod et. Dolores diam duo invidunt lorem. Elitr ut dolores magna sit. Sea dolore sanctus sed et. Takimata takimata sanctus sed.</p>
+                    <p class="mb-4">
+                        Looking to get started with HVAC, Cleanroom, MEPF, or Fire Safety projects? Our team at VCS ThermalAlliance is here to assist with tailored quotes, project consultations, and end-to-end solution planning.
+                        Fill out the form and our experts will connect with you promptly.
+                    </p>
                     <div class="d-flex align-items-center mt-2 wow zoomIn" data-wow-delay="0.6s">
                         <div class="bg-primary d-flex align-items-center justify-content-center rounded" style="width: 60px; height: 60px;">
                             <i class="fa fa-phone-alt text-white"></i>
                         </div>
                         <div class="ps-4">
-                            <h5 class="mb-2">Call to ask any question</h5>
-                            <h4 class="text-primary mb-0">+012 345 6789</h4>
+                            <h5 class="mb-2">Need immediate assistance?</h5>
+                            <h4 class="text-primary mb-0">+91 7709237117</h4>
                         </div>
                     </div>
                 </div>
@@ -473,25 +376,33 @@ get_header();
                     <div class="bg-primary rounded h-100 d-flex align-items-center p-5 wow zoomIn" data-wow-delay="0.9s">
                         <form>
                             <div class="row g-3">
-                                <div class="col-xl-12">
-                                    <input type="text" class="form-control bg-light border-0" placeholder="Your Name" style="height: 55px;">
+                                <div class="col-12">
+                                    <input type="text" class="form-control bg-light border-0" placeholder="Your Name *" style="height: 55px;" required>
                                 </div>
                                 <div class="col-12">
-                                    <input type="email" class="form-control bg-light border-0" placeholder="Your Email" style="height: 55px;">
+                                    <input type="text" class="form-control bg-light border-0" placeholder="Company Name" style="height: 55px;">
                                 </div>
                                 <div class="col-12">
-                                    <select class="form-select bg-light border-0" style="height: 55px;">
-                                        <option selected>Select A Service</option>
-                                        <option value="1">Service 1</option>
-                                        <option value="2">Service 2</option>
-                                        <option value="3">Service 3</option>
+                                    <input type="email" class="form-control bg-light border-0" placeholder="Email Address *" style="height: 55px;" required>
+                                </div>
+                                <div class="col-12">
+                                    <input type="tel" class="form-control bg-light border-0" placeholder="Phone Number" style="height: 55px;">
+                                </div>
+                                <div class="col-12">
+                                    <select class="form-select bg-light border-0" style="height: 55px;" required>
+                                        <option selected disabled>Type of Inquiry *</option>
+                                        <option value="new-project">New Project</option>
+                                        <option value="tech-support">Technical Support</option>
+                                        <option value="career">Career</option>
+                                        <option value="vendor">Vendor</option>
+                                        <option value="other">Other</option>
                                     </select>
                                 </div>
                                 <div class="col-12">
-                                    <textarea class="form-control bg-light border-0" rows="3" placeholder="Message"></textarea>
+                                    <textarea class="form-control bg-light border-0" rows="3" placeholder="Your Message"></textarea>
                                 </div>
                                 <div class="col-12">
-                                    <button class="btn btn-dark w-100 py-3" type="submit">Request A Quote</button>
+                                    <button class="btn btn-dark w-100 py-3" type="submit">Submit Your Inquiry</button>
                                 </div>
                             </div>
                         </form>

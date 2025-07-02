@@ -23,7 +23,7 @@ get_header();
                 <ol class="breadcrumb animated slideInRight mb-0">
                     <li class="breadcrumb-item"><a href="#">Company Culture</a></li>
                     <li class="breadcrumb-item"><a href="#">Pages</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Company Culture</li>
+                    <li class="breadcrumb-item active" aria-current="page">Our Culture – The VCS Way of Working</li>
                 </ol>
             </nav>
         </div>
@@ -37,8 +37,9 @@ get_header();
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="text-primary mb-3">Company Culture</h2>
-                    <p class="lead text-muted">
-                        VCS ThermalAlliance, we believe engineering excellence begins with people. Our culture is rooted in integrity, innovation, ownership, and teamwork. We’re not just building MEPF systems—we’re building careers, partnerships, and a sustainable future.                    </p>
+                    <p class="lead">
+                        At VCS ThermalAlliance, we foster a culture driven by integrity, innovation, teamwork, and a passion for engineering excellence that empowers people and builds a sustainable future.
+                    </p>
                 </div>
             </div>
         </div>
@@ -58,8 +59,8 @@ get_header();
                 <div class="col-lg-6 pt-5 pb-lg-5">
                     <div class="company-culture-text bg-white p-4 p-lg-1 my-lg-1">
                         <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">What Defines Us</h6>
-                        <h1 class="mb-3">We Provide Best Tour Packages In Your Budget</h1>
-                        <p>Dolores lorem lorem ipsum sit et ipsum. Sadip sea amet diam dolore sed et. Sit rebum labore sit sit ut vero no sit. Et elitr stet dolor sed sit et sed ipsum et kasd ut. Erat duo eos et erat sed diam duo</p>
+                        <h1 class="mb-3">Our Culture – The VCS Way of Working</h1>
+                        <p>At VCS ThermalAlliance, we foster a culture built on integrity, innovation, teamwork, and ownership. Our people-first approach empowers every team member to grow, contribute, and lead across high-impact MEPF projects. From field engineers to design leads, we collaborate across disciplines, prioritize safety and sustainability, and challenge ourselves to innovate at every step.</p>
                         <div class="row mb-4">
                             <div class="col-6 py-3">
                                 <img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/img/carousel-1.jpg" alt="">
@@ -74,7 +75,7 @@ get_header();
                                 <img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/img/carousel-2.jpg" alt="">
                             </div>
                         </div>
-                        <a href="" class="btn btn-primary mt-1">Book Now</a>
+                        <a href="#" class="btn btn-primary mt-1">Explore Careers</a>
                     </div>
                 </div>
             </div>
@@ -90,33 +91,33 @@ get_header();
                 <div class="col-md-4 bg-white p-4 rounded shadow">
                     <div class="d-flex mb-4 mb-lg-0">
                         <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-primary mr-3" style="height: 100px; width: 100px;">
-                            <i class="fa fa-2x fa-money-check-alt text-white"></i>
+                            <i class="fa fa-2x fa-users text-white"></i>
                         </div>
                         <div class="d-flex flex-column ps-2">
-                            <h5 class="">Competitive Pricing</h5>
-                            <p class="m-0">Magna sit magna dolor duo dolor labore rebum amet elitr est diam sea</p>
+                            <h5 class="">Collaborative Work Culture</h5>
+                            <p class="m-0">We promote open communication, cross-functional teamwork, and a flat structure that values every voice and idea.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 bg-white p-4 rounded shadow">
                     <div class="d-flex mb-4 mb-lg-0">
                         <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-primary mr-3" style="height: 100px; width: 100px;">
-                            <i class="fa fa-2x fa-award text-white"></i>
+                            <i class="fa fa-2x fa-graduation-cap text-white"></i>
                         </div>
                         <div class="d-flex flex-column ps-2">
-                            <h5 class="">Best Services</h5>
-                            <p class="m-0">Magna sit magna dolor duo dolor labore rebum amet elitr est diam sea</p>
+                            <h5 class="">Learning & Growth</h5>
+                            <p class="m-0">From field exposure to sponsored certifications, we support continuous technical and personal development.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 bg-white p-4 rounded shadow">
                     <div class="d-flex mb-4 mb-lg-0">
                         <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-primary mr-3" style="height: 100px; width: 100px;">
-                            <i class="fa fa-2x fa-globe text-white"></i>
+                            <i class="fa fa-2x fa-shield-alt text-white"></i>
                         </div>
                         <div class="d-flex flex-column ps-2">
-                            <h5 class="">Worldwide Coverage</h5>
-                            <p class="m-0">Magna sit magna dolor duo dolor labore rebum amet elitr est diam sea</p>
+                            <h5 class="">Safety & Integrity</h5>
+                            <p class="m-0">We uphold the highest standards of safety, ethics, and compliance across all our projects and workplaces.</p>
                         </div>
                     </div>
                 </div>
@@ -137,51 +138,51 @@ get_header();
                     <div class="employee-highlights mb-4">
                         <div class="d-flex mb-3">
                             <div class="flex-shrink-0 bg-primary rounded-circle p-2 me-3" style="width: 40px; height: 40px;">
-                                <i class="fas fa-hard-hat text-white"></i>
+                                <i class="fas fa-lightbulb text-white"></i>
                             </div>
                             <div>
-                                <h5 class="mb-1">On-Site Learning</h5>
-                                <p class="mb-0">Hands-on training with senior engineers and project leads</p>
+                                <h5 class="mb-1">Innovation-Driven Environment</h5>
+                                <p class="mb-0">We embrace new ideas, smart technologies, and continuous improvement across every project and function.</p>
                             </div>
                         </div>
                         
                         <div class="d-flex mb-3">
                             <div class="flex-shrink-0 bg-primary rounded-circle p-2 me-3" style="width: 40px; height: 40px;">
-                                <i class="fas fa-clinic-medical text-white"></i>
+                                <i class="fas fa-user-graduate text-white"></i>
                             </div>
                             <div>
-                                <h5 class="mb-1">High-Compliance Projects</h5>
-                                <p class="mb-0">Work on critical sectors like pharma and healthcare</p>
+                                <h5 class="mb-1">Growth-Focused Culture</h5>
+                                <p class="mb-0">Team members gain on-ground learning, certifications, and cross-domain exposure.</p>
                             </div>
                         </div>
                         
                         <div class="d-flex mb-3">
                             <div class="flex-shrink-0 bg-primary rounded-circle p-2 me-3" style="width: 40px; height: 40px;">
-                                <i class="fas fa-hands-helping text-white"></i>
+                                <i class="fas fa-people-arrows text-white"></i>
                             </div>
                             <div>
-                                <h5 class="mb-1">Mentorship Culture</h5>
-                                <p class="mb-0">Environment of mutual respect and continuous growth</p>
+                                <h5 class="mb-1">Inclusive & Collaborative</h5>
+                                <p class="mb-0">We promote teamwork, transparency, and respect—across all roles and locations.</p>
                             </div>
                         </div>
                         
                         <div class="d-flex mb-3">
                             <div class="flex-shrink-0 bg-primary rounded-circle p-2 me-3" style="width: 40px; height: 40px;">
-                                <i class="fas fa-trophy text-white"></i>
+                                <i class="fas fa-shield-alt text-white"></i>
                             </div>
                             <div>
-                                <h5 class="mb-1">Performance Recognition</h5>
-                                <p class="mb-0">Regular acknowledgments for innovation and excellence</p>
+                                <h5 class="mb-1">Safety First</h5>
+                                <p class="mb-0">Strict safety protocols, training sessions, and compliance ensure secure environments.</p>
                             </div>
                         </div>
                         
                         <div class="d-flex">
                             <div class="flex-shrink-0 bg-primary rounded-circle p-2 me-3" style="width: 40px; height: 40px;">
-                                <i class="fas fa-comments text-white"></i>
+                                <i class="fas fa-handshake text-white"></i>
                             </div>
                             <div>
-                                <h5 class="mb-1">Transparent Communication</h5>
-                                <p class="mb-0">Open dialogue from leadership to ground teams</p>
+                                <h5 class="mb-1">Trust & Ownership</h5>
+                                <p class="mb-0">We empower individuals with responsibilities and reward initiative at all levels.</p>
                             </div>
                         </div>
                     </div>
@@ -215,21 +216,21 @@ get_header();
                             </div>
                         </div>
                     </div>
-                    <a class="btn btn-primary py-3 px-5 mt-2" href="">Join Our Team</a>
+                    <a class="btn btn-primary py-3 px-5 mt-2" href="#">Explore Careers</a>
                 </div>
                 <div class="col-lg-6">
                     <div class="row g-3">
                         <div class="col-6 text-end">
-                            <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.1s" src="<?php bloginfo('template_directory'); ?>/img/project-1.jpg" style="margin-top: 25%;" alt="Team Collaboration">
+                            <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.1s" src="<?php bloginfo('template_directory'); ?>/img/project-1.jpg" style="margin-top: 25%;" alt="Innovation">
                         </div>
                         <div class="col-6 text-start">
-                            <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.3s" src="<?php bloginfo('template_directory'); ?>/img/project-2.jpg" alt="Project Site">
+                            <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.3s" src="<?php bloginfo('template_directory'); ?>/img/project-2.jpg" alt="Team Collaboration">
                         </div>
                         <div class="col-6 text-end">
-                            <img class="img-fluid rounded w-50 wow zoomIn" data-wow-delay="0.5s" src="<?php bloginfo('template_directory'); ?>/img/project-3.jpg" alt="Training Session">
+                            <img class="img-fluid rounded w-50 wow zoomIn" data-wow-delay="0.5s" src="<?php bloginfo('template_directory'); ?>/img/project-3.jpg" alt="Learning Session">
                         </div>
                         <div class="col-6 text-start">
-                            <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.7s" src="<?php bloginfo('template_directory'); ?>/img/project-4.jpg" alt="Award Ceremony">
+                            <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.7s" src="<?php bloginfo('template_directory'); ?>/img/project-4.jpg" alt="Awards Celebration">
                         </div>
                     </div>
                 </div>
@@ -239,7 +240,7 @@ get_header();
     <!-- Culture Us End -->
 
 
-    <!-- Life at VCS Section -->
+    <!-- Life at VCS Section Start -->
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
@@ -250,42 +251,44 @@ get_header();
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="bg-white text-center p-4 rounded shadow">
                         <div class="bg-primary rounded-circle mx-auto mb-3" style="width: 80px; height: 80px; display: flex; align-items: center; justify-content: center;">
-                            <i class="fas fa-chalkboard-teacher fa-2x text-white"></i>
+                            <i class="fas fa-brain fa-2x text-white"></i>
                         </div>
-                        <h5 class="mb-2">Learning & Growth</h5>
-                        <p>Monthly knowledge sessions and cross-functional exposure for holistic development</p>
+                        <h5 class="mb-2">Innovation Culture</h5>
+                        <p>We encourage ideas, creative problem-solving, and smart technology in every function.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="bg-white text-center p-4 rounded shadow">
                         <div class="bg-primary rounded-circle mx-auto mb-3" style="width: 80px; height: 80px; display: flex; align-items: center; justify-content: center;">
-                            <i class="fas fa-trophy fa-2x text-white"></i>
+                            <i class="fas fa-users-cog fa-2x text-white"></i>
                         </div>
-                        <h5 class="mb-2">Recognition</h5>
-                        <p>Team celebrations and milestone awards for outstanding achievements</p>
+                        <h5 class="mb-2">Collaborative Teams</h5>
+                        <p>Flat hierarchy and inclusive participation across departments build strong outcomes.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="bg-white text-center p-4 rounded shadow">
                         <div class="bg-primary rounded-circle mx-auto mb-3" style="width: 80px; height: 80px; display: flex; align-items: center; justify-content: center;">
-                            <i class="fas fa-heartbeat fa-2x text-white"></i>
+                            <i class="fas fa-user-shield fa-2x text-white"></i>
                         </div>
-                        <h5 class="mb-2">Wellbeing</h5>
-                        <p>Annual retreats, health camps, and strong focus on work-life balance</p>
+                        <h5 class="mb-2">Safety & Ethics</h5>
+                        <p>We prioritize safety protocols, site audits, and transparent practices across all levels.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="bg-white text-center p-4 rounded shadow">
                         <div class="bg-primary rounded-circle mx-auto mb-3" style="width: 80px; height: 80px; display: flex; align-items: center; justify-content: center;">
-                            <i class="fas fa-users fa-2x text-white"></i>
+                            <i class="fas fa-hands-helping fa-2x text-white"></i>
                         </div>
-                        <h5 class="mb-2">Engagement</h5>
-                        <p>Regular team events and activities to foster strong relationships</p>
+                        <h5 class="mb-2">Respect & Inclusion</h5>
+                        <p>Diverse voices and equal opportunities define our culture of trust and shared purpose.</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <!-- Life at VCS Section End -->
+
 
     <!-- Life at VCM Start -->
     <div class="container-xxl py-5 vcm-life">
@@ -340,12 +343,11 @@ get_header();
                 <!-- FAQ Text Column -->
                 <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.2s">
                     <h4 class="text-primary">Some Important FAQ's</h4>
-                    <h1 class="display-4 mb-4">Common Frequently Asked Questions?</h1>
+                    <h1 class="display-4 mb-4">Working at VCS – Frequently Asked Questions</h1>
                     <p class="mb-4">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet pariatur sapiente, modi perspiciatis
-                        earum ab inventore vitae consequatur tempore quibusdam?
+                        Learn more about our work environment, growth opportunities, and expectations at VCS ThermalAlliance. We’re committed to transparency and career fulfillment.
                     </p>
-                    <a class="btn btn-primary py-3 px-5" href="#">Have Any Questions</a>
+                    <a class="btn btn-primary py-3 px-5" href="#">Ask a Question</a>
                 </div>
 
                 <!-- Accordion Column -->
@@ -357,15 +359,13 @@ get_header();
                                 <h2 class="accordion-header" id="headingOne">
                                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        Q: How Do I Sign Up For Your Electricity Services?
+                                        Q: What types of projects will I work on at VCS?
                                     </button>
                                 </h2>
                                 <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        A: Leverage agile frameworks to provide a robust synopsis for high-level overviews.
-                                        Iterative approaches to corporate strategy foster collaborative thinking to further
-                                        the overall value proposition.
+                                        A: You'll contribute to MEPF projects across high-compliance sectors like pharmaceuticals, healthcare, commercial, and industrial facilities.
                                     </div>
                                 </div>
                             </div>
@@ -375,15 +375,13 @@ get_header();
                                 <h2 class="accordion-header" id="headingTwo">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        Q: What Types Of Electricity Plans Do You Offer?
+                                        Q: How does VCS support my career growth?
                                     </button>
                                 </h2>
                                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        A: Leverage agile frameworks to provide a robust synopsis for high-level overviews.
-                                        Iterative approaches to corporate strategy foster collaborative thinking to further
-                                        the overall value proposition.
+                                        A: We offer mentorship, on-site learning, certification sponsorships, and cross-department exposure to help you grow technically and professionally.
                                     </div>
                                 </div>
                             </div>
@@ -393,15 +391,13 @@ get_header();
                                 <h2 class="accordion-header" id="headingThree">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                        Q: What Are Your Billing And Payment Options?
+                                        Q: Will I need to relocate or travel for my role?
                                     </button>
                                 </h2>
                                 <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        A: Leverage agile frameworks to provide a robust synopsis for high-level overviews.
-                                        Iterative approaches to corporate strategy foster collaborative thinking to further
-                                        the overall value proposition.
+                                        A: Depending on your role, you may be assigned to project sites across India. We provide travel support and accommodation where needed.
                                     </div>
                                 </div>
                             </div>
@@ -411,15 +407,29 @@ get_header();
                                 <h2 class="accordion-header" id="headingFour">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                        Q: How Can I Track My Energy Usage With Your Services?
+                                        Q: What kind of work culture does VCS maintain?
                                     </button>
                                 </h2>
                                 <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        A: Leverage agile frameworks to provide a robust synopsis for high-level overviews.
-                                        Iterative approaches to corporate strategy foster collaborative thinking to further
-                                        the overall value proposition.
+                                        A: We promote a flat and collaborative work structure, with an emphasis on safety, innovation, inclusivity, and transparent communication.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Item 5 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFive">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                        Q: How are exceptional contributions recognized?
+                                    </button>
+                                </h2>
+                                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        A: We regularly acknowledge achievements through awards, bonuses, public recognition, and promotion opportunities.
                                     </div>
                                 </div>
                             </div>
@@ -438,24 +448,27 @@ get_header();
                 <div class="col-lg-7">
                     <div class="section-title position-relative pb-3 mb-5">
                         <h5 class="fw-bold text-primary text-uppercase">Request A Quote</h5>
-                        <h1 class="mb-0">Need A Free Quote? Please Feel Free to Contact Us</h1>
+                        <h1 class="mb-0">Let’s Start Your Project—Request a Personalized Quote</h1>
                     </div>
                     <div class="row gx-3">
                         <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
-                            <h5 class="mb-4"><i class="fa fa-reply text-primary me-3"></i>Reply within 24 hours</h5>
+                            <h5 class="mb-4"><i class="fa fa-reply text-primary me-3"></i>Response within 24 business hours</h5>
                         </div>
                         <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s">
-                            <h5 class="mb-4"><i class="fa fa-phone-alt text-primary me-3"></i>24 hrs telephone support</h5>
+                            <h5 class="mb-4"><i class="fa fa-headset text-primary me-3"></i>Dedicated Technical Support</h5>
                         </div>
                     </div>
-                    <p class="mb-4">Eirmod sed tempor lorem ut dolores. Aliquyam sit sadipscing kasd ipsum. Dolor ea et dolore et at sea ea at dolor, justo ipsum duo rebum sea invidunt voluptua. Eos vero eos vero ea et dolore eirmod et. Dolores diam duo invidunt lorem. Elitr ut dolores magna sit. Sea dolore sanctus sed et. Takimata takimata sanctus sed.</p>
+                    <p class="mb-4">
+                        Looking to get started with HVAC, Cleanroom, MEPF, or Fire Safety projects? Our team at VCS ThermalAlliance is here to assist with tailored quotes, project consultations, and end-to-end solution planning.
+                        Fill out the form and our experts will connect with you promptly.
+                    </p>
                     <div class="d-flex align-items-center mt-2 wow zoomIn" data-wow-delay="0.6s">
                         <div class="bg-primary d-flex align-items-center justify-content-center rounded" style="width: 60px; height: 60px;">
                             <i class="fa fa-phone-alt text-white"></i>
                         </div>
                         <div class="ps-4">
-                            <h5 class="mb-2">Call to ask any question</h5>
-                            <h4 class="text-primary mb-0">+012 345 6789</h4>
+                            <h5 class="mb-2">Need immediate assistance?</h5>
+                            <h4 class="text-primary mb-0">+91 7709237117</h4>
                         </div>
                     </div>
                 </div>
@@ -463,25 +476,33 @@ get_header();
                     <div class="bg-primary rounded h-100 d-flex align-items-center p-5 wow zoomIn" data-wow-delay="0.9s">
                         <form>
                             <div class="row g-3">
-                                <div class="col-xl-12">
-                                    <input type="text" class="form-control bg-light border-0" placeholder="Your Name" style="height: 55px;">
+                                <div class="col-12">
+                                    <input type="text" class="form-control bg-light border-0" placeholder="Your Name *" style="height: 55px;" required>
                                 </div>
                                 <div class="col-12">
-                                    <input type="email" class="form-control bg-light border-0" placeholder="Your Email" style="height: 55px;">
+                                    <input type="text" class="form-control bg-light border-0" placeholder="Company Name" style="height: 55px;">
                                 </div>
                                 <div class="col-12">
-                                    <select class="form-select bg-light border-0" style="height: 55px;">
-                                        <option selected>Select A Service</option>
-                                        <option value="1">Service 1</option>
-                                        <option value="2">Service 2</option>
-                                        <option value="3">Service 3</option>
+                                    <input type="email" class="form-control bg-light border-0" placeholder="Email Address *" style="height: 55px;" required>
+                                </div>
+                                <div class="col-12">
+                                    <input type="tel" class="form-control bg-light border-0" placeholder="Phone Number" style="height: 55px;">
+                                </div>
+                                <div class="col-12">
+                                    <select class="form-select bg-light border-0" style="height: 55px;" required>
+                                        <option selected disabled>Type of Inquiry *</option>
+                                        <option value="new-project">New Project</option>
+                                        <option value="tech-support">Technical Support</option>
+                                        <option value="career">Career</option>
+                                        <option value="vendor">Vendor</option>
+                                        <option value="other">Other</option>
                                     </select>
                                 </div>
                                 <div class="col-12">
-                                    <textarea class="form-control bg-light border-0" rows="3" placeholder="Message"></textarea>
+                                    <textarea class="form-control bg-light border-0" rows="3" placeholder="Your Message"></textarea>
                                 </div>
                                 <div class="col-12">
-                                    <button class="btn btn-dark w-100 py-3" type="submit">Request A Quote</button>
+                                    <button class="btn btn-dark w-100 py-3" type="submit">Submit Your Inquiry</button>
                                 </div>
                             </div>
                         </form>

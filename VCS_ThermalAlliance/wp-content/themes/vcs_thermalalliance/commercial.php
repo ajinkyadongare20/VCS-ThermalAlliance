@@ -18,12 +18,12 @@ get_header();
     <!-- Page Header Start -->
     <div class="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
-            <h1 class="display-3 text-white animated slideInRight">Healthcare HVAC & MEPF Solutions </h1>
+            <h1 class="display-3 text-white animated slideInRight">Commercial MEPF Solutions </h1>
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb animated slideInRight mb-0">
                     <li class="breadcrumb-item"><a href="#">Projects</a></li>
                     <li class="breadcrumb-item"><a href="#">Pages</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">HVAC, Fire & Cleanroom Solutions for Hospitals and OTs</li>
+                    <li class="breadcrumb-item active" aria-current="page">HVAC, Electrical & Fire Systems for Commercial Spaces</li>
                 </ol>
             </nav>
         </div>
@@ -36,11 +36,11 @@ get_header();
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="text-primary mb-3">Healthcare MEPF Solutions</h2>
+                    <h2 class="text-primary mb-3">Commercial MEPF Solutions</h2>
                     <p class="lead text-muted">
-                        In healthcare, performance is critical—and compliance is non-negotiable. At VCS ThermalAlliance, we design and deliver precision-engineered HVAC, cleanroom, electrical, and fire safety systems tailored for hospitals, ICUs, diagnostic labs, operating theatres, and sterile zones. Our solutions combine medical-grade engineering with smart automation to ensure optimal indoor air quality, infection control, and patient safety.<br><br>
-                        
-                        From NABH-compliant OT ventilation systems to ISO-certified cleanrooms and emergency power infrastructure, we implement turnkey solutions that meet stringent healthcare regulations. Our expertise spans HEPA filtration systems, laminar airflow designs, medical gas pipelines, and fire-rated compartmentation - all integrated through intelligent building management systems for seamless operation and monitoring.
+                        Modern commercial environments demand seamless comfort, safety, and energy efficiency. At VCS ThermalAlliance, we offer integrated HVAC, firefighting, electrical, and plumbing systems tailored for a wide range of spaces—including corporate offices, malls, multiplexes, co-working hubs, hotels, and business parks.<br><br>
+
+                        Our offerings include VRF/VRV systems, ductable and split AC units, smart lighting with automation, centralized power distribution, and fire alarm and sprinkler systems—all aligned with local regulations and sustainability goals. From energy modeling to site retrofits, we ensure high-performance delivery across all phases of your project with minimal disruption to active operations.
                     </p>
                 </div>
             </div>
@@ -55,13 +55,10 @@ get_header();
             <!-- Title Section -->
             <div class="row mb-5">
                 <div class="col-12 text-center wow fadeInUp" data-wow-delay="0.2s">
-                    <h4 class="text-primary">Fire Safety Turnkey Projects & Solutions</h4>
-                    <h1 class="display-6 mb-4">Protecting Lives. Powering Compliance.</h1>
+                    <h4 class="text-primary">Commercial MEPF Projects & Solutions</h4>
+                    <h1 class="display-6 mb-4">HVAC, Electrical & Fire Systems for Commercial Spaces</h1>
                     <p class="mb-5">
-                        At VCS ThermalAlliance, we offer end-to-end fire protection solutions across commercial, industrial,
-                        pharmaceutical, and institutional sectors. From fire load calculations and system layouts to installation,
-                        testing, and AMC support — our services are aligned with international safety codes and local authority guidelines.
-                        We specialize in modern, intelligent fire safety systems designed to minimize risk and ensure operational continuity.
+                        At VCS ThermalAlliance, we provide end-to-end HVAC, firefighting, electrical, and plumbing systems tailored for commercial buildings, malls, co-working spaces, and hospitality venues. Our smart, energy-efficient solutions ensure comfort, compliance, and operational excellence.
                     </p>
                 </div>
             </div>
@@ -73,33 +70,33 @@ get_header();
                         <li class="nav-item me-2 mb-2" role="presentation">
                             <button class="nav-link active d-flex align-items-center py-3 px-4" id="vcs-tab-1" data-bs-toggle="pill" data-bs-target="#VCSTab-1" type="button" role="tab">
                                 <div class="vcs-icon btn-md-square bg-primary text-white me-3">
-                                    <span class="fas fa-wind small"></span>
+                                    <span class="fas fa-building small"></span>
                                 </div>
-                                <span>Cleanroom HVAC Installations</span>
+                                <span>ACE Business Center</span>
                             </button>
                         </li>
                         <li class="nav-item me-2 mb-2" role="presentation">
                             <button class="nav-link d-flex align-items-center py-3 px-4" id="vcs-tab-2" data-bs-toggle="pill" data-bs-target="#VCSTab-2" type="button" role="tab">
                                 <div class="vcs-icon btn-md-square bg-primary text-white me-3">
-                                    <span class="fas fa-plug small"></span>
+                                    <span class="fas fa-laptop-code small"></span>
                                 </div>
-                                <span>Turnkey Electrical Systems</span>
+                                <span>EXL Service India</span>
                             </button>
                         </li>
                         <li class="nav-item me-2 mb-2" role="presentation">
                             <button class="nav-link d-flex align-items-center py-3 px-4" id="vcs-tab-3" data-bs-toggle="pill" data-bs-target="#VCSTab-3" type="button" role="tab">
                                 <div class="vcs-icon btn-md-square bg-primary text-white me-3">
-                                    <span class="fas fa-fire-extinguisher small"></span>
+                                    <span class="fas fa-city small"></span>
                                 </div>
-                                <span>Fire Safety Implementations</span>
+                                <span>Shivram Group Site</span>
                             </button>
                         </li>
                         <li class="nav-item me-2 mb-2" role="presentation">
                             <button class="nav-link d-flex align-items-center py-3 px-4" id="vcs-tab-4" data-bs-toggle="pill" data-bs-target="#VCSTab-4" type="button" role="tab">
                                 <div class="vcs-icon btn-md-square bg-primary text-white me-3">
-                                    <span class="fas fa-industry small"></span>
+                                    <span class="fas fa-hotel small"></span>
                                 </div>
-                                <span>HVAC Systems for Industries</span>
+                                <span>Metro Mall HVAC</span>
                             </button>
                         </li>
                     </ul>
@@ -117,40 +114,40 @@ get_header();
                                     <div class="row g-5">
                                         <div class="col-12 wow zoomIn" data-wow-delay="0.2s">
                                             <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
-                                                <i class="fa fa-cubes text-white"></i>
+                                                <i class="fa fa-snowflake text-white"></i>
                                             </div>
-                                            <h4>Best In Industry</h4>
-                                            <p class="mb-0">Magna sea eos sit dolor, ipsum amet lorem diam dolor eos et diam dolor</p>
+                                            <h4>900 TR HVAC Retrofit</h4>
+                                            <p class="mb-0">Designed and installed a chilled water HVAC system across the ACE Business Center, replacing outdated infrastructure and enhancing energy efficiency with zoned temperature control.</p>
                                         </div>
                                         <div class="col-12 wow zoomIn" data-wow-delay="0.6s">
                                             <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
-                                                <i class="fa fa-award text-white"></i>
+                                                <i class="fa fa-fire text-white"></i>
                                             </div>
-                                            <h4>Award Winning</h4>
-                                            <p class="mb-0">Magna sea eos sit dolor, ipsum amet lorem diam dolor eos et diam dolor</p>
+                                            <h4>Fire System Upgrade</h4>
+                                            <p class="mb-0">Integrated fire alarm and hydrant systems meeting NBC and local authority regulations across all floors.</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-4 wow zoomIn" data-wow-delay="0.9s" style="min-height: 350px;">
                                     <div class="position-relative h-100">
-                                        <img class="position-absolute w-100 h-100 rounded" data-wow-delay="0.1s" src="<?php bloginfo('template_directory'); ?>/img/project-3.jpg" style="object-fit: cover;">
+                                        <img class="position-absolute w-100 h-100 rounded" data-wow-delay="0.1s" src="<?php bloginfo('template_directory'); ?>/img/project-1.jpg" style="object-fit: cover;">
                                     </div>
                                 </div>
                                 <div class="col-lg-4">
                                     <div class="row g-5">
                                         <div class="col-12 wow zoomIn" data-wow-delay="0.4s">
                                             <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
-                                                <i class="fa fa-users-cog text-white"></i>
+                                                <i class="fa fa-cogs text-white"></i>
                                             </div>
-                                            <h4>Professional Staff</h4>
-                                            <p class="mb-0">Magna sea eos sit dolor, ipsum amet lorem diam dolor eos et diam dolor</p>
+                                            <h4>BMS Integration</h4>
+                                            <p class="mb-0">All systems connected to Building Management System for remote monitoring, alerts, and scheduling.</p>
                                         </div>
                                         <div class="col-12 wow zoomIn" data-wow-delay="0.8s">
                                             <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
-                                                <i class="fa fa-phone-alt text-white"></i>
+                                                <i class="fa fa-bolt text-white"></i>
                                             </div>
-                                            <h4>24/7 Support</h4>
-                                            <p class="mb-0">Magna sea eos sit dolor, ipsum amet lorem diam dolor eos et diam dolor</p>
+                                            <h4>Power Backup</h4>
+                                            <p class="mb-0">Emergency generator and panel board wiring executed to ensure business continuity.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -164,17 +161,17 @@ get_header();
                                     <div class="row g-5">
                                         <div class="col-12 wow zoomIn" data-wow-delay="0.2s">
                                             <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
-                                                <i class="fa fa-cubes text-white"></i>
+                                                <i class="fa fa-fan text-white"></i>
                                             </div>
-                                            <h4>Best In Industry</h4>
-                                            <p class="mb-0">Magna sea eos sit dolor, ipsum amet lorem diam dolor eos et diam dolor</p>
+                                            <h4>Office HVAC Upgrade</h4>
+                                            <p class="mb-0">Installed new ductable AC units and VRV systems with energy monitoring for EXL Service India’s Pune office floors.</p>
                                         </div>
                                         <div class="col-12 wow zoomIn" data-wow-delay="0.6s">
                                             <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
-                                                <i class="fa fa-award text-white"></i>
+                                                <i class="fa fa-tools text-white"></i>
                                             </div>
-                                            <h4>Award Winning</h4>
-                                            <p class="mb-0">Magna sea eos sit dolor, ipsum amet lorem diam dolor eos et diam dolor</p>
+                                            <h4>Spares Management</h4>
+                                            <p class="mb-0">Annual spares inventory and preventive maintenance schedule established under AMC contract.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -187,17 +184,17 @@ get_header();
                                     <div class="row g-5">
                                         <div class="col-12 wow zoomIn" data-wow-delay="0.4s">
                                             <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
-                                                <i class="fa fa-users-cog text-white"></i>
+                                                <i class="fa fa-clipboard-check text-white"></i>
                                             </div>
-                                            <h4>Professional Staff</h4>
-                                            <p class="mb-0">Magna sea eos sit dolor, ipsum amet lorem diam dolor eos et diam dolor</p>
+                                            <h4>ISO Compliance</h4>
+                                            <p class="mb-0">Systems designed and installed in accordance with ISO workplace safety and indoor comfort norms.</p>
                                         </div>
                                         <div class="col-12 wow zoomIn" data-wow-delay="0.8s">
                                             <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
-                                                <i class="fa fa-phone-alt text-white"></i>
+                                                <i class="fa fa-chart-line text-white"></i>
                                             </div>
-                                            <h4>24/7 Support</h4>
-                                            <p class="mb-0">Magna sea eos sit dolor, ipsum amet lorem diam dolor eos et diam dolor</p>
+                                            <h4>Energy Savings</h4>
+                                            <p class="mb-0">Achieved over 22% energy savings post-upgrade through optimized zoning and airflow distribution.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -205,23 +202,23 @@ get_header();
                         </div>
 
                         <!-- Tab 3 Content -->
-                        <div class="tab-pane fade show" id="VCSTab-3" role="tabpanel" aria-labelledby="vcs-tab-3">
+                        <div class="tab-pane fade" id="VCSTab-3" role="tabpanel" aria-labelledby="vcs-tab-3">
                             <div class="row g-5">
                                 <div class="col-lg-4">
                                     <div class="row g-5">
                                         <div class="col-12 wow zoomIn" data-wow-delay="0.2s">
                                             <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
-                                                <i class="fa fa-cubes text-white"></i>
+                                                <i class="fa fa-lightbulb text-white"></i>
                                             </div>
-                                            <h4>Best In Industry</h4>
-                                            <p class="mb-0">Magna sea eos sit dolor, ipsum amet lorem diam dolor eos et diam dolor</p>
+                                            <h4>Full Electrical Setup</h4>
+                                            <p class="mb-0">Delivered complete electrical and lighting infrastructure for Shivram Group’s commercial site including LT panels and bus ducts.</p>
                                         </div>
                                         <div class="col-12 wow zoomIn" data-wow-delay="0.6s">
                                             <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
-                                                <i class="fa fa-award text-white"></i>
+                                                <i class="fa fa-water text-white"></i>
                                             </div>
-                                            <h4>Award Winning</h4>
-                                            <p class="mb-0">Magna sea eos sit dolor, ipsum amet lorem diam dolor eos et diam dolor</p>
+                                            <h4>Public Health Engineering</h4>
+                                            <p class="mb-0">Implemented water supply, drainage, and STP connections ensuring NBC & PHED standards.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -234,17 +231,17 @@ get_header();
                                     <div class="row g-5">
                                         <div class="col-12 wow zoomIn" data-wow-delay="0.4s">
                                             <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
-                                                <i class="fa fa-users-cog text-white"></i>
+                                                <i class="fa fa-fire-extinguisher text-white"></i>
                                             </div>
-                                            <h4>Professional Staff</h4>
-                                            <p class="mb-0">Magna sea eos sit dolor, ipsum amet lorem diam dolor eos et diam dolor</p>
+                                            <h4>Fire Safety Network</h4>
+                                            <p class="mb-0">Installed sprinkler, hydrant, alarm, and detection systems integrated to central fire panel.</p>
                                         </div>
                                         <div class="col-12 wow zoomIn" data-wow-delay="0.8s">
                                             <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
-                                                <i class="fa fa-phone-alt text-white"></i>
+                                                <i class="fa fa-shield-alt text-white"></i>
                                             </div>
-                                            <h4>24/7 Support</h4>
-                                            <p class="mb-0">Magna sea eos sit dolor, ipsum amet lorem diam dolor eos et diam dolor</p>
+                                            <h4>Compliance & Handover</h4>
+                                            <p class="mb-0">All systems tested and certified for use, with fire NOC facilitation and post-handover support.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -258,17 +255,17 @@ get_header();
                                     <div class="row g-5">
                                         <div class="col-12 wow zoomIn" data-wow-delay="0.2s">
                                             <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
-                                                <i class="fa fa-cubes text-white"></i>
+                                                <i class="fa fa-store-alt text-white"></i>
                                             </div>
-                                            <h4>Best In Industry</h4>
-                                            <p class="mb-0">Magna sea eos sit dolor, ipsum amet lorem diam dolor eos et diam dolor</p>
+                                            <h4>Mall-Wide HVAC</h4>
+                                            <p class="mb-0">Delivered centralized HVAC system across food court, retail outlets, multiplex zones, and back-end areas of a metro mall.</p>
                                         </div>
                                         <div class="col-12 wow zoomIn" data-wow-delay="0.6s">
                                             <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
-                                                <i class="fa fa-award text-white"></i>
+                                                <i class="fa fa-recycle text-white"></i>
                                             </div>
-                                            <h4>Award Winning</h4>
-                                            <p class="mb-0">Magna sea eos sit dolor, ipsum amet lorem diam dolor eos et diam dolor</p>
+                                            <h4>Energy Recovery</h4>
+                                            <p class="mb-0">Installed ERV units and economizers to optimize indoor air while lowering HVAC load by 18%.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -281,22 +278,23 @@ get_header();
                                     <div class="row g-5">
                                         <div class="col-12 wow zoomIn" data-wow-delay="0.4s">
                                             <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
-                                                <i class="fa fa-users-cog text-white"></i>
+                                                <i class="fa fa-network-wired text-white"></i>
                                             </div>
-                                            <h4>Professional Staff</h4>
-                                            <p class="mb-0">Magna sea eos sit dolor, ipsum amet lorem diam dolor eos et diam dolor</p>
+                                            <h4>Smart Automation</h4>
+                                            <p class="mb-0">BMS system integration for AC scheduling, lighting control, and fault alerts in public areas.</p>
                                         </div>
                                         <div class="col-12 wow zoomIn" data-wow-delay="0.8s">
                                             <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
-                                                <i class="fa fa-phone-alt text-white"></i>
+                                                <i class="fa fa-handshake text-white"></i>
                                             </div>
-                                            <h4>24/7 Support</h4>
-                                            <p class="mb-0">Magna sea eos sit dolor, ipsum amet lorem diam dolor eos et diam dolor</p>
+                                            <h4>PMC Coordination</h4>
+                                            <p class="mb-0">Worked in sync with multiple contractors, consultants, and mall operations for seamless execution in active premises.</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        <!-- End of Tabs -->
                     </div>
                 </div>
             </div>
@@ -309,51 +307,53 @@ get_header();
     <div class="container-xxl py-5">
         <div class="container">
             <div class="row g-5">
+                <!-- Left Content -->
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                     <h6 class="text-primary text-uppercase mb-2">Why Choose Us!</h6>
-                    <h1 class="display-6 mb-4">Reliable & Smart HVAC Engineering Solutions</h1>
+                    <h1 class="display-6 mb-4">MEPF Partner for Modern Commercial Infrastructure</h1>
                     <p class="mb-5">
-                        At VCS ThermalAlliance, we deliver comprehensive, future-ready MEPF systems backed by digital tools, certified expertise, and sustainable design practices—ensuring smarter infrastructure across commercial, industrial, and pharma sectors.
+                        VCS ThermalAlliance brings deep expertise in delivering smart, code-compliant MEPF systems for commercial spaces—from malls and multiplexes to office parks and hospitality developments. We blend precision design, advanced controls, and seamless execution under one roof.
                     </p>
                     <div class="row gy-5 gx-4">
                         <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
                             <div class="d-flex align-items-center mb-3">
                                 <div class="flex-shrink-0 btn-square bg-primary me-3">
-                                    <i class="fa fa-check text-white"></i>
+                                    <i class="fa fa-building text-white"></i>
                                 </div>
-                                <h5 class="mb-0">Certified Team</h5>
+                                <h5 class="mb-0">Turnkey Delivery</h5>
                             </div>
-                            <span>Accredited by ICP, ISHRAE, and ASHRAE, our team brings deep technical knowledge.</span>
+                            <span>Complete HVAC, electrical, firefighting & plumbing from design to commissioning.</span>
                         </div>
                         <div class="col-sm-6 wow fadeIn" data-wow-delay="0.2s">
                             <div class="d-flex align-items-center mb-3">
                                 <div class="flex-shrink-0 btn-square bg-primary me-3">
-                                    <i class="fa fa-check text-white"></i>
+                                    <i class="fa fa-code-branch text-white"></i>
                                 </div>
-                                <h5 class="mb-0">Digital Tools</h5>
+                                <h5 class="mb-0">Smart System Integration</h5>
                             </div>
-                            <span>Proprietary calculators for heat load, duct sizing, and live project dashboards.</span>
+                            <span>Seamless BMS integration for lighting, HVAC, and fire alarm systems with remote control.</span>
                         </div>
                         <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
                             <div class="d-flex align-items-center mb-3">
                                 <div class="flex-shrink-0 btn-square bg-primary me-3">
-                                    <i class="fa fa-check text-white"></i>
+                                    <i class="fa fa-leaf text-white"></i>
                                 </div>
-                                <h5 class="mb-0">Smart BMS</h5>
+                                <h5 class="mb-0">Green Building Focus</h5>
                             </div>
-                            <span>Cloud-based Building Management Systems with remote control and real-time analytics.</span>
+                            <span>Designs aligned with IGBC & LEED for sustainability, energy savings, and wellness.</span>
                         </div>
                         <div class="col-sm-6 wow fadeIn" data-wow-delay="0.4s">
                             <div class="d-flex align-items-center mb-3">
                                 <div class="flex-shrink-0 btn-square bg-primary me-3">
-                                    <i class="fa fa-check text-white"></i>
+                                    <i class="fa fa-user-shield text-white"></i>
                                 </div>
-                                <h5 class="mb-0">Sustainable Design</h5>
+                                <h5 class="mb-0">Regulatory Compliance</h5>
                             </div>
-                            <span>Eco-friendly systems featuring green refrigerants, VFDs, EC fans, and energy recovery units.</span>
+                            <span>Executed per NBC, NFPA, IEC standards & fire NOC norms for hassle-free approvals.</span>
                         </div>
                     </div>
                 </div>
+                <!-- Right Image -->
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="position-relative overflow-hidden pe-5 pt-5 h-100" style="min-height: 400px;">
                         <img class="position-absolute w-100 h-100" src="<?php bloginfo('template_directory'); ?>/img/feature.jpg" alt="" style="object-fit: cover;">
@@ -374,7 +374,7 @@ get_header();
                 <h4 class="text-primary">Our Projects</h4>
                 <h1 class="display-6 mb-4 px-5">Excellence Through Engineering</h1>
                 <p class="mb-0">
-                    Explore how VCS ThermalAlliance has empowered leading organizations with smart MEPF solutions. Our work reflects precision, performance, and sustainability across healthcare, commercial, industrial, and residential projects.
+                    Discover how VCS ThermalAlliance has delivered end-to-end MEPF solutions for top commercial spaces. Our success stories span business parks, malls, hotels, and offices—ensuring performance, safety, and sustainability in every build.
                 </p>
             </div>
 
@@ -385,22 +385,22 @@ get_header();
                     <ul class="nav">
                         <li class="nav-item me-lg-0 mb-4">
                             <a class="py-3 px-3 active" data-bs-toggle="pill" href="#SuccessTab-1">
-                                <span>Healthcare</span>
+                                <span>Business Parks</span>
                             </a>
                         </li>
                         <li class="nav-item me-lg-0 mb-4">
                             <a class="py-3 px-3" data-bs-toggle="pill" href="#SuccessTab-2">
-                                <span>Commercial</span>
+                                <span>Retail Spaces</span>
                             </a>
                         </li>
                         <li class="nav-item me-lg-0 mb-4">
                             <a class="py-3 px-3" data-bs-toggle="pill" href="#SuccessTab-3">
-                                <span>Industrial</span>
+                                <span>Hospitality</span>
                             </a>
                         </li>
                         <li class="nav-item me-lg-0 mb-4">
                             <a class="py-3 px-3" data-bs-toggle="pill" href="#SuccessTab-4">
-                                <span>Residential</span>
+                                <span>Mixed Use</span>
                             </a>
                         </li>
                     </ul>
@@ -412,33 +412,19 @@ get_header();
                         <!-- Tab 1 -->
                         <div id="SuccessTab-1" class="tab-pane fade show p-0 active">
                             <div class="success-carousel owl-carousel">
-                                <!-- Item 1 -->
                                 <div class="success-item">
-                                    <img src="<?php bloginfo('template_directory'); ?>/img/feature.jpg"
-                                        class="img-fluid success-img-tab" alt="">
+                                    <img src="<?php bloginfo('template_directory'); ?>/img/feature.jpg" class="img-fluid success-img-tab" alt="">
                                     <div class="border border-top-0 p-4">
-                                        <h4 class="mb-3">Apollo Hospitals</h4>
-                                        <p class="mb-4">Implemented a complete HVAC system with HEPA filtration for critical care units, ensuring sterile environments and precise temperature control for patient comfort and medical equipment performance. The system meets all healthcare compliance standards.</p>
+                                        <h4 class="mb-3">ACE Business Center</h4>
+                                        <p class="mb-4">900 TR chilled water HVAC system with intelligent fire retrofit executed with minimal business disruption. The solution improved energy performance while aligning with local compliance standards.</p>
                                         <a class="btn btn-primary py-2 px-4" href="#">Read More</a>
                                     </div>
                                 </div>
-                                <!-- Item 2 -->
                                 <div class="success-item">
-                                    <img src="<?php bloginfo('template_directory'); ?>/img/feature.jpg"
-                                        class="img-fluid success-img-tab" alt="">
+                                    <img src="<?php bloginfo('template_directory'); ?>/img/feature.jpg" class="img-fluid success-img-tab" alt="">
                                     <div class="border border-top-0 p-4">
-                                        <h4 class="mb-3">Fortis Healthcare</h4>
-                                        <p class="mb-4">Designed and installed a specialized HVAC system for operation theaters with laminar airflow, maintaining ISO Class 5 cleanliness standards. The solution includes humidity control and air change rates as per medical requirements.</p>
-                                        <a class="btn btn-primary py-2 px-4" href="#">Read More</a>
-                                    </div>
-                                </div>
-                                <!-- Item 3 -->
-                                <div class="success-item">
-                                    <img src="<?php bloginfo('template_directory'); ?>/img/feature.jpg"
-                                        class="img-fluid success-img-tab" alt="">
-                                    <div class="border border-top-0 p-4">
-                                        <h4 class="mb-3">AIIMS Research Center</h4>
-                                        <p class="mb-4">Developed a custom HVAC solution for biomedical research laboratories, featuring precise environmental control for sensitive experiments while maintaining energy efficiency and silent operation in patient areas.</p>
+                                        <h4 class="mb-3">EXL Service India</h4>
+                                        <p class="mb-4">Office HVAC upgrades including duct layout modification and spare management program. BMS controls allow energy usage monitoring and temperature zoning for optimized workforce comfort.</p>
                                         <a class="btn btn-primary py-2 px-4" href="#">Read More</a>
                                     </div>
                                 </div>
@@ -448,33 +434,19 @@ get_header();
                         <!-- Tab 2 -->
                         <div id="SuccessTab-2" class="tab-pane fade show p-0">
                             <div class="success-carousel owl-carousel">
-                                <!-- Item 1 -->
                                 <div class="success-item">
-                                    <img src="<?php bloginfo('template_directory'); ?>/img/feature.jpg"
-                                        class="img-fluid success-img-tab" alt="">
+                                    <img src="<?php bloginfo('template_directory'); ?>/img/feature.jpg" class="img-fluid success-img-tab" alt="">
                                     <div class="border border-top-0 p-4">
-                                        <h4 class="mb-3">Infinity IT Park</h4>
-                                        <p class="mb-4">Implemented a VRF-based HVAC system across 15 floors of the IT park, providing zoned temperature control with 30% energy savings. The project included smart controls for after-hours operation and maintenance optimization.</p>
+                                        <h4 class="mb-3">Phoenix Mall</h4>
+                                        <p class="mb-4">Designed a 24/7 operational HVAC and ventilation system including AHUs, VRFs and exhaust ducts for a multi-level shopping complex, ensuring compliance with NBC codes and optimal indoor air quality.</p>
                                         <a class="btn btn-primary py-2 px-4" href="#">Read More</a>
                                     </div>
                                 </div>
-                                <!-- Item 2 -->
                                 <div class="success-item">
-                                    <img src="<?php bloginfo('template_directory'); ?>/img/feature.jpg"
-                                        class="img-fluid success-img-tab" alt="">
+                                    <img src="<?php bloginfo('template_directory'); ?>/img/feature.jpg" class="img-fluid success-img-tab" alt="">
                                     <div class="border border-top-0 p-4">
-                                        <h4 class="mb-3">Phoenix Marketcity</h4>
-                                        <p class="mb-4">Designed and executed a complete MEPF solution for this large retail complex, including centralized air conditioning, ventilation systems, and energy recovery units to handle high foot traffic while maintaining air quality.</p>
-                                        <a class="btn btn-primary py-2 px-4" href="#">Read More</a>
-                                    </div>
-                                </div>
-                                <!-- Item 3 -->
-                                <div class="success-item">
-                                    <img src="<?php bloginfo('template_directory'); ?>/img/feature.jpg"
-                                        class="img-fluid success-img-tab" alt="">
-                                    <div class="border border-top-0 p-4">
-                                        <h4 class="mb-3">Taj Hotels</h4>
-                                        <p class="mb-4">Retrofitted the HVAC systems across guest rooms and public areas with silent operation units featuring individual climate control. The solution improved guest comfort while reducing energy consumption by 25%.</p>
+                                        <h4 class="mb-3">Shivram Group Commercial Site</h4>
+                                        <p class="mb-4">Full-service MEPF implementation including intelligent lighting, fire suppression system, and power panels across their flagship commercial showroom and office zone.</p>
                                         <a class="btn btn-primary py-2 px-4" href="#">Read More</a>
                                     </div>
                                 </div>
@@ -484,33 +456,11 @@ get_header();
                         <!-- Tab 3 -->
                         <div id="SuccessTab-3" class="tab-pane fade show p-0">
                             <div class="success-carousel owl-carousel">
-                                <!-- Item 1 -->
                                 <div class="success-item">
-                                    <img src="<?php bloginfo('template_directory'); ?>/img/feature.jpg"
-                                        class="img-fluid success-img-tab" alt="">
+                                    <img src="<?php bloginfo('template_directory'); ?>/img/feature.jpg" class="img-fluid success-img-tab" alt="">
                                     <div class="border border-top-0 p-4">
-                                        <h4 class="mb-3">Mahindra Vehicle Manufacturing</h4>
-                                        <p class="mb-4">Installed a heavy-duty ventilation and cooling system for the paint shop and assembly areas, designed to handle industrial contaminants while maintaining precise temperature control for manufacturing processes.</p>
-                                        <a class="btn btn-primary py-2 px-4" href="#">Read More</a>
-                                    </div>
-                                </div>
-                                <!-- Item 2 -->
-                                <div class="success-item">
-                                    <img src="<?php bloginfo('template_directory'); ?>/img/feature.jpg"
-                                        class="img-fluid success-img-tab" alt="">
-                                    <div class="border border-top-0 p-4">
-                                        <h4 class="mb-3">JSW Steel Plant</h4>
-                                        <p class="mb-4">Developed a specialized cooling system for control rooms and critical equipment areas that withstands high ambient temperatures while protecting sensitive electronics from dust and heat-related failures.</p>
-                                        <a class="btn btn-primary py-2 px-4" href="#">Read More</a>
-                                    </div>
-                                </div>
-                                <!-- Item 3 -->
-                                <div class="success-item">
-                                    <img src="<?php bloginfo('template_directory'); ?>/img/feature.jpg"
-                                        class="img-fluid success-img-tab" alt="">
-                                    <div class="border border-top-0 p-4">
-                                        <h4 class="mb-3">PepsiCo Beverage Facility</h4>
-                                        <p class="mb-4">Implemented a hygienic HVAC solution for the production floor meeting food-grade standards, with special attention to condensation control and air filtration to maintain product quality and safety.</p>
+                                        <h4 class="mb-3">Hotel Elite Crown</h4>
+                                        <p class="mb-4">Deployed silent-operation HVAC units with guest room zoning and energy-saving automation. Integrated with emergency lighting and firefighting systems as per hospitality safety codes.</p>
                                         <a class="btn btn-primary py-2 px-4" href="#">Read More</a>
                                     </div>
                                 </div>
@@ -520,38 +470,17 @@ get_header();
                         <!-- Tab 4 -->
                         <div id="SuccessTab-4" class="tab-pane fade show p-0">
                             <div class="success-carousel owl-carousel">
-                                <!-- Item 1 -->
                                 <div class="success-item">
-                                    <img src="<?php bloginfo('template_directory'); ?>/img/feature.jpg"
-                                        class="img-fluid success-img-tab" alt="">
+                                    <img src="<?php bloginfo('template_directory'); ?>/img/feature.jpg" class="img-fluid success-img-tab" alt="">
                                     <div class="border border-top-0 p-4">
-                                        <h4 class="mb-3">Lodha Luxury Towers</h4>
-                                        <p class="mb-4">Designed and installed a centralized HVAC system for this high-rise residential complex featuring individual apartment controls, energy recovery ventilation, and silent operation for premium living comfort.</p>
-                                        <a class="btn btn-primary py-2 px-4" href="#">Read More</a>
-                                    </div>
-                                </div>
-                                <!-- Item 2 -->
-                                <div class="success-item">
-                                    <img src="<?php bloginfo('template_directory'); ?>/img/feature.jpg"
-                                        class="img-fluid success-img-tab" alt="">
-                                    <div class="border border-top-0 p-4">
-                                        <h4 class="mb-3">Godrej Greens Township</h4>
-                                        <p class="mb-4">Implemented a sustainable HVAC solution for this eco-friendly residential development, incorporating geothermal cooling elements and smart zoning to reduce energy consumption while maintaining comfort.</p>
-                                        <a class="btn btn-primary py-2 px-4" href="#">Read More</a>
-                                    </div>
-                                </div>
-                                <!-- Item 3 -->
-                                <div class="success-item">
-                                    <img src="<?php bloginfo('template_directory'); ?>/img/feature.jpg"
-                                        class="img-fluid success-img-tab" alt="">
-                                    <div class="border border-top-0 p-4">
-                                        <h4 class="mb-3">Prestige Villas</h4>
-                                        <p class="mb-4">Custom-designed HVAC systems for luxury villas featuring smart home integration, allowing residents to control climate settings remotely while optimizing energy usage based on occupancy patterns.</p>
+                                        <h4 class="mb-3">Metro Square</h4>
+                                        <p class="mb-4">Mixed-use development with co-working, retail, and hospitality zones—VCS delivered full-scope HVAC, firefighting and electrical services with phasing aligned to interior fit-outs and occupancy timelines.</p>
                                         <a class="btn btn-primary py-2 px-4" href="#">Read More</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -560,19 +489,18 @@ get_header();
     <!-- Success Projects End -->
 
 
-    <!-- FAQ Start -->
+   <!-- FAQ Start -->
     <div class="container-fluid faq-section bg-light py-5">
         <div class="container py-5">
             <div class="row g-5">
                 <!-- FAQ Text Column -->
                 <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.2s">
-                    <h4 class="text-primary">Some Important FAQ's</h4>
-                    <h1 class="display-4 mb-4">Common Frequently Asked Questions?</h1>
+                    <h4 class="text-primary">Commercial MEPF FAQ</h4>
+                    <h1 class="display-4 mb-4">Answers to Your Common Queries</h1>
                     <p class="mb-4">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet pariatur sapiente, modi perspiciatis
-                        earum ab inventore vitae consequatur tempore quibusdam?
+                        Find quick answers to the most frequently asked questions about our HVAC, Electrical, Fire & Plumbing services for offices, retail, and hospitality spaces. We’re here to help simplify your decision-making.
                     </p>
-                    <a class="btn btn-primary py-3 px-5" href="#">Have Any Questions</a>
+                    <a class="btn btn-primary py-3 px-5" href="#">Talk to an MEPF Expert</a>
                 </div>
 
                 <!-- Accordion Column -->
@@ -584,15 +512,13 @@ get_header();
                                 <h2 class="accordion-header" id="headingOne">
                                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        Q: How Do I Sign Up For Your Electricity Services?
+                                        Q: What types of HVAC systems are best suited for commercial spaces?
                                     </button>
                                 </h2>
                                 <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        A: Leverage agile frameworks to provide a robust synopsis for high-level overviews.
-                                        Iterative approaches to corporate strategy foster collaborative thinking to further
-                                        the overall value proposition.
+                                        A: VRF/VRV systems, ductable splits, and centralized chillers are commonly used for commercial applications. We assess your building’s layout and energy needs to recommend the optimal solution.
                                     </div>
                                 </div>
                             </div>
@@ -602,15 +528,13 @@ get_header();
                                 <h2 class="accordion-header" id="headingTwo">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        Q: What Types Of Electricity Plans Do You Offer?
+                                        Q: Are your electrical systems compatible with automation and smart controls?
                                     </button>
                                 </h2>
                                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        A: Leverage agile frameworks to provide a robust synopsis for high-level overviews.
-                                        Iterative approaches to corporate strategy foster collaborative thinking to further
-                                        the overall value proposition.
+                                        A: Yes. We integrate smart lighting, occupancy sensors, and BMS-enabled electrical panels to enhance energy efficiency and user control in real-time.
                                     </div>
                                 </div>
                             </div>
@@ -620,15 +544,13 @@ get_header();
                                 <h2 class="accordion-header" id="headingThree">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                        Q: What Are Your Billing And Payment Options?
+                                        Q: What fire safety measures do you implement in offices and malls?
                                     </button>
                                 </h2>
                                 <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        A: Leverage agile frameworks to provide a robust synopsis for high-level overviews.
-                                        Iterative approaches to corporate strategy foster collaborative thinking to further
-                                        the overall value proposition.
+                                        A: We provide turnkey fire alarm, smoke detection, sprinkler, and hydrant systems aligned with NBC and NFPA norms. System design ensures swift evacuation and fire response.
                                     </div>
                                 </div>
                             </div>
@@ -638,18 +560,33 @@ get_header();
                                 <h2 class="accordion-header" id="headingFour">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                        Q: How Can I Track My Energy Usage With Your Services?
+                                        Q: Can you work around operating businesses during retrofits?
                                     </button>
                                 </h2>
                                 <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        A: Leverage agile frameworks to provide a robust synopsis for high-level overviews.
-                                        Iterative approaches to corporate strategy foster collaborative thinking to further
-                                        the overall value proposition.
+                                        A: Absolutely. We specialize in phased execution and occupied site coordination, ensuring minimal disruption to your business operations during upgrades.
                                     </div>
                                 </div>
                             </div>
+
+                            <!-- Item 5 (Optional) -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFive">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                        Q: Do you provide maintenance after project handover?
+                                    </button>
+                                </h2>
+                                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        A: Yes, we offer post-handover Annual Maintenance Contracts (AMCs) for high uptime, preventive servicing, and emergency support—ensuring long-term system performance.
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -666,24 +603,27 @@ get_header();
                 <div class="col-lg-7">
                     <div class="section-title position-relative pb-3 mb-5">
                         <h5 class="fw-bold text-primary text-uppercase">Request A Quote</h5>
-                        <h1 class="mb-0">Need A Free Quote? Please Feel Free to Contact Us</h1>
+                        <h1 class="mb-0">Let’s Start Your Project—Request a Personalized Quote</h1>
                     </div>
                     <div class="row gx-3">
                         <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
-                            <h5 class="mb-4"><i class="fa fa-reply text-primary me-3"></i>Reply within 24 hours</h5>
+                            <h5 class="mb-4"><i class="fa fa-reply text-primary me-3"></i>Response within 24 business hours</h5>
                         </div>
                         <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s">
-                            <h5 class="mb-4"><i class="fa fa-phone-alt text-primary me-3"></i>24 hrs telephone support</h5>
+                            <h5 class="mb-4"><i class="fa fa-headset text-primary me-3"></i>Dedicated Technical Support</h5>
                         </div>
                     </div>
-                    <p class="mb-4">Eirmod sed tempor lorem ut dolores. Aliquyam sit sadipscing kasd ipsum. Dolor ea et dolore et at sea ea at dolor, justo ipsum duo rebum sea invidunt voluptua. Eos vero eos vero ea et dolore eirmod et. Dolores diam duo invidunt lorem. Elitr ut dolores magna sit. Sea dolore sanctus sed et. Takimata takimata sanctus sed.</p>
+                    <p class="mb-4">
+                        Looking to get started with HVAC, Cleanroom, MEPF, or Fire Safety projects? Our team at VCS ThermalAlliance is here to assist with tailored quotes, project consultations, and end-to-end solution planning.
+                        Fill out the form and our experts will connect with you promptly.
+                    </p>
                     <div class="d-flex align-items-center mt-2 wow zoomIn" data-wow-delay="0.6s">
                         <div class="bg-primary d-flex align-items-center justify-content-center rounded" style="width: 60px; height: 60px;">
                             <i class="fa fa-phone-alt text-white"></i>
                         </div>
                         <div class="ps-4">
-                            <h5 class="mb-2">Call to ask any question</h5>
-                            <h4 class="text-primary mb-0">+012 345 6789</h4>
+                            <h5 class="mb-2">Need immediate assistance?</h5>
+                            <h4 class="text-primary mb-0">+91 7709237117</h4>
                         </div>
                     </div>
                 </div>
@@ -691,25 +631,33 @@ get_header();
                     <div class="bg-primary rounded h-100 d-flex align-items-center p-5 wow zoomIn" data-wow-delay="0.9s">
                         <form>
                             <div class="row g-3">
-                                <div class="col-xl-12">
-                                    <input type="text" class="form-control bg-light border-0" placeholder="Your Name" style="height: 55px;">
+                                <div class="col-12">
+                                    <input type="text" class="form-control bg-light border-0" placeholder="Your Name *" style="height: 55px;" required>
                                 </div>
                                 <div class="col-12">
-                                    <input type="email" class="form-control bg-light border-0" placeholder="Your Email" style="height: 55px;">
+                                    <input type="text" class="form-control bg-light border-0" placeholder="Company Name" style="height: 55px;">
                                 </div>
                                 <div class="col-12">
-                                    <select class="form-select bg-light border-0" style="height: 55px;">
-                                        <option selected>Select A Service</option>
-                                        <option value="1">Service 1</option>
-                                        <option value="2">Service 2</option>
-                                        <option value="3">Service 3</option>
+                                    <input type="email" class="form-control bg-light border-0" placeholder="Email Address *" style="height: 55px;" required>
+                                </div>
+                                <div class="col-12">
+                                    <input type="tel" class="form-control bg-light border-0" placeholder="Phone Number" style="height: 55px;">
+                                </div>
+                                <div class="col-12">
+                                    <select class="form-select bg-light border-0" style="height: 55px;" required>
+                                        <option selected disabled>Type of Inquiry *</option>
+                                        <option value="new-project">New Project</option>
+                                        <option value="tech-support">Technical Support</option>
+                                        <option value="career">Career</option>
+                                        <option value="vendor">Vendor</option>
+                                        <option value="other">Other</option>
                                     </select>
                                 </div>
                                 <div class="col-12">
-                                    <textarea class="form-control bg-light border-0" rows="3" placeholder="Message"></textarea>
+                                    <textarea class="form-control bg-light border-0" rows="3" placeholder="Your Message"></textarea>
                                 </div>
                                 <div class="col-12">
-                                    <button class="btn btn-dark w-100 py-3" type="submit">Request A Quote</button>
+                                    <button class="btn btn-dark w-100 py-3" type="submit">Submit Your Inquiry</button>
                                 </div>
                             </div>
                         </form>
